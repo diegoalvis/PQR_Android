@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/agregar_solicitud_menu_item" android:title="@string/agregar_solicitud"></item>
+    <item android:id="@+id/consulta_manual_menu_item" android:title="@string/consulta_manual"></item>
+    <item android:id="@+id/cancelar_menu_item" android:title="@string/cancelar" android:visible="false"></item>
+    <item android:id="@+id/ayuda_menu_item" android:title="@string/ayuda"></item>
+</menu>

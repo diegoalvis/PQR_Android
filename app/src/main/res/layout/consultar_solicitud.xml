@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        
+	    <TextView
+	        android:id="@+id/consultar_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/consultar_solicitud"
+	        android:layout_marginTop="10dp" />
+	    
+	    <Spinner
+	        android:id="@+id/entidad_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" />
+	
+	    <EditText
+	        android:id="@+id/codigo_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:hint="@string/codigo_seguimiento"
+	        android:inputType="textCapCharacters|textNoSuggestions"
+
+	       />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/consulta_descripcion"
+	        android:layout_marginTop="20dp"
+	        android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@drawable/boton_dialogo"
+            android:onClick="onSave"
+            android:text="@string/boton_enviar"
+            android:textColor="@color/White" />
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@drawable/boton_dialogo"
+            android:onClick="onCancel"
+            android:text="@string/boton_cancelar"
+            android:textColor="@color/White" />
+
+    </LinearLayout>
+
+</LinearLayout>

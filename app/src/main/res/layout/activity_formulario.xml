@@ -1,0 +1,149 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="${relativePackage}.${activityClass}" >
+
+ <ImageView
+     android:id="@+id/image_logo_fd"
+     android:layout_width="280dp"
+     android:layout_height="170dp"
+     android:layout_gravity="center_vertical|center_horizontal" />
+    
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear_layout_buttons"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <LinearLayout
+              
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               
+                android:orientation="vertical" >
+            <LinearLayout
+                android:id="@+id/layout_formulario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/textv_entidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+              </LinearLayout>
+               <LinearLayout
+                    android:id="@+id/filed_path_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical" >
+
+          
+           
+        
+           
+               
+            
+            </LinearLayout>
+            
+            </LinearLayout>
+        </ScrollView>
+        <!-- Fin campos temporales -->
+
+
+        <!-- Enviar -->
+        
+          <LinearLayout
+            android:id="@+id/linear_layout_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+        
+      <LinearLayout
+                android:id="@+id/ll_botones_adjuntar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                
+               
+                android:orientation="horizontal"
+                 >
+
+                <ImageButton
+                    android:id="@+id/button_formulariod_file_picker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                   
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_dialogo"
+                    android:contentDescription="@string/seleccionar_archivo"
+                    android:src="@drawable/ic_action_attachment2" />
+
+                <ImageButton
+                    android:id="@+id/ib_formulariod_foto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_dialogo"
+                    android:contentDescription="@string/tomar_foto"
+                    android:src="@drawable/ic_action_camera2" />
+
+                <ImageButton
+                    android:id="@+id/ib_formulariod_video"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                     android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_dialogo"
+                    android:contentDescription="@string/tomar_video"
+                    android:src="@drawable/ic_action_video2" />
+
+            </LinearLayout>
+    
+       
+
+            <Button
+                android:id="@+id/Button_enviar_encuesta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+               
+                android:background="@drawable/boton_dialogo"
+                android:text="@string/boton_enviar"
+                android:textColor="@color/White" />
+  </LinearLayout>
+        
+    </RelativeLayout>
+
+</FrameLayout>

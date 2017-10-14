@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+ <ImageView
+     android:id="@+id/imageView_logo"
+     android:layout_width="280dp"
+     android:layout_height="170dp"
+     android:layout_gravity="center_vertical|center_horizontal" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          
+            tools:context=".MainActivity" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin" >
+
+                <!-- Entidad -->
+
+                <TextView
+                    android:id="@+id/entidad_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <!-- Grupo Vulnerable -->
+
+                <TextView
+                    android:id="@+id/error_grupo_vulnerable_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/grupo_vulnerable_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <!-- Tipo Canal Respuesta -->
+
+                <TextView
+                    android:id="@+id/error_tipo_canal_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/tipo_canal_respuesta_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+               
+                <!-- Tipo Documento -->
+
+                <TextView
+                    android:id="@+id/error_tipo_documento_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/tipo_identificacion_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:tag="tipoidentificacion" />
+                <!-- Documento -->
+
+                <EditText
+                    android:id="@+id/identificaion_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/documento"
+                    android:inputType="number"
+                    android:tag="documento" />
+
+ <!-- Primer Nombre -->
+                <EditText
+                    android:id="@+id/primer_nombre_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/primer_nombre"
+                    android:inputType="textPersonName|textCapWords"
+                    android:tag="primernombre" />
+
+                <!-- Text View de prueba -->
+
+                <TextView
+                    android:id="@+id/tv_mensaje_primer_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_mensaje"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <!-- Segundo Nombre -->
+
+                <EditText
+                    android:id="@+id/segundo_nombre_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/segundo_nombre"
+                    android:inputType="textPersonName|textCapWords"
+                    android:tag="segundonombre" />
+
+                <!-- Primer Apellido -->
+
+                <EditText
+                    android:id="@+id/primer_apellido_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/primer_apellido"
+                    android:inputType="textCapWords"
+                    android:tag="primerapellido" />
+
+                <!-- Segundo Apellido -->
+
+                <EditText
+                    android:id="@+id/segundo_apellido_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/segundo_apellido"
+                    android:inputType="textCapWords"
+                    android:tag="segundoapellido" />
+
+                <!-- email -->
+
+                <EditText
+                    android:id="@+id/e_mail_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/e_mail"
+                    android:inputType="textEmailAddress"
+                    android:tag="email" />
+
+                <!-- Direccion -->
+
+                <EditText
+                    android:id="@+id/direccion_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/direccion"
+                    android:inputType="textCapWords|textPostalAddress"
+                    android:tag="direccion" />
+
+                <!-- Telefono -->
+
+                <EditText
+                    android:id="@+id/telefono_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/telefono"
+                    android:inputType="phone|number"
+                    android:tag="telefono" />
+
+                <!-- Celular -->
+
+                <EditText
+                    android:id="@+id/celular_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/celular"
+                    android:inputType="phone|number"
+                    android:tag="celular" />
+
+               
+             
+
+                <!-- Paises -->
+
+                <Spinner
+                    android:id="@+id/paises_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <!-- Departamentos -->
+
+                <Spinner
+                    android:id="@+id/departamentos_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <!-- Municipios -->
+
+                <Spinner
+                    android:id="@+id/municipios_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <!-- Tipo Solicitud -->
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <CheckBox
+                            android:id="@+id/cb_formulario_coordenadas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/textv_entidad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enviar_mis_coordenadas" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/cb_a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tv_formulario_latitud"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lat"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/cb_b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tv_formulario_longitud"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lon"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/error_tipo_solicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/tipo_solicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <!-- Tipo SubSolicitud -->
+
+                <TextView
+                    android:id="@+id/error_tipo_subsolicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/tipo_subsolicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:clickable="false"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/solicitud"
+                    android:visibility="visible" />
+
+                <!-- Asunto -->
+
+                <TextView
+                    android:id="@+id/error_asunto_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" />
+
+                <Spinner
+                    android:id="@+id/asunto_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true" />
+
+                <Spinner
+                    android:id="@+id/tipo_subasunto_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:clickable="false"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/solicitud"
+                    android:visibility="visible" />
+
+                <!-- Descripcion -->
+
+                <TextView
+                    android:id="@+id/textView_limite_caracteres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="TextView" />
+
+                <EditText
+                    android:id="@+id/descripcion_solicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:hint="@string/descripcion_solicitud"
+                    android:inputType="textCapSentences|textMultiLine|textAutoCorrect"
+                    android:lines="5" />
+
+                <!-- Hechos -->
+
+                <EditText
+                    android:id="@+id/hechos_solicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:hint="@string/hechos_solicitud"
+                    android:inputType="textCapSentences|textMultiLine|textAutoCorrect"
+                    android:lines="5"
+                    android:visibility="gone" />
+
+                <!-- Pretensiones -->
+
+                <EditText
+                    android:id="@+id/pretensiones_solicitud_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:hint="@string/pretensiones_solicitud"
+                    android:inputType="textCapSentences|textMultiLine|textAutoCorrect"
+                    android:lines="5"
+                    android:visibility="gone" />
+
+                <!-- Campos temporales: muestran mensajes de error o de exito -->
+
+                <TextView
+                    android:id="@+id/enviandoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/enviando"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaMensaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_mensaje"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_codigo"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaPrimerNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_error_nombre"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaPrimerApellido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_error_apellido"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_error_email"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/respuestaDescripcionSolicitud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="@string/test_error_solicitud"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_botones_adjuntar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="90" >
+
+                    <ImageButton
+                        android:id="@+id/start_file_picker_button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:background="@drawable/boton_dialogo"
+                        android:contentDescription="@string/seleccionar_archivo"
+                        android:src="@drawable/ic_action_attachment2" />
+
+                    <ImageButton
+                        android:id="@+id/ib_formulario_foto"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:background="@drawable/boton_dialogo"
+                        android:contentDescription="@string/tomar_foto"
+                        android:src="@drawable/ic_action_camera2" />
+
+                    <ImageButton
+                        android:id="@+id/ib_formulario_video"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:background="@drawable/boton_dialogo"
+                        android:contentDescription="@string/tomar_video"
+                        android:src="@drawable/ic_action_video2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/file_path_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+                <!-- Fin campos temporales -->
+
+
+                <!-- Enviar -->
+
+                <Button
+                    android:id="@+id/Button_encuesta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_dialogo"
+                    android:onClick="onRefresh"
+                    android:text="@string/boton_enviar"
+                    android:textColor="@color/White" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+   
+</FrameLayout>

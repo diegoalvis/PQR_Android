@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spezi-views">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/spezi-views.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

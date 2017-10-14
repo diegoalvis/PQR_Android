@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_consulta_prestamo_botones"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imagen_solicitud"
+            android:layout_width="115dp"
+            android:layout_height="70dp"
+            android:background="@color/WhiteSmoke"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp" />
+
+        <!-- <com.caverock.androidsvg.SVGImageView -->
+        <!-- android:id="@+id/imagen_solicitud" -->
+        <!-- android:layout_width="@dimen/Tamano_icono_solicitudes" -->
+        <!-- android:layout_height="@dimen/Tamano_icono_solicitudes" -->
+        <!-- android:layout_alignParentLeft="true" -->
+        <!-- android:layout_alignTop="@+id/texttipo" -->
+        <!-- android:layout_marginBottom="4dp" -->
+        <!-- android:layout_marginRight="4dp" -->
+        <!-- android:layout_marginTop="4dp" /> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.55" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.55"
+                    android:text="TextView"
+                    android:textColor="@color/Black"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

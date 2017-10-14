@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+	<!-- Entidad -->
+
+    <TextView
+        android:id="@+id/entidad_view"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:background="@drawable/izquierda"
+        android:gravity="center"
+        android:textSize="12sp" />
+    
+    <!-- Codigo -->
+
+    <TextView
+        android:id="@+id/codigo_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:background="@drawable/completo"
+        android:gravity="center"
+        android:textSize="12sp" />
+    
+    <!-- Fecha y Hora Creacion -->
+
+    <TextView
+        android:id="@+id/fecha_hora_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:textSize="12sp"
+        android:background="@drawable/completo"
+        android:gravity="center" />
+    
+    <!-- Estado -->
+
+    <TextView
+        android:id="@+id/estado_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:textSize="12sp"
+        android:background="@drawable/completo"
+        android:gravity="center" />
+    
+    <!-- Objeto -->
+
+    <TextView
+        android:id="@+id/tipo_solicitud_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="20"
+        android:textSize="12sp"
+        android:background="@drawable/completo"
+        android:gravity="center" />
+    
+    <!-- Respuesta -->
+    <TextView
+        android:id="@+id/respuesta_view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="15"
+        android:textSize="12sp"
+        android:visibility="gone"
+        android:background="@drawable/derecha"
+        android:gravity="center" />
+    
+
+</LinearLayout>

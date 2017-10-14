@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+
+    defaultConfig {
+        applicationId "net.micrositios.pqrapp"
+        minSdkVersion 14
+        targetSdkVersion 23
+
+        multiDexEnabled true //important
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:25.4.0'
+    compile 'com.android.support:appcompat-v7:25.4.0'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.google.android.gms:play-services:4.2.42'
+    compile 'org.apache.commons:commons-lang3:3.2.+'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile files('libs/gcm.jar')
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpclient-4.0.3.jar')
+    compile files('libs/httpcore-4.0.1.jar')
+    compile files('libs/httpmime-4.0.3.jar')
+    compile files('libs/jmimemagic-0.1.0.jar')
+    compile files('libs/spezi-views.jar')
+}

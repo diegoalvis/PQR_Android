@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Rotulos generales -->
+    <string name="app_name">PQR Movil</string>
+    <string name="action_settings">Settings</string>
+    <string name="cambiar_entidad">Choose another agency</string>
+    <string name="consulta_manual">Add an existing ticket</string>
+    <string name="cancelar">Cancel</string>
+    <string name="title_activity_mostrar_formulario">Show form</string>
+    <string name="primer_nombre">Given name</string>
+    <string name="segundo_nombre">Middle name</string>
+    <string name="primer_apellido">Family name</string>
+    <string name="segundo_apellido">Other family names</string>
+    <string name="direccion">Address</string>
+    <string name="e_mail">Email</string>
+    <string name="telefono">Phone</string>
+    <string name="celular">Mobile</string>
+    <string name="documento">ID number</string>
+    <string name="descripcion_solicitud">Request</string>
+    <string name="hechos_solicitud">Request details</string>
+    <string name="pretensiones_solicitud">Claim details</string>
+    <string name="respuesta_solicitud">Response</string>
+    <string name="boton_enviar">Done</string>
+    <string name="campo_requerido">Required field</string>
+    <string name="cargando">Loading&#8230;</string>
+    <string name="progress_dialog_procesando">Processing</string>
+    <string name="progress_dialog_enviando">Connecting</string>
+    <string name="error_wifi">Could not establish a connection</string>
+    <string name="error_wifi_revisar">Check you internet connection</string>
+    <string name="choose_entidades_dialog">Select an agency</string>
+    <string name="boton_entidades_dialog">Accept</string>
+    <string name="seleccionar_archivo">Select file</string>
+
+    <!-- Campos temporales: muestran mensajes de error o de exito -->
+    <string name="enviando">Sending&#8230;</string>
+    <string name="test_mensaje" />
+    <string name="test_codigo" />
+    <string name="test_error_nombre" />
+    <string name="test_error_apellido" />
+    <string name="test_error_solicitud" />
+    <string name="test_error_email" />
+    <string name="mensaje_informacion">In construction</string>
+    <string name="error_conexion_servidor">Could not establish a connection to the server</string>
+    <string name="error_desconocido">Unkwown error</string>
+
+    <!-- Mensajes de advertencia -->
+    <!-- Validacion campos -->
+    <!-- %1$s el nombre del campo, %2$d es el malor minimo de caracteres y %3$d el valor maximo -->
+    <string name="mensaje_rango_caracteres">Your %1$s field must have between %2$d and %3$d characters</string>
+    <!-- %1$s el nombre del campo, %2$d es el malor maximo de caracteres -->
+    <string name="mensaje_num_caracteres">The %1$s field must have at least %2$d characters</string>
+    <string name="mensaje_email">Wrong email format</string>
+    <string name="mensaje_tipo1">Only letters and spaces are allowed</string>
+    <string name="mensaje_tipo2">Only letters are allowed</string>
+    <string name="mensaje_tipo4">Only letters and these symbols are allowed: - _ . , : ; ¡ ! ¿ ? \' \" #</string>
+    <string name="mensaje_tipo5">Only uppercase letters and numbers are allowed</string>
+    <string name="mensaje_tipo6">Wrong phone format</string>
+    <string name="mensaje_revise_datos">Wrong format data, please check</string>
+
+    <!-- Consulta manual solicitud -->
+    <string name="consultar_solicitud">Enter the tracking code</string>
+    <string name="codigo_seguimiento">Tracking code</string>
+    <string name="consulta_descripcion">Here you can check opened tickets in the web page or in the Call Center</string>
+    <string name="boton_cancelar">Cancel</string>
+    <string name="tipo_solicitud">Ticket type</string>
+    <string name="estado">Status</string>
+
+    <!-- Listado solicitudes -->
+    <string name="eliminar_exito">Ticket deleted locally</string>
+    <string name="eliminar_en_red_fracaso"> pero no se pudo eliminar en notificaciones</string>
+    <string name="eliminar_fracaso">Deletion failed</string>
+    <string name="salvar_consulta">Ticket saved locally</string>
+    <string name="solicitud_existe">Tracking code ticket duplicated</string>
+    <string name="solicitud_actualizada">Successful updating</string>
+    <string name="solicitud_no_actualizada">Failed updating</string>
+    <string name="solicitud_agregada">Successful saved</string>
+    <string name="etiqueta_entidad">Agency</string>
+    <string name="etiqueta_codigo">Tracking code</string>
+    <string name="etiqueta_fecha">Creation date</string>
+    <string name="etiqueta_fecha_actualizacion">Updating date</string>
+    <string name="etiqueta_estado">Status</string>
+    <string name="etiqueta_descripcion">Request</string>
+    <string name="etiqueta_tipo_solicitud">Ticket type</string>
+    <string name="etiqueta_hechos">Request details</string>
+    <string name="etiqueta_respuesta">Resolution message</string>
+
+    <!-- ARRAYS -->
+    <!-- Entidades -->
+    <!-- Sigla Entidades -->
+
+
+    <!-- Tipo de solicitud -->
+    <string name="nombre_tipo_solicitud">--Ticket type--</string>
+    <string name="seleccione_tipo_solicitud">--Seleccione el tipo de Solicitud--</string>
+    <string name="queja">Queja</string>
+    <string name="sugerencia">Sugerencia</string>
+    <string name="reclamo">Reclamo</string>
+    <string name="denuncia">Denuncia</string>
+    <string name="peticion">Petición</string>
+    <string name="peticion_informacion">Petición de Información</string>
+    <string name="consulta">Consulta</string>
+    <string name="felicitacion">Felicitación</string>
+
+    <!-- Asuntos -->
+    <string name="nombre_asunto">--Subject--</string>
+    <string name="seleccione_tipo_de_asunto">--Select the subject--</string>
+
+    <!-- Tipo de canal -->
+    <string name="nombre_canal_respuesta">--Preferred contact channel--</string>
+    <string name="seleccione_medio_respuesta">--Select preferred contact channel--</string>
+
+    <!-- Tipo de Identificacion -->
+    <string name="nombre_tipo_documento">--Identification document--</string>
+    <string name="cedula_ciudadania">Cedula de ciudadania</string>
+    <string name="cedula_extranjeria">Cedula de extranjeria</string>
+    <string name="tarjeta_identidad">Tarjeta de identidad</string>
+    <string name="registro_civil">Registro civil</string>
+    <string name="pasaporte">Passport</string>
+    <string name="nit">NIT</string>
+    <string name="solicitud_anonima">Anonymous</string>
+
+    <!-- Grupo Vulnerable -->
+    <string name="nombre_grupo_vulnerable">--Priority attention group--</string>
+    <string name="seleccione_grupo_vulnerable">--Priority attention group--</string>
+
+    <!-- Listado solicitudes -->
+    <string name="eliminar_solicitud_localmente">Delete ticket locally</string>
+    <string name="eliminar_solicitud">Delete ticket</string>
+    <string name="eliminar">Delete</string>
+    <string name="enviar">Check status</string>
+    <string name="pregunta_elimina">Check actual status</string>
+    <string name="pregunta_eliminar_solicitud">¿Delete ticket?</string>
+    <string name="se_eliminara_localmente">It will be deleted locally</string>
+    <string name="no_hay_resultados">No results</string>
+
+    <!-- Pantalla Inicio -->
+    <!-- Dialogo Informacion -->
+    <string name="informacion_dialogo_titulo">Information</string>
+    <string name="instrucciones_titulo">Instructions</string>
+    <string name="instrucciones_texto">        \n<b><u>Para crear una solicitud</u></b>\n
+        Este app le permite radicar peticiones, quejas, reclamos, denuncias y otro tipo de solicitudes directamente en los sistema de Atención al Ciudadano de las diferentes entidades del sector público que están vinculadas a este sistema.\n\n
+            \t1. Dirijase al menú principal\n
+            \t2. Dirijase a la opción <i>Crear Solicitud</i>\n
+            \t3. Escoja la entidad ante la cual desea interponer su solicitud\n
+            \t4. Ingrese los datos solicitados\n
+            \t5. Si el sistema se lo indica haga las correcciones necesarias\n
+            \t6. Envíe la solicitud\n
+            \t7. Si la solicitud fue creada correctamente en el sistema de la entidad, el app le mostrará un resumen de la solicitud y la dejara guardada para seguimiento\n\n<b><u>Para verificar el estado de una solicitud</u></b>\n   
+       Una vez quede radicada su solicitud la entidad le entregará un código de seguimiento que quedará grabado automáticamente en esta app para que Usted pueda hacer el seguimiento del estado de esa solicitud.\n\n
+            \t1. Dirijase al menú principal\n
+            \t2. Dirijase a la opción <i>Consultar solicitudes</i>\n
+            \t3. Escoja la solicitud que desea verificar\n
+            \t4. Escoja <i>Consultar el estado actual</i>\n
+            \t5. El app consultará en el sistema de la entidad y le mostrará el resumen de su solicitud y el estado actual\n\n<b><u>Para verificar el estado de una solicitud creada en el portal de la entidad</u></b>\n   
+       Usted puede consultar el estado de solicitudes creadas mediante otros sistemas tales como el sistema de PQRD del portal o el Call Center de cada entidad.\n\n
+            \t1. Dirijase al menú principal\n
+            \t2. Dirijase a la opción <i>Consultar solicitudes</i>\n
+            \t3. Cuando este en el listado de solicitudes use el menú contextual y escoja la opción <i>Agregar nuevo código</i>\n
+            \t4. Escoja la entidad ante la cual radico la solicitud\n
+            \t5. Digite el <i>Código de Seguimiento</i> (Debe ser exactamente igual al que le entregó la entidad)\n  
+            \t6. El app consultará en el sistema de la entidad y le mostrará el resumen de su solicitud y el estado actual\n
+            \t7. Si el sistema le muestra un mensaje de error es posible que haya escogido mal la entidad o escrito incorrectamente el código de seguimiento. Revise los datos e intente nuevamente\n
+            \t8. El app guardará esta información automáticamente en el listado de solicitudes para que la pueda consultar fácilmente en el futuro\n\n<b><u>Para eliminar una solicitud</u></b>\n   
+       Usted puede eliminar las solicitudes guardadas en esta app cuando ya no las necesite. En ningún caso puede eliminar o modificar las solicitudes que existen en el sistema de información de la entidad.\n\n
+            \t1. Dirijase al menú principal\n
+            \t2. Dirijase a la opción <i>Consultar solicitudes</i>\n
+            \t3. Escoja la solicitud que desea eliminar\n
+            \t4. Escoja la opción <i>Eliminar</i>\n
+            \t5. El aplicativo eliminará la solicitud de este equipo. La solicitud seguirá existiendo en el sistema de la entidad y seguirá su trámite normal\n</string>
+    <string name="creditos_titulo">Credits</string>
+    <string name="creditos_texto">        \nInnovation team
+        \n<b>Micrositios S.A.S.</b>         \n\nLeonardo Forero Sandoval
+        \n<i>gerencia@micrositios.net</i>\n</string>
+    <string name="aviso_legal_titulo">Aviso a los titulares de datos personales que trata este aplicativo</string>
+    <string name="aviso_legal_texto">\nConforme al derecho al Habeas Data reconocido por el artículo 15 de la Constitución Política y desarrollado en la Ley 1581 de 2012 y en cumplimiento a lo establecido por el artículo 10 del Decreto 1377 de 2013, las entidades vinculadas a este aplicativo, se permiten informar:
+ 		\n\nQue han recolectado algunos de sus datos personales en uso de sus facultades legales y que los mismos forman parte de las bases de datos que manejan y/o administran.
+ 		\n\nQue por este mecanismo le solicitamos que permita a la entidad a la cual esta dirigiendo su solicitud de Atención al Ciudadano a través de la herramienta PQRapp, continuar con el tratamiento de sus datos personales.
+ 		\n\nEn este sentido, PQRapp, requiere obtener la autorización por parte del usuario para que de manera expresa, voluntaria, previa y debidamente informada permita que la aplicación utilice, recolecte, almacene, suprima, intercambie, actualice y disponga entre otros, de los datos suministrados y que han sido debidamente procesados en las bases de datos correspondientes y que permiten llevar a cabo los objetivos propuestos por la entidad.
+ 		\n\nPara el ejercicio de sus derechos de conocer, actualizar, rectificar o suprimir sus datos personales podrá hacerlo directamente con la entidad ante la cual interpuso su solicitud.
+ 		\n\nLas políticas bajo las cuales serán tratados sus datos personales y los mecanismos para ejercer sus derechos como titular de los mismos pueden ser consultadas en la página web de cada entidad.
+ 		\n\nEn caso que la supresión no proceda por razones legales, contractuales o de otro tipo, se le informará de ello oportunamente.\n</string>
+    <string name="desarrolladores_titulo">Info for Agencies and Developers</string>
+    <string name="desarrolladores_texto">        \nEste aplicativo ha sido desarrollado dando cumplimiento a lo requerido por:\n
+        \n1. Manual Gel V3.1
+        \n2. Códígo contencioso Administrativo. Ley 1437 de 2011
+        \n3. Decreto Antitrámites 19 de 2012
+        \n4. Estatuto Anticorrupción Ley 1474 de 2011
+        \n5. Recomendaciones de uso del lenguaje único de intercambio de datos (GELXML)
+        \n\nEste aplicativo puede ser integrado a cualquier sistema de atención al ciudadano con el que cuente su entidad sin importar la tecnología, siempre y cuando sea posible la instalación de web services.
+        \n\nContáctese con nosotros para recibir una evaluación de integración.
+        \n\n<i>gerencia@micrositios.net</i>\n
+        
+        \n\n</string>
+    <string name="boton_listo">Close</string>
+    <string name="no_files_or_directories">No files or directories</string>
+    <string name="nombre_de_archivo">Filename</string>
+    <string name="solicitudes">Requests</string>
+
+    <!-- Internet -->
+    <string name="no_conexion_internet">No internet connection</string>
+    <string name="no_conexion_internet_mensaje">This app needs internet data connection</string>
+    <string name="conectado_wifi">Using wifi</string>
+    <string name="conectado_movil">Using mobile data</string>
+    <string name="ninguna_registrada">No connection detected</string>
+    <string name="tituloguadardatos">Save data</string>
+    <string name="si">Accept</string>
+    <string name="no">Decline</string>
+    <string name="pregunta_actualizar">Do you want to update your saved data?</string>
+    <string name="pregunta_recordar_datos">Do you want the app remember your preferences?</string>
+    <string name="eliminar_datos_precargados">Clear your data</string>
+    <string name="ok">Accept</string>
+    <string name="terminos">Please accept terms and conditions</string>
+    <string name="aceptar_terminos">Accept terms and conditions</string>
+    <string name="aceptar">Accept</string>
+    <string name="titulo_terminos_condiciones">Terms and Conditions</string>
+    <string name="mensaje_terminos_condiciones">You must accept terms and conditions</string>
+    <string name="documentos_usuario">User documents</string>
+    <string name="documentos_respuesta">Agency documents</string>
+    <string name="recordar_seleccion">Remember this choice</string>
+    <string name="agregar_solicitud">New ticket</string>
+    <string name="mensaje_archivo_valido">You should select a valid data document</string>
+    <string name="ayuda">Help</string>
+    <string name="no_adjuntar">No attachment</string>
+    <string name="instale_visor_pdf">Install PDF viewer</string>
+    <string name="descargando">Downloading</string>
+    <string name="estaseguro">Are you sure?</string>
+    <string name="documentos_aportados_usuario">User provided Documents</string>
+    <string name="documentos_aportados_entidad">Agency provided Documents</string>
+
+    <!-- Listado Paises -->
+    <string name="colombia">Colombia</string>
+
+    <!-- Listado Departamentos -->
+    <string name="departamentos">Departamentos</string>
+    <string name="amazonas">Amazonas</string>
+    <string name="antioquia">Antioquia</string>
+    <string name="arauca">Arauca</string>
+    <string name="atlantico">Atlántico</string>
+    <string name="bogota_dep">Bogotá D.C.</string>
+    <string name="bolivar">Bolívar</string>
+    <string name="boyaca">Boyacá</string>
+    <string name="caldas">Caldas</string>
+    <string name="caqueta">Caquetá</string>
+    <string name="casanare">Casanare</string>
+    <string name="cauca">Cauca</string>
+    <string name="cesar">Cesar</string>
+    <string name="choco">Chocó</string>
+    <string name="cordoba">Córdoba</string>
+    <string name="cundinamarca">Cundinamarca</string>
+    <string name="guainia">GuainÃ­a</string>
+    <string name="guajira">Guajira</string>
+    <string name="guaviare">Guaviare</string>
+    <string name="huila">Huila</string>
+    <string name="magdalena">Magdalena</string>
+    <string name="meta">Meta</string>
+    <string name="norte_santander">Norte de Santander</string>
+    <string name="narino">NariÃ±o</string>
+    <string name="putumayo">Putumayo</string>
+    <string name="quindio">QuindÃ­o</string>
+    <string name="risaralda">Risaralda</string>
+    <string name="san_andres">San AndrÃ©s</string>
+    <string name="santander">Santander</string>
+    <string name="sucre">Sucre</string>
+    <string name="tolima">Tolima</string>
+    <string name="valle">Valle Del Cauca</string>
+    <string name="vaupes">VaupÃ©s</string>
+    <string name="vichada">Vichada</string>
+
+    <!-- Listado Municipios -->
+    <!-- Municipios Antioquia -->
+    <string name="municipios" />
+    <string name="medellin">MedellÃ­n</string>
+    <string name="abejorral">Abejorral</string>
+    <string name="abriaqui">AbriaquÃ­</string>
+    <string name="alejandria">AlejandrÃ­a</string>
+    <string name="amaga">Amaga</string>
+    <string name="amalfi">Amalfi</string>
+    <string name="andes">Andes</string>
+    <string name="angelopolis">Angelopolis</string>
+    <string name="angostura">Angostura</string>
+    <string name="anori">Anori</string>
+    <string name="antioquia_ant">Antioquia</string>
+    <string name="anza">Anza</string>
+    <string name="apartado">Apartado</string>
+    <string name="arboletes">Arboletes</string>
+    <string name="argelia_ant">Argelia</string>
+    <string name="armenia_ant">Armenia</string>
+    <string name="barbosa_ant">Barbosa</string>
+    <string name="belmira">Belmira</string>
+    <string name="bello">Bello</string>
+    <string name="betania">Betania</string>
+    <string name="betulia_ant">Betulia</string>
+    <string name="ciudad_bolivar">Ciudad Bolivar</string>
+    <string name="briceno_ant">BriceÃ±o</string>
+    <string name="buritica">Buritica</string>
+    <string name="caceres">Caceres</string>
+    <string name="caicedo">Caicedo</string>
+    <string name="caldas_ant">Caldas</string>
+    <string name="campamento">Campamento</string>
+    <string name="canasgordas">CaÃ±asgordas</string>
+    <string name="caracoli">Caracoli</string>
+    <string name="caramanta">Caramanta</string>
+    <string name="carepa">Carepa</string>
+    <string name="carmen_viboral">Carmen De Viboral</string>
+    <string name="carolina">Carolina</string>
+    <string name="caucasia">Caucasia</string>
+    <string name="chigorodo">ChigorodÃ³</string>
+    <string name="cisneros">Cisneros</string>
+    <string name="cocorna">Cocorna</string>
+    <string name="concepcion_ant">Concepcion</string>
+    <string name="concordia_ant">Concordia</string>
+    <string name="copacabana">Copacabana</string>
+    <string name="dabeiba">Dabeiba</string>
+    <string name="don_matias">Don Matias</string>
+    <string name="ebejico">Ebejico</string>
+    <string name="el_bagre">El Bagre</string>
+    <string name="entrerrios">Entrerrios</string>
+    <string name="envigado">Envigado</string>
+    <string name="fredonia">Fredonia</string>
+    <string name="frontino">Frontino</string>
+    <string name="giraldo">Giraldo</string>
+    <string name="girardota">Girardota</string>
+    <string name="gomez_plata">Gomez Plata</string>
+    <string name="granada_ant">Granada</string>
+    <string name="guadalupe_ant">Guadalupe</string>
+    <string name="guarne">Guarne</string>
+    <string name="guatape">Guatape</string>
+    <string name="heliconia">Heliconia</string>
+    <string name="hispania">Hispania</string>
+    <string name="itagui">Itagui</string>
+    <string name="ituango">Ituango</string>
+    <string name="jardin">JardÃ­n</string>
+    <string name="jerico_ant">Jerico</string>
+    <string name="la_ceja">La Ceja</string>
+    <string name="la_estrella">La Estrella</string>
+    <string name="la_pintada">La Pintada</string>
+    <string name="la_union_ant">La Union</string>
+    <string name="liborina">Liborina</string>
+    <string name="maceo">Maceo</string>
+    <string name="marinilla">Marinilla</string>
+    <string name="montebello">Montebello</string>
+    <string name="murindo">Murindo</string>
+    <string name="mutata">Mutata</string>
+    <string name="narino_ant">NariÃ±o</string>
+    <string name="necocli">Necocli</string>
+    <string name="nechi">Nechi</string>
+    <string name="olaya">Olaya</string>
+    <string name="penol">PeÃ±ol</string>
+    <string name="peque">Peque</string>
+    <string name="pueblorrico">Pueblorrico</string>
+    <string name="puerto_berrio">Puerto Berrio</string>
+    <string name="puerto_nare">Puerto Nare</string>
+    <string name="puerto_triunfo">Puerto Triunfo</string>
+    <string name="remedios">Remedios</string>
+    <string name="retiro">Retiro</string>
+    <string name="rionegro_ant">Rionegro</string>
+    <string name="sabanalarga_ant">Sabanalarga</string>
+    <string name="sabaneta">Sabaneta</string>
+    <string name="salgar">Salgar</string>
+    <string name="san_andres_ant">San Andres</string>
+    <string name="san_carlos_ant">San Carlos</string>
+    <string name="san_francisco_ant">San Francisco</string>
+    <string name="san_jeronimo">San Jeronimo</string>
+    <string name="san_jose_montana">Jose De La MontaÃ±a</string>
+    <string name="san_juan_uraba">San Juan De Uraba</string>
+    <string name="san_luis_ant">San Luis</string>
+    <string name="san_pedro_ant">San Pedro</string>
+    <string name="san_pedro_uraba">San Pedro De Uraba</string>
+    <string name="san_rafael">San Rafael</string>
+    <string name="san_roque">San Roque</string>
+    <string name="san_vicente">San Vicente</string>
+    <string name="santa_barbara_ant">Santa Barbara</string>
+    <string name="santa_rosa_osos">Santa Rosa De Osos</string>
+    <string name="santo_domingo">Santo Domingo</string>
+    <string name="santuario_ant">Santuario</string>
+    <string name="segovia">Segovia</string>
+    <string name="sonson">Sonson</string>
+    <string name="sopetran">Sopetran</string>
+    <string name="tamesis">Tamesis</string>
+    <string name="taraza">Taraza</string>
+    <string name="tarso">Tarso</string>
+    <string name="titiribi">Titiribi</string>
+    <string name="toledo_ant">Toledo</string>
+    <string name="turbo">Turbo</string>
+    <string name="uramita">Uramita</string>
+    <string name="urrao">Urrao</string>
+    <string name="valdivia">Valdivia</string>
+    <string name="valparaiso_ant">Valparaiso</string>
+    <string name="vegachi">Vegachi</string>
+    <string name="venecia">Venecia</string>
+    <string name="vigia_fuerte">Vigia Del Fuerte</string>
+    <string name="yali">Yali</string>
+    <string name="yarumal">Yarumal</string>
+    <string name="yolombo">Yolombo</string>
+    <string name="yondo">Yondo</string>
+    <string name="zaragoza">Zaragoza</string>
+
+    <!-- Municipios Atlantico -->
+    <string name="barranquilla">Barranquilla</string>
+    <string name="baranoa">Baranoa</string>
+    <string name="campo_cruz">Campo De La Cruz</string>
+    <string name="candelaria_atl">Candelaria</string>
+    <string name="galapa">Galapa</string>
+    <string name="juan_acosta">Juan De Acosta</string>
+    <string name="luruaco">Luruaco</string>
+    <string name="malambo">Malambo</string>
+    <string name="manati">Manati</string>
+    <string name="palmar_varela">Palmar De Varela</string>
+    <string name="piojo">Piojo</string>
+    <string name="polo_nuevo">Polo Nuevo</string>
+    <string name="ponedera">Ponedera</string>
+    <string name="puerto_colombia">Puerto Colombia</string>
+    <string name="repelon">Repelon</string>
+    <string name="sabanagrande">Sabanagrande</string>
+    <string name="sabanalarga_atl">Sabanalarga</string>
+    <string name="santa_lucia">Santa Lucia</string>
+    <string name="santo_tomas">Santo Tomas</string>
+    <string name="soledad">Soledad</string>
+    <string name="suan">Suan</string>
+    <string name="tubara">Tubara</string>
+    <string name="usiacuri">Usiacuri</string>
+
+    <!-- Municipios Bogota -->
+    <string name="bogota_mun">BogotÃ¡</string>
+
+    <!-- Municipios Bolivar -->
+    <string name="cartagena">Cartagena</string>
+    <string name="achi">Achi</string>
+    <string name="altos_rosario">Altos Del Rosario</string>
+    <string name="arenal">Arenal</string>
+    <string name="arjona">Arjona</string>
+    <string name="arroyohondo">Arroyohondo</string>
+    <string name="barranco_loba">Barranco De Loba</string>
+    <string name="calamar_bol">Calamar</string>
+    <string name="cantagallo">Cantagallo</string>
+    <string name="cicuco">Cicuco</string>
+    <string name="cordoba_bol">Cordoba</string>
+    <string name="clemencia">Clemencia</string>
+    <string name="carmen_bolivar">El Carmen De Bolivar</string>
+    <string name="guamo_bol">El Guamo</string>
+    <string name="penon">El PeÃ±on</string>
+    <string name="hatillo_loba">Hatillo De Loba</string>
+    <string name="magangue">Magangue</string>
+    <string name="mahates">Mahates</string>
+    <string name="margarita">Margarita</string>
+    <string name="maria_baja">Maria La Baja</string>
+    <string name="montecristo">Montecristo</string>
+    <string name="mompos">Mompos</string>
+    <string name="morales_bol">Morales</string>
+    <string name="pinillos">Pinillos</string>
+    <string name="regidor">Regidor</string>
+    <string name="rio_viejo">Rio Viejo</string>
+    <string name="san_cristobal">San Cristobal</string>
+    <string name="san_estanislao">San Estanislao</string>
+    <string name="san_fernando">San Fernando</string>
+    <string name="san_jacinto">San Jacinto</string>
+    <string name="san_jacinto_cauca">San Jacinto Del Cauca</string>
+    <string name="san_juan_nepomuceno">San Juan Nepomuceno</string>
+    <string name="san_martin_loba">San Martin De Loba</string>
+    <string name="san_pablo_bol">San Pablo</string>
+    <string name="santa_catalina">Santa Catalina</string>
+    <string name="santa_rosa">Santa Rosa</string>
+    <string name="santa_rosa_sur">Santa Rosa Del Sur</string>
+    <string name="simiti">Simiti</string>
+    <string name="soplaviento">Soplaviento</string>
+    <string name="talaigua">Talaigua Nuevo</string>
+    <string name="tiquisio">Tiquisio</string>
+    <string name="turbaco">Turbaco</string>
+    <string name="turbana">Turbana</string>
+    <string name="villanueva_bol">Villanueva</string>
+    <string name="zambrano">Zambrano</string>
+
+    <!-- Municipios boyaca -->
+    <string name="tunja">Tunja</string>
+    <string name="almeida">Almeida</string>
+    <string name="aquitania">Aquitania</string>
+    <string name="arcabuco">Arcabuco</string>
+    <string name="belen_boy">Belen</string>
+    <string name="berbeo">Berbeo</string>
+    <string name="beteitiva">Beteitiva</string>
+    <string name="boavita">Boavita</string>
+    <string name="boyaca_boy">Boyaca</string>
+    <string name="briceno_boy">BriceÃ±o</string>
+    <string name="buenavista_boy">Buenavista</string>
+    <string name="busbanza">Busbanza</string>
+    <string name="caldas_boy">Caldas</string>
+    <string name="campohermoso">Campohermoso</string>
+    <string name="cerinza">Cerinza</string>
+    <string name="chinavita">Chinavita</string>
+    <string name="chiquinquira">Chiquinquira</string>
+    <string name="chiscas">Chiscas</string>
+    <string name="chita">Chita</string>
+    <string name="chitaraque">Chitaraque</string>
+    <string name="chivata">Chivata</string>
+    <string name="cienega">Cienega</string>
+    <string name="combita">Combita</string>
+    <string name="coper">Coper</string>
+    <string name="corrales">Corrales</string>
+    <string name="covarachia">Covarachia</string>
+    <string name="cubara">Cubara</string>
+    <string name="cucaita">Cucaita</string>
+    <string name="cuitiva">Cuitiva</string>
+    <string name="chiquiza">Chiquiza</string>
+    <string name="chivor">Chivor</string>
+    <string name="duitama">Duitama</string>
+    <string name="el_cocuy">El Cocuy</string>
+    <string name="el_espino">El Espino</string>
+    <string name="firavitoba">Firavitoba</string>
+    <string name="floresta">Floresta</string>
+    <string name="gachantiva">Gachantiva</string>
+    <string name="gameza">Gameza</string>
+    <string name="garagoa">Garagoa</string>
+    <string name="guacamayas">Guacamayas</string>
+    <string name="guateque">Guateque</string>
+    <string name="guayata">Guayata</string>
+    <string name="guican">Guican</string>
+    <string name="iza">Iza</string>
+    <string name="jenesano">Jenesano</string>
+    <string name="jerico_boy">Jerico</string>
+    <string name="labranzagrande">Labranzagrande</string>
+    <string name="la_capilla">La Capilla</string>
+    <string name="la_victoria_boy">La Victoria</string>
+    <string name="la_uvita">La Uvita</string>
+    <string name="leiva_boy">Leiva</string>
+    <string name="macanal">Macanal</string>
+    <string name="maripi">Maripi</string>
+    <string name="miraflores_boy">Miraflores</string>
+    <string name="mongua">Mongua</string>
+    <string name="mongui">Mongui</string>
+    <string name="moniquira">Moniquira</string>
+    <string name="motavita">Motavita</string>
+    <string name="muzo">Muzo</string>
+    <string name="nobsa">Nobsa</string>
+    <string name="nuevo_colon">Nuevo Colon</string>
+    <string name="oicata">Oicata</string>
+    <string name="otanche">Otanche</string>
+    <string name="pachavita">Pachavita</string>
+    <string name="paez_boy">Paez</string>
+    <string name="paipa">Paipa</string>
+    <string name="pajarito">Pajarito</string>
+    <string name="panqueba">Panqueba</string>
+    <string name="pauna">Pauna</string>
+    <string name="paya">Paya</string>
+    <string name="paz_rio">Paz Del Rio</string>
+    <string name="pesca">Pesca</string>
+    <string name="pisba">Pisba</string>
+    <string name="puerto_boyaca">Puerto Boyaca</string>
+    <string name="quipama">Quipama</string>
+    <string name="ramiriqui">Ramiriqui</string>
+    <string name="raquira">Raquira</string>
+    <string name="rondon">Rondon</string>
+    <string name="saboya">Saboya</string>
+    <string name="sachica">Sachica</string>
+    <string name="samaca">Samaca</string>
+    <string name="san_eduardo">San Eduardo</string>
+    <string name="san_jose_pare">San Jose De Pare</string>
+    <string name="san_luis_gaceno">San Luis De Gaceno</string>
+    <string name="san_mateo">San Mateo</string>
+    <string name="san_miguel_sema">San Miguel De Sema</string>
+    <string name="san_pablo_borbur">San Pablo De Borbur</string>
+    <string name="santana">Santana</string>
+    <string name="santa_maria_boy">Santa Maria</string>
+    <string name="santa_rosa_viterbo">Santa Rosa De Viterbo</string>
+    <string name="santa_sofia">Santa Sofia</string>
+    <string name="sativanorte">Sativanorte</string>
+    <string name="sativasur">Sativasur</string>
+    <string name="siachoque">Siachoque</string>
+    <string name="soata">Soata</string>
+    <string name="socota">Socota</string>
+    <string name="socha">Socha</string>
+    <string name="sogamoso">Sogamoso</string>
+    <string name="somondoco">Somondoco</string>
+    <string name="sora">Sora</string>
+    <string name="sotaquira">Sotaquira</string>
+    <string name="soraca">Soraca</string>
+    <string name="susacon">Susacon</string>
+    <string name="sutamarchan">Sutamarchan</string>
+    <string name="sutatenza">Sutatenza</string>
+    <string name="tasco">Tasco</string>
+    <string name="tenza">Tenza</string>
+    <string name="tibana">Tibana</string>
+    <string name="tibasosa">Tibasosa</string>
+    <string name="tinjaca">Tinjaca</string>
+    <string name="tipacoque">Tipacoque</string>
+    <string name="toca">Toca</string>
+    <string name="togui">Togui</string>
+    <string name="topaga">Topaga</string>
+    <string name="tota">Tota</string>
+    <string name="tunungua">Tunungua</string>
+    <string name="turmeque">Turmeque</string>
+    <string name="tuta">Tuta</string>
+    <string name="tutasa">Tutasa</string>
+    <string name="umbita">Umbita</string>
+    <string name="ventaquemada">Ventaquemada</string>
+    <string name="viracacha">Viracacha</string>
+    <string name="zetaquira">Zetaquira</string>
+
+    <!-- Municipios Caldas 17 -->
+    <string name="manizales">Manizales</string>
+    <string name="aguadas">Aguadas</string>
+    <string name="anserma">Anserma</string>
+    <string name="aranzazu">Aranzazu</string>
+    <string name="belalcazar">Belalcazar</string>
+    <string name="chinchina">Chinchina</string>
+    <string name="filadelfia">Filadelfia</string>
+    <string name="la_dorada">La Dorada</string>
+    <string name="la_merced">La Merced</string>
+    <string name="manzanares">Manzanares</string>
+    <string name="marmato">Marmato</string>
+    <string name="marquetalia">Marquetalia</string>
+    <string name="marulanda">Marulanda</string>
+    <string name="neira">Neira</string>
+    <string name="norcasia">Norcasia</string>
+    <string name="pacora">Pacora</string>
+    <string name="palestina_cal">Palestina</string>
+    <string name="pensilvania">Pensilvania</string>
+    <string name="riosucio_cal">Riosucio</string>
+    <string name="risaralda_cal">Risaralda</string>
+    <string name="salamina_cal">Salamina</string>
+    <string name="samana">Samana</string>
+    <string name="san_jose">San Jose</string>
+    <string name="supia">Supia</string>
+    <string name="victoria">Victoria</string>
+    <string name="villamaria">Villamaria</string>
+    <string name="viterbo">Viterbo</string>
+
+    <!-- Municipios Caqueta 18 -->
+    <string name="florencia_caq">Florencia</string>
+    <string name="albania_caq">Albania</string>
+    <string name="belen_andaquies">Belen Andaquies</string>
+    <string name="cartagena_chaira">Cartagena Del Chaira</string>
+    <string name="curillo">Curillo</string>
+    <string name="el_doncello">El Doncello</string>
+    <string name="el_paujil">El Paujil</string>
+    <string name="la_montanita">La MontaÃ±ita</string>
+    <string name="milan">Milan</string>
+    <string name="morelia">Morelia</string>
+    <string name="puerto_rico_caq">Puerto Rico</string>
+    <string name="san_jose_fragua">San Jose De Fragua</string>
+    <string name="san_vicente_caguan">San Vicente Del Caguan</string>
+    <string name="solano">Solano</string>
+    <string name="solita">Solita</string>
+    <string name="valparaiso_caq">Valparaiso</string>
+
+    <!-- Municipios Cauca 19 -->
+    <string name="popayan">Popayan</string>
+    <string name="almaguer">Almaguer</string>
+    <string name="argelia_cau">Argelia</string>
+    <string name="balboa_cau">Balboa</string>
+    <string name="bolivar_cau">Bolivar</string>
+    <string name="buenos_aires">Buenos Aires</string>
+    <string name="cajibio">Cajibio</string>
+    <string name="caldono">Caldono</string>
+    <string name="caloto">Caloto</string>
+    <string name="corinto">Corinto</string>
+    <string name="el_tambo_cau">El Tambo</string>
+    <string name="florencia_cau">Florencia</string>
+    <string name="guapi">Guapi</string>
+    <string name="inza">Inza</string>
+    <string name="jambalo">Jambalo</string>
+    <string name="la_sierra">La Sierra</string>
+    <string name="la_vega_cau">La Vega</string>
+    <string name="lopez">Lopez</string>
+    <string name="mercaderes">Mercaderes</string>
+    <string name="miranda">Miranda</string>
+    <string name="morales_cau">Morales</string>
+    <string name="padilla">Padilla</string>
+    <string name="paez_cau">Paez</string>
+    <string name="patia_el_bordo">Patia(El Bordo)</string>
+    <string name="piamonte">Piamonte</string>
+    <string name="piendamo">Piendamo</string>
+    <string name="puerto_tejada">Puerto Tejada</string>
+    <string name="purace">Purace</string>
+    <string name="rosas">Rosas</string>
+    <string name="san_sebastian">San Sebastian</string>
+    <string name="santander_quilichao">Santander De Quilichao</string>
+    <string name="sta_rosa">Sta Rosa</string>
+    <string name="silvia">Silvia</string>
+    <string name="sotara">Sotara</string>
+    <string name="suarez_cau">Suarez</string>
+    <string name="sucre_cau">Sucre</string>
+    <string name="timbio">Timbio</string>
+    <string name="timbiqui">Timbiqui</string>
+    <string name="toribio">Toribio</string>
+    <string name="totoro">Totoro</string>
+    <string name="villa_rica">Villa Rica</string>
+
+    <!-- Municipios Cesar 20 -->
+    <string name="valledupar">Valledupar</string>
+    <string name="aguachica">Aguachica</string>
+    <string name="agustin_codazzi">Agustin Codazzi</string>
+    <string name="astrea">Astrea</string>
+    <string name="becerril">Becerril</string>
+    <string name="bosconia">Bosconia</string>
+    <string name="chimichagua">Chimichagua</string>
+    <string name="chiriguana">Chiriguana</string>
+    <string name="curumani">Curumani</string>
+    <string name="el_copey">El Copey</string>
+    <string name="el_paso">El Paso</string>
+    <string name="gamarra">Gamarra</string>
+    <string name="gonzalez">Gonzalez</string>
+    <string name="la_gloria">La Gloria</string>
+    <string name="la_jagua_ibirico">La Jagua Ibirico</string>
+    <string name="manaure_balcon_cesar">Manaure Balcon Del Cesar</string>
+    <string name="pailitas">Pailitas</string>
+    <string name="pelaya">Pelaya</string>
+    <string name="pueblo_bello">Pueblo Bello</string>
+    <string name="rio_oro">Rio De Oro</string>
+    <string name="robles_la_paz">Robles (La Paz)</string>
+    <string name="san_alberto">San Alberto</string>
+    <string name="san_diego">San Diego</string>
+    <string name="san_martin_ces">San Martin</string>
+    <string name="tamalameque">Tamalameque</string>
+
+    <!-- Municipios Cordoba 23 -->
+    <string name="monteria">Monteria</string>
+    <string name="ayapel">Ayapel</string>
+    <string name="buenavista_cor">Buenavista</string>
+    <string name="canalete">Canalete</string>
+    <string name="cerete">Cerete</string>
+    <string name="chima_cor">Chima</string>
+    <string name="chinu">Chinu</string>
+    <string name="cienaga_oro">Cienaga De Oro</string>
+    <string name="cotorra">Cotorra</string>
+    <string name="la_apartada">La Apartada</string>
+    <string name="lorica">Lorica</string>
+    <string name="los_cordobas">Los Cordobas</string>
+    <string name="momil">Momil</string>
+    <string name="montelibano">Montelibano</string>
+    <string name="monitos">MoÃ±itos</string>
+    <string name="planeta_rica">Planeta Rica</string>
+    <string name="pueblo_nuevo">Pueblo Nuevo</string>
+    <string name="puerto_escondido">Puerto Escondido</string>
+    <string name="puerto_libertador">Puerto Libertador</string>
+    <string name="purisima">Purisima</string>
+    <string name="sahagun">Sahagun</string>
+    <string name="san_andres_sotavento">San Andres Sotavento</string>
+    <string name="san_antero">San Antero</string>
+    <string name="san_bernardo_viento">San Bernardo Viento</string>
+    <string name="san_carlos_cor">San Carlos</string>
+    <string name="san_pelayo">San Pelayo</string>
+    <string name="tierralta">Tierralta</string>
+    <string name="valencia">Valencia</string>
+
+    <!-- Municipios Cundinamarca 25 -->
+    <string name="agua_dios">Agua De Dios</string>
+    <string name="alban_cun">Alban</string>
+    <string name="anapoima">Anapoima</string>
+    <string name="anolaima">Anolaima</string>
+    <string name="arbelaez">Arbelaez</string>
+    <string name="beltran">Beltran</string>
+    <string name="bituima">Bituima</string>
+    <string name="bojaca">Bojaca</string>
+    <string name="cabrera_cun">Cabrera</string>
+    <string name="cachipay">Cachipay</string>
+    <string name="cajica">Cajica</string>
+    <string name="caparrapi">Caparrapi</string>
+    <string name="caqueza">Caqueza</string>
+    <string name="carmen_carupa">Carmen De Carupa</string>
+    <string name="chaguani">Chaguani</string>
+    <string name="chia">Chia</string>
+    <string name="chipaque">Chipaque</string>
+    <string name="choachi">Choachi</string>
+    <string name="choconta">Choconta</string>
+    <string name="cogua">Cogua</string>
+    <string name="cota">Cota</string>
+    <string name="cucunuba">Cucunuba</string>
+    <string name="el_colegio">El Colegio</string>
+    <string name="el_penon_cun">El PeÃ±on</string>
+    <string name="el_rosal">El Rosal</string>
+    <string name="facatativa">Facatativa</string>
+    <string name="fomeque">Fomeque</string>
+    <string name="fosca">Fosca</string>
+    <string name="funza">Funza</string>
+    <string name="fuquene">Fuquene</string>
+    <string name="fusagasuga">Fusagasuga</string>
+    <string name="gachala">Gachala</string>
+    <string name="gachancipa">Gachancipa</string>
+    <string name="gacheta">Gacheta</string>
+    <string name="gama">Gama</string>
+    <string name="girardot">Girardot</string>
+    <string name="granada_cun">Granada</string>
+    <string name="guacheta">Guacheta</string>
+    <string name="guaduas">Guaduas</string>
+    <string name="guasca">Guasca</string>
+    <string name="guataqui">Guataqui</string>
+    <string name="guatavita">Guatavita</string>
+    <string name="guayabal_siquima">Guayabal De Siquima</string>
+    <string name="guayabetal">Guayabetal</string>
+    <string name="gutierrez">GutiÃ©rrez</string>
+    <string name="jerusalen">Jerusalen</string>
+    <string name="junin">Junin</string>
+    <string name="la_calera">La Calera</string>
+    <string name="la_mesa">La Mesa</string>
+    <string name="la_palma">La Palma</string>
+    <string name="la_pena">La PeÃ±a</string>
+    <string name="la_vega_cun">La Vega</string>
+    <string name="lenguazaque">Lenguazaque</string>
+    <string name="macheta">Macheta</string>
+    <string name="madrid">Madrid</string>
+    <string name="manta">Manta</string>
+    <string name="medina">Medina</string>
+    <string name="mosquera_cun">Mosquera</string>
+    <string name="narino_cun">NariÃ±o</string>
+    <string name="nemocon">Nemocon</string>
+    <string name="nilo">Nilo</string>
+    <string name="nimaima">Nimaima</string>
+    <string name="nocaima">Nocaima</string>
+    <string name="venecia_ospina_perez">Venecia (Ospina Perez)</string>
+    <string name="pacho">Pacho</string>
+    <string name="paime">Paime</string>
+    <string name="pandi">Pandi</string>
+    <string name="paratebueno">Paratebueno</string>
+    <string name="pasca">Pasca</string>
+    <string name="puerto_salgar">Puerto Salgar</string>
+    <string name="puli">Puli</string>
+    <string name="quebradanegra">Quebradanegra</string>
+    <string name="quetame">Quetame</string>
+    <string name="quipile">Quipile</string>
+    <string name="rafael_reyes">Rafael Reyes</string>
+    <string name="ricaurte_cun">Ricaurte</string>
+    <string name="san_antonio_tequendama">San Antonio Del Tequendama</string>
+    <string name="san_bernardo_cun">San Bernardo</string>
+    <string name="san_cayetano_cun">San Cayetano</string>
+    <string name="san_francisco_cun">San Francisco</string>
+    <string name="san_juan_rioseco">San Juan De Rioseco</string>
+    <string name="sasaima">Sasaima</string>
+    <string name="sesquile">Sesquile</string>
+    <string name="sibate">Sibate</string>
+    <string name="silvania">Silvania</string>
+    <string name="simijaca">Simijaca</string>
+    <string name="soacha">Soacha</string>
+    <string name="sopo">Sopo</string>
+    <string name="subachoque">Subachoque</string>
+    <string name="suesca">Suesca</string>
+    <string name="supata">Supata</string>
+    <string name="susa">Susa</string>
+    <string name="sutatausa">Sutatausa</string>
+    <string name="tabio">Tabio</string>
+    <string name="tausa">Tausa</string>
+    <string name="tena">Tena</string>
+    <string name="tenjo">Tenjo</string>
+    <string name="tibacuy">Tibacuy</string>
+    <string name="tibirita">Tibirita</string>
+    <string name="tocaima">Tocaima</string>
+    <string name="tocancipa">Tocancipa</string>
+    <string name="topaipi">Topaipi</string>
+    <string name="ubala">Ubala</string>
+    <string name="ubaque">Ubaque</string>
+    <string name="ubate">Ubate</string>
+    <string name="une">Une</string>
+    <string name="utica">Utica</string>
+    <string name="vergara">Vergara</string>
+    <string name="viani">Viani</string>
+    <string name="villagomez">Villagomez</string>
+    <string name="villapinzon">Villapinzon</string>
+    <string name="villeta">Villeta</string>
+    <string name="viota">Viota</string>
+    <string name="yacopi">Yacopi</string>
+    <string name="zipacon">Zipacon</string>
+    <string name="zipaquira">Zipaquira</string>
+
+    <!-- Municipios Choco 27 -->
+    <string name="quibdo">Quibdo</string>
+    <string name="acandi">Acandi</string>
+    <string name="alto_baudo_pie_pato">Alto Baudo (Pie De Pato)</string>
+    <string name="atrato">Atrato</string>
+    <string name="bagado">Bagado</string>
+    <string name="bahia_solano_mutis">Bahia Solano (Mutis)</string>
+    <string name="bajo_baudo_pizarro">Bajo Baudo (Pizarro)</string>
+    <string name="bojaya_bellavista">Bojaya (Bellavista)</string>
+    <string name="canton_san_pablo">Canton De San Pablo</string>
+    <string name="carmen_darien">Carmen Del Darien</string>
+    <string name="certegui">Certegui</string>
+    <string name="condoto">Condoto</string>
+    <string name="el_carmen_cho">El Carmen</string>
+    <string name="litoral_san_juan">Litoral Del San Juan</string>
+    <string name="istmina">Istmina</string>
+    <string name="jurado">Jurado</string>
+    <string name="lloro">Lloro</string>
+    <string name="medio_atrato">Medio Atrato</string>
+    <string name="medio_baudo_boca_pepe">Medio Baudo (Boca De Pepe)</string>
+    <string name="medio_san_juan">Medio San Juan</string>
+    <string name="novita">Novita</string>
+    <string name="nuqui">Nuqui</string>
+    <string name="rio_iro">Rio Iro</string>
+    <string name="rio_quito">Rio Quito</string>
+    <string name="riosucio_cho">Riosucio</string>
+    <string name="san_jose_palmar">San Jose Del Palmar</string>
+    <string name="sipi">Sipi</string>
+    <string name="tado">Tado</string>
+    <string name="unguia">Unguia</string>
+    <string name="union_panamericana">Union Panamericana</string>
+
+    <!-- Municipios Huila 41 -->
+    <string name="neiva">Neiva</string>
+    <string name="acevedo">Acevedo</string>
+    <string name="agrado">Agrado</string>
+    <string name="aipe">Aipe</string>
+    <string name="algeciras">Algeciras</string>
+    <string name="altamira">Altamira</string>
+    <string name="baraya">Baraya</string>
+    <string name="campoalegre">Campoalegre</string>
+    <string name="colombia_hui">Colombia</string>
+    <string name="elias">Elias</string>
+    <string name="garzon">Garzon</string>
+    <string name="gigante">Gigante</string>
+    <string name="guadalupe_hui">Guadalupe</string>
+    <string name="hobo">Hobo</string>
+    <string name="iquira">Iquira</string>
+    <string name="isnos">Isnos</string>
+    <string name="la_argentina">La Argentina</string>
+    <string name="la_plata">La Plata</string>
+    <string name="nataga">Nataga</string>
+    <string name="oporapa">Oporapa</string>
+    <string name="paicol">Paicol</string>
+    <string name="palermo">Palermo</string>
+    <string name="palestina_hui">Palestina</string>
+    <string name="pital">Pital</string>
+    <string name="pitalito">Pitalito</string>
+    <string name="rivera">Rivera</string>
+    <string name="saladoblanco">Saladoblanco</string>
+    <string name="san_agustin">San Agustin</string>
+    <string name="santa_maria_hui">Santa Maria</string>
+    <string name="suaza">Suaza</string>
+    <string name="tarqui">Tarqui</string>
+    <string name="tesalia">Tesalia</string>
+    <string name="tello">Tello</string>
+    <string name="teruel">Teruel</string>
+    <string name="timana">Timana</string>
+    <string name="villavieja">Villavieja</string>
+    <string name="yaguara">Yaguara</string>
+
+    <!-- Municipios Guajira 44 -->
+    <string name="riohacha">Riohacha</string>
+    <string name="albania_guaj">Albania</string>
+    <string name="barrancas">Barrancas</string>
+    <string name="dibulla">Dibulla</string>
+    <string name="distraccion">Distraccion</string>
+    <string name="el_molino">El Molino</string>
+    <string name="fonseca">Fonseca</string>
+    <string name="hatonuevo">Hatonuevo</string>
+    <string name="la_jagua_pilar">La Jagua Del Pilar</string>
+    <string name="maicao">Maicao</string>
+    <string name="manaure">Manaure</string>
+    <string name="san_juan_cesar">San Juan Del Cesar</string>
+    <string name="uribia">Uribia</string>
+    <string name="urumita">Urumita</string>
+    <string name="villanueva_guaj">Villanueva</string>
+
+    <!-- Municipios Magdalena 47 -->
+    <string name="santa_marta">Santa Marta</string>
+    <string name="algarrobo">Algarrobo</string>
+    <string name="aracataca">Aracataca</string>
+    <string name="ariguani">Ariguani</string>
+    <string name="cerro_san_antonio">Cerro San Antonio</string>
+    <string name="chivolo">Chivolo</string>
+    <string name="cienaga">Cienaga</string>
+    <string name="concordia_mag">Concordia</string>
+    <string name="el_banco">El Banco</string>
+    <string name="el_pinon">El PiÃ±on</string>
+    <string name="el_reten">El Reten</string>
+    <string name="fundacion">Fundacion</string>
+    <string name="guamal_mag">Guamal</string>
+    <string name="nueva_granada">Nueva Granada</string>
+    <string name="pedraza">Pedraza</string>
+    <string name="pijino_carmen">PijiÃ±o Del Carmen</string>
+    <string name="pivijay">Pivijay</string>
+    <string name="plato">Plato</string>
+    <string name="puebloviejo">Puebloviejo</string>
+    <string name="remolino">Remolino</string>
+    <string name="sabanas_san_angel">Sabanas De San Angel</string>
+    <string name="salamina_mag">Salamina</string>
+    <string name="san_sebastian_buenavista">San Sebastian De Buenavista</string>
+    <string name="san_zenon">San Zenon</string>
+    <string name="santa_ana">Santa Ana</string>
+    <string name="santa_barbara_pinto">Santa Barbara De Pinto</string>
+    <string name="sitionuevo">Sitionuevo</string>
+    <string name="tenerife">Tenerife</string>
+    <string name="zapayan">Zapayan</string>
+    <string name="zona_bananera">Zona Bananera</string>
+
+    <!-- Municipios Meta 50 -->
+    <string name="villavicencio">Villavicencio</string>
+    <string name="acacias">Acacias</string>
+    <string name="barranca_upia">Barranca De Upia</string>
+    <string name="cabuyaro">Cabuyaro</string>
+    <string name="castilla_la_nueva">Castilla La Nueva</string>
+    <string name="cubarral">Cubarral</string>
+    <string name="cumaral">Cumaral</string>
+    <string name="el_calvario">El Calvario</string>
+    <string name="el_castillo">El Castillo</string>
+    <string name="el_dorado">El Dorado</string>
+    <string name="fuente_oro">Fuente De Oro</string>
+    <string name="granada_met">Granada</string>
+    <string name="guamal_met">Guamal</string>
+    <string name="mapiripan">Mapiripan</string>
+    <string name="mesetas">Mesetas</string>
+    <string name="la_macarena">La Macarena</string>
+    <string name="la_uribe">La Uribe</string>
+    <string name="lejanias">Lejanias</string>
+    <string name="puerto_concordia">Puerto Concordia</string>
+    <string name="puerto_gaitan">Puerto Gaitan</string>
+    <string name="puerto_lopez">Puerto Lopez</string>
+    <string name="puerto_lleras">Puerto Lleras</string>
+    <string name="puerto_rico_met">Puerto Rico</string>
+    <string name="restrepo_met">Restrepo</string>
+    <string name="san_carlos_guaroa">San Carlos Guaroa</string>
+    <string name="san_juan_arama">San Juan De Arama</string>
+    <string name="san_juanito">San Juanito</string>
+    <string name="san_martin_met">San Martin</string>
+    <string name="vista_hermosa">Vista Hermosa</string>
+
+    <!-- Municipios NariÃ±o 52 -->
+    <string name="pasto">Pasto</string>
+    <string name="alban_nar">Alban</string>
+    <string name="aldana">AldaÃ±a</string>
+    <string name="ancuya">Ancuya</string>
+    <string name="arboleda">Arboleda</string>
+    <string name="barbacoas">Barbacoas</string>
+    <string name="belen_nar">Belen</string>
+    <string name="buesaco">Buesaco</string>
+    <string name="colon_genova">Colon(Genova)</string>
+    <string name="consaca">Consaca</string>
+    <string name="contadero">Contadero</string>
+    <string name="cordoba_nar">Cordoba</string>
+    <string name="cuaspud">Cuaspud</string>
+    <string name="cumbal">Cumbal</string>
+    <string name="cumbitara">Cumbitara</string>
+    <string name="chachagui">Chachagui</string>
+    <string name="el_charco">El Charco</string>
+    <string name="el_penol">El PeÃ±ol</string>
+    <string name="el_rosario">El Rosario</string>
+    <string name="el_tablon">El Tablon</string>
+    <string name="el_tambo_nar">El Tambo</string>
+    <string name="funes">Funes</string>
+    <string name="guachucal">Guachucal</string>
+    <string name="guaitarilla">Guaitarilla</string>
+    <string name="gualmatan">Gualmatan</string>
+    <string name="iles">Iles</string>
+    <string name="imues">Imues</string>
+    <string name="ipiales">Ipiales</string>
+    <string name="la_cruz">La Cruz</string>
+    <string name="la_florida">La Florida</string>
+    <string name="la_llanada">La Llanada</string>
+    <string name="la_tola">La Tola</string>
+    <string name="la_union_nar">La Union</string>
+    <string name="leiva_nar">Leiva</string>
+    <string name="linares">Linares</string>
+    <string name="los_andes">Los Andes</string>
+    <string name="magui">Magui</string>
+    <string name="mallama">Mallama</string>
+    <string name="mosquera_nar">Mosquera</string>
+    <string name="narino_nar">NariÃ±o</string>
+    <string name="olaya_herrera">Olaya Herrera</string>
+    <string name="ospina">Ospina</string>
+    <string name="pizarro">Pizarro</string>
+    <string name="policarpa">Policarpa</string>
+    <string name="potosi">Potosi</string>
+    <string name="providencia_nar">Providencia</string>
+    <string name="puerres">Puerres</string>
+    <string name="pupiales">Pupiales</string>
+    <string name="ricaurte_nar">Ricaurte</string>
+    <string name="roberto_payan">Roberto Payan</string>
+    <string name="samaniego">Samaniego</string>
+    <string name="sandona">Sandona</string>
+    <string name="san_bernardo_nar">San Bernardo</string>
+    <string name="san_lorenzo">San Lorenzo</string>
+    <string name="san_pablo_nar">San Pablo</string>
+    <string name="san_pedro_cartago">San Pedro De Cartago</string>
+    <string name="santa_barbara_nar">Santa Barbara</string>
+    <string name="santacruz">Santacruz</string>
+    <string name="sapuyes">Sapuyes</string>
+    <string name="taminango">Taminango</string>
+    <string name="tangua">Tangua</string>
+    <string name="tumaco">Tumaco</string>
+    <string name="tuquerres">Tuquerres</string>
+    <string name="yacuanquer">Yacuanquer</string>
+
+    <!-- Municipios Norte Santander 54 -->
+    <string name="cucuta">Cucuta</string>
+    <string name="abrego">Abrego</string>
+    <string name="arboledas">Arboledas</string>
+    <string name="bochalema">Bochalema</string>
+    <string name="bucarasica">Bucarasica</string>
+    <string name="cacota">Cacota</string>
+    <string name="cachira">Cachira</string>
+    <string name="chinacota">Chinacota</string>
+    <string name="chitaga">Chitaga</string>
+    <string name="convencion">Convencion</string>
+    <string name="cucutilla">Cucutilla</string>
+    <string name="durania">Durania</string>
+    <string name="el_carmen_nor_san">El Carmen</string>
+    <string name="el_tarra">El Tarra</string>
+    <string name="el_zulia">El Zulia</string>
+    <string name="gramalote">Gramalote</string>
+    <string name="hacari">Hacari</string>
+    <string name="herran">Herran</string>
+    <string name="labateca">Labateca</string>
+    <string name="la_esperanza">La Esperanza</string>
+    <string name="la_playa">La Playa</string>
+    <string name="los_patios">Los Patios</string>
+    <string name="lourdes">Lourdes</string>
+    <string name="mutiscua">Mutiscua</string>
+    <string name="ocana">OcaÃ±a</string>
+    <string name="pamplona">Pamplona</string>
+    <string name="pamplonita">Pamplonita</string>
+    <string name="puerto_santander">Puerto Santander</string>
+    <string name="ragonvalia">Ragonvalia</string>
+    <string name="salazar">Salazar</string>
+    <string name="san_calixto">San Calixto</string>
+    <string name="san_cayetano_nor_san">San Cayetano</string>
+    <string name="santiago_nor_san">Santiago</string>
+    <string name="sardinata">Sardinata</string>
+    <string name="silos">Silos</string>
+    <string name="teorama">Teorama</string>
+    <string name="tibu">Tibu</string>
+    <string name="toledo_nor_san">Toledo</string>
+    <string name="villacaro">Villacaro</string>
+    <string name="villa_rosario">Villa Del Rosario</string>
+
+    <!-- Municipios Quindio 63 -->
+    <string name="armenia_quin">Armenia</string>
+    <string name="buenavista_quin">Buenavista</string>
+    <string name="calarca">Calarca</string>
+    <string name="circasia">Circasia</string>
+    <string name="cordoba_quin">Cordoba</string>
+    <string name="filandia">Filandia</string>
+    <string name="genova">Genova</string>
+    <string name="la_tebaida">La Tebaida</string>
+    <string name="montenegro">Montenegro</string>
+    <string name="pijao">Pijao</string>
+    <string name="quimbaya">Quimbaya</string>
+    <string name="salento">Salento</string>
+
+    <!-- Municipios Risaralda 66 -->
+    <string name="pereira">Pereira</string>
+    <string name="apia">Apia</string>
+    <string name="balboa_ris">Balboa</string>
+    <string name="belen_umbria">Belen De Umbria</string>
+    <string name="dos_quebradas">Dos Quebradas</string>
+    <string name="guatica">Guatica</string>
+    <string name="la_celia">La Celia</string>
+    <string name="la_virginia">La Virginia</string>
+    <string name="marsella">Marsella</string>
+    <string name="mistrato">Mistrato</string>
+    <string name="pueblo_rico">Pueblo Rico</string>
+    <string name="quinchia">Quinchia</string>
+    <string name="santa_rosa_cabal">Santa Rosa De Cabal</string>
+    <string name="santuario_ris">Santuario</string>
+
+    <!-- Municipios Santander 68 -->
+    <string name="bucaramanga">Bucaramanga</string>
+    <string name="aguada">Aguada</string>
+    <string name="albania_san">Albania</string>
+    <string name="aratoca">Aratoca</string>
+    <string name="barbosa_san">Barbosa</string>
+    <string name="barichara">Barichara</string>
+    <string name="barrancabermeja">Barrancabermeja</string>
+    <string name="betulia_san">Betulia</string>
+    <string name="bolivar_san">Bolivar</string>
+    <string name="cabrera_san">Cabrera</string>
+    <string name="california">California</string>
+    <string name="capitanejo">Capitanejo</string>
+    <string name="carcasi">Carcasi</string>
+    <string name="cepita">Cepita</string>
+    <string name="cerrito">Cerrito</string>
+    <string name="charala">Charala</string>
+    <string name="charta">Charta</string>
+    <string name="chima_san">Chima</string>
+    <string name="chipata">Chipata</string>
+    <string name="cimitarra">Cimitarra</string>
+    <string name="concepcion_san">Concepcion</string>
+    <string name="confines">Confines</string>
+    <string name="contratacion">Contratacion</string>
+    <string name="coromoro">Coromoro</string>
+    <string name="curiti">Curiti</string>
+    <string name="el_carmen_san">El Carmen</string>
+    <string name="el_guacamayo">El Guacamayo</string>
+    <string name="el_penon_san">El PeÃ±on</string>
+    <string name="el_playon">El Playon</string>
+    <string name="encino">Encino</string>
+    <string name="enciso">Enciso</string>
+    <string name="florian">Florian</string>
+    <string name="floridablanca">Floridablanca</string>
+    <string name="galan">Galan</string>
+    <string name="gambita">Gambita</string>
+    <string name="giron">Giron</string>
+    <string name="guaca">Guaca</string>
+    <string name="guadalupe_san">Guadalupe</string>
+    <string name="guapota">Guapota</string>
+    <string name="guavata">Guavata</string>
+    <string name="guepsa">Guepsa</string>
+    <string name="hato">Hato</string>
+    <string name="jesus_maria">Jesus Maria</string>
+    <string name="jordan">Jordan</string>
+    <string name="la_belleza">La Belleza</string>
+    <string name="landazuri">Landazuri</string>
+    <string name="la_paz">La Paz</string>
+    <string name="lebrija">Lebrija</string>
+    <string name="los_santos">Los Santos</string>
+    <string name="macaravita">Macaravita</string>
+    <string name="malaga">Malaga</string>
+    <string name="matanza">Matanza</string>
+    <string name="mogotes">Mogotes</string>
+    <string name="molagavita">Molagavita</string>
+    <string name="ocamonte">Ocamonte</string>
+    <string name="oiba">Oiba</string>
+    <string name="onzaga">Onzaga</string>
+    <string name="palmar">Palmar</string>
+    <string name="palmas_socorro">Palmas Del Socorro</string>
+    <string name="paramo">Paramo</string>
+    <string name="piedecuesta">Piedecuesta</string>
+    <string name="pinchote">Pinchote</string>
+    <string name="puente_nacional">Puente Nacional</string>
+    <string name="puerto_parra">Puerto Parra</string>
+    <string name="puerto_wilches">Puerto Wilches</string>
+    <string name="rionegro_san">Rionegro</string>
+    <string name="sabana_torres">Sabana De Torres</string>
+    <string name="san_andres_san">San Andres</string>
+    <string name="san_benito">San Benito</string>
+    <string name="san_gil">San Gil</string>
+    <string name="san_joaquin">San Joaquin</string>
+    <string name="san_jose_miranda">San Jose De Miranda</string>
+    <string name="san_miguel_san">San Miguel</string>
+    <string name="san_vicente_chucuri">San Vicente De Chucuri</string>
+    <string name="santa_barbara_san">Santa Barbara</string>
+    <string name="santa_helena">Santa Helena</string>
+    <string name="simacota">Simacota</string>
+    <string name="socorro">Socorro</string>
+    <string name="suaita">Suaita</string>
+    <string name="sucre_san">Sucre</string>
+    <string name="surata">Surata</string>
+    <string name="tona">Tona</string>
+    <string name="valle_san_jose">Valle San Jose</string>
+    <string name="velez">Velez</string>
+    <string name="vetas">Vetas</string>
+    <string name="villanueva_san">Villanueva</string>
+    <string name="zapatoca">Zapatoca</string>
+
+    <!-- Municipios Sucre 70 -->
+    <string name="sincelejo">Sincelejo</string>
+    <string name="buenavista_suc">Buenavista</string>
+    <string name="caimito">Caimito</string>
+    <string name="coloso">Coloso</string>
+    <string name="corozal">Corozal</string>
+    <string name="covenas">CoveÃ±as</string>
+    <string name="chalan">Chalan</string>
+    <string name="el_roble">El Roble</string>
+    <string name="galeras">Galeras</string>
+    <string name="guaranda">Guaranda</string>
+    <string name="la_union_suc">La Union</string>
+    <string name="los_palmitos">Los Palmitos</string>
+    <string name="majagual">Majagual</string>
+    <string name="morroa">Morroa</string>
+    <string name="ovejas">Ovejas</string>
+    <string name="palmito">Palmito</string>
+    <string name="sampues">Sampues</string>
+    <string name="san_benito_abad">San Benito Abad</string>
+    <string name="san_juan_betulia">San Juan De Betulia</string>
+    <string name="san_marcos">San Marcos</string>
+    <string name="san_onofre">San Onofre</string>
+    <string name="san_pedro_suc">San Pedro</string>
+    <string name="since">Since</string>
+    <string name="sucre_suc">Sucre</string>
+    <string name="tolu">Tolu</string>
+    <string name="toluviejo">Toluviejo</string>
+
+    <!-- Municipios Tolima 73 -->
+    <string name="ibague">Ibague</string>
+    <string name="alpujarra">Alpujarra</string>
+    <string name="alvarado">Alvarado</string>
+    <string name="ambalema">Ambalema</string>
+    <string name="anzoategui">Anzoategui</string>
+    <string name="armero_guayabal">Armero (Guayabal)</string>
+    <string name="ataco">Ataco</string>
+    <string name="cajamarca">Cajamarca</string>
+    <string name="carmen_apicala">Carmen Apicala</string>
+    <string name="casabianca">Casabianca</string>
+    <string name="chaparral">Chaparral</string>
+    <string name="chicoral">Chicoral</string>
+    <string name="coello">Coello</string>
+    <string name="coyaima">Coyaima</string>
+    <string name="cunday">Cunday</string>
+    <string name="dolores">Dolores</string>
+    <string name="espinal">Espinal</string>
+    <string name="falan">Falan</string>
+    <string name="flandes">Flandes</string>
+    <string name="fresno">Fresno</string>
+    <string name="guamo_tol">Guamo</string>
+    <string name="herveo">Herveo</string>
+    <string name="honda">Honda</string>
+    <string name="icononzo">Icononzo</string>
+    <string name="lerida">Lerida</string>
+    <string name="libano">Libano</string>
+    <string name="mariquita">Mariquita</string>
+    <string name="melgar">Melgar</string>
+    <string name="murillo">Murillo</string>
+    <string name="natagaima">Natagaima</string>
+    <string name="ortega">Ortega</string>
+    <string name="palocabildo">Palocabildo</string>
+    <string name="piedras">Piedras</string>
+    <string name="planadas">Planadas</string>
+    <string name="prado">Prado</string>
+    <string name="purificacion">Purificacion</string>
+    <string name="rioblanco">Rioblanco</string>
+    <string name="roncesvalles">Roncesvalles</string>
+    <string name="rovira">Rovira</string>
+    <string name="saldana">SaldaÃ±a</string>
+    <string name="san_antonio">San Antonio</string>
+    <string name="san_luis_tol">San Luis</string>
+    <string name="santa_isabel">Santa Isabel</string>
+    <string name="suarez_tol">Suarez</string>
+    <string name="valle_s_juan">Valle De S Juan</string>
+    <string name="venadillo">Venadillo</string>
+    <string name="villahermosa">Villahermosa</string>
+    <string name="villarrica">Villarrica</string>
+
+    <!-- Municipios Valle del Cauca 76 -->
+    <string name="cali">Cali</string>
+    <string name="alcala">Alcala</string>
+    <string name="andalucia">Andalucia</string>
+    <string name="ansermanuevo">Ansermanuevo</string>
+    <string name="argelia_val">Argelia</string>
+    <string name="bolivar_val">Bolivar</string>
+    <string name="buenaventura">Buenaventura</string>
+    <string name="buga">Buga</string>
+    <string name="bugalagrande">Bugalagrande</string>
+    <string name="caicedonia">Caicedonia</string>
+    <string name="calima">Calima</string>
+    <string name="candelaria_val">Candelaria</string>
+    <string name="cartago">Cartago</string>
+    <string name="dagua">Dagua</string>
+    <string name="el_aguila">El Aguila</string>
+    <string name="el_cairo">El Cairo</string>
+    <string name="el_cerrito">El Cerrito</string>
+    <string name="el_dovio">El Dovio</string>
+    <string name="florida">Florida</string>
+    <string name="ginebra">Ginebra</string>
+    <string name="guacari">Guacari</string>
+    <string name="jamundi">Jamundi</string>
+    <string name="la_cumbre">La Cumbre</string>
+    <string name="la_union_val">La Union</string>
+    <string name="la_victoria_val">La Victoria</string>
+    <string name="obando">Obando</string>
+    <string name="palmira">Palmira</string>
+    <string name="pradera">Pradera</string>
+    <string name="restrepo_val">Restrepo</string>
+    <string name="riofrio">Riofrio</string>
+    <string name="roldanillo">Roldanillo</string>
+    <string name="san_pedro_val">San Pedro</string>
+    <string name="sevilla">Sevilla</string>
+    <string name="toro">Toro</string>
+    <string name="trujillo">Trujillo</string>
+    <string name="tulua">Tulua</string>
+    <string name="ulloa">Ulloa</string>
+    <string name="versalles">Versalles</string>
+    <string name="vijes">Vijes</string>
+    <string name="yotoco">Yotoco</string>
+    <string name="yumbo">Yumbo</string>
+    <string name="zarzal">Zarzal</string>
+
+    <!-- Municipios Arauca 81 -->
+    <string name="arauca_arau">Arauca</string>
+    <string name="arauquita">Arauquita</string>
+    <string name="cravo_norte">Cravo Norte</string>
+    <string name="fortul">Fortul</string>
+    <string name="puerto_rondon">Puerto Rondon</string>
+    <string name="saravena">Saravena</string>
+    <string name="tame">Tame</string>
+
+    <!-- Municipios Casanare 85 -->
+    <string name="yopal">Yopal</string>
+    <string name="aguazul">Aguazul</string>
+    <string name="chameza">Chameza</string>
+    <string name="hato_corozal">Hato Corozal</string>
+    <string name="la_salina">La Salina</string>
+    <string name="mani">Mani</string>
+    <string name="monterrey">Monterrey</string>
+    <string name="nunchia">Nunchia</string>
+    <string name="orocue">Orocue</string>
+    <string name="paz_de_ariporo">Paz De Ariporo</string>
+    <string name="pore">Pore</string>
+    <string name="recetor">Recetor</string>
+    <string name="sabanalarga_cas">Sabanalarga</string>
+    <string name="sacama">Sacama</string>
+    <string name="san_luis_de_palenque">San Luis De Palenque</string>
+    <string name="tamara">Tamara</string>
+    <string name="tauramena">Tauramena</string>
+    <string name="trinidad">Trinidad</string>
+    <string name="villanueva_cas">Villanueva</string>
+
+    <!-- Municipios Putumayo 86 -->
+    <string name="mocoa">Mocoa</string>
+    <string name="colon">Colon</string>
+    <string name="orito">Orito</string>
+    <string name="puerto_asis">Puerto Asis</string>
+    <string name="puerto_caycedo">Puerto Caycedo</string>
+    <string name="puerto_guzman">Puerto Guzman</string>
+    <string name="puerto_leguizamo">Puerto Leguizamo</string>
+    <string name="sibundoy">Sibundoy</string>
+    <string name="san_francisco_put">San Francisco</string>
+    <string name="san_miguel_put">San Miguel</string>
+    <string name="santiago_put">Santiago</string>
+    <string name="valle_guamuez">Valle Del Guamuez</string>
+    <string name="villagarzon">Villagarzon</string>
+
+    <!-- Municipios San Andres 88 -->
+    <string name="san_andres_san_and">San Andres</string>
+    <string name="providencia_san_and">Providencia</string>
+
+    <!-- Municipios Amazonas 91 -->
+    <string name="leticia">Leticia</string>
+    <string name="puerto_narino">Puerto NariÃ±o</string>
+
+    <!-- Municipios Guania 94 -->
+    <string name="puerto_inirida">Puerto Inirida</string>
+
+    <!-- Municipios Guaviare 95 -->
+    <string name="san_jose_guaviare">San Jose Del Guaviare</string>
+    <string name="calamar_guav">Calamar</string>
+    <string name="el_retorno">El Retorno</string>
+    <string name="miraflores_guav">Miraflores</string>
+
+    <!-- Municipios Vaupes 97 -->
+    <string name="mitu">Mitu</string>
+    <string name="caruru">Caruru</string>
+    <string name="taraira">Taraira</string>
+
+    <!-- Municipios Vichada 99 -->
+    <string name="puerto_carreno">Puerto CarreÃ±o</string>
+    <string name="la_primavera">La Primavera</string>
+    <string name="santa_rosalia">Santa Rosalia</string>
+    <string name="cumaribo">Cumaribo</string>
+
+    <!-- OTROS -->
+    <string name="seleccione_webservice">Select WebService</string>
+    <string name="seleccione_webservice_mensaje">Please, select webservice you want to use</string>
+    <string name="produccion">Production</string>
+    <string name="pruebas">Tests</string>
+    <string name="ninguna_solicitud_agregada">You don\'t have any request&#8230;</string>
+    <string name="ninguna_solicitud_agregada_instrucciones">You can add one by creating it pressing the button Create or Add an existing one</string>
+    <string name="seleccione">Select</string>
+    <string name="problema_internet_o_host">It was a problem with your internet connection or the server</string>
+    <string name="su_solicitud">Your request with the code </string>
+    <string name="ha_cambiado">has changed</string>
+    <string name="archivo_muy_grande">The file can\'t be greater than </string>
+    <string name="no_se_puede_notificar">Can\'t be notified :-(</string>
+    <string name="seleccione_programa">Select the app to open the file</string>
+    <string name="tomar_foto">Take picture</string>
+    <string name="tomar_video">Record video</string>
+    <string name="espere">Wait</string>
+    <string name="latitud">Lat</string>
+    <string name="longitud">Lon</string>
+    <string name="ubicacion">Locatoin</string>
+    <string name="adjuntar_archivo">Attach file</string>
+    <string name="prueba">Este texto es para probar tildes y eñes. Se puede borrar, bórrelo</string>
+    <string name="desea_activar_gps">Do you want to activate your GPS?</string>
+    <string name="descripcion_gps">To improve the communication, it is recommended to activate the GPS</string>
+    <string name="enviar_mis_coordenadas">Send my location</string>
+    <string name="lat">Latitude: 0</string>
+    <string name="lon">Longitude: 0</string>
+    <string name="hay_un_problema">There\'s a problem </string>
+    <string name="revisar_si_tiene_camara">Check if you can have a camera available</string>
+    <string name="encuesta">Encuesta</string>
+    <string name="estado_solicitudes">Estado de Solicitudes Hechas</string>
+    <string name="Enviar_encuesta">Enviar Encuesta</string>
+ <string name="solicitud_creada">Solicitud radicada</string>
+  <string name="msgsolicitud_creada">La solicitud fue radicada con exito.</string>
+</resources>

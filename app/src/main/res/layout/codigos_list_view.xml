@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_codigos_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/DarkGray" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_2" >
+
+            <TextView
+                android:id="@+id/textv_entidad"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/estado_solicitudes"
+                android:textColor="@color/White"
+                android:textSize="@dimen/tamano_titulos"
+                android:textStyle="bold|italic" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             >
+
+            <Button
+                android:id="@+id/btn_codigos_list_agregar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/boton_dialogo"
+                android:text="@string/agregar_solicitud"
+                android:textColor="@color/White" />
+
+            <ListView
+                android:id="@+id/codigos_list"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_above="@+id/btn_codigos_list_agregar"
+                android:layout_alignParentTop="true"
+                android:visibility="visible" >
+
+            </ListView>
+
+</RelativeLayout>
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/tv_codigos_list2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="126dp"
+    android:gravity="center"
+    android:padding="14dp"
+    android:text="@string/ninguna_solicitud_agregada_instrucciones"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#a1a1a1"
+    android:visibility="visible" />
+
+<TextView
+    android:id="@+id/tv_codigos_list1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/tv_codigos_list2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:padding="10dp"
+    android:text="@string/ninguna_solicitud_agregada"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#a1a1a1"
+    android:visibility="visible" />
+
+</RelativeLayout>

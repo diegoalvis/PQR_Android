@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+    
+    <Button
+        android:id="@+id/btn_instrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_dialogo"
+        android:text="@string/instrucciones_titulo"
+        android:textColor="@color/white" />
+    
+        <ScrollView
+        android:id="@+id/sv_instrucciones"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical" >
+		
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:orientation="vertical" >
+    
+		    <TextView
+		        android:text="@string/instrucciones_texto" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="20dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="20dp" />
+
+		</LinearLayout>
+    
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_desarrolladores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_dialogo"
+        android:text="@string/desarrolladores_titulo"
+        android:textColor="@color/White" />
+    
+    <ScrollView
+        android:id="@+id/sv_desarrolladores"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical"
+        android:visibility="gone" >
+		
+        <LinearLayout 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical" >
+    	    <TextView
+		        android:text="@string/desarrolladores_titulo" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="10dp"
+		        android:paddingRight="10dp"
+		        android:textSize="18sp" />
+		    
+		    <TextView
+		        android:text="@string/desarrolladores_texto" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="20dp"
+		        android:paddingBottom="5dp"
+		        android:paddingRight="20dp" />
+		    
+		</LinearLayout>
+    
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/btn_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_dialogo"
+        android:text="@string/creditos_titulo"
+        android:textColor="@color/White" />
+      
+    <TextView
+        android:id="@+id/tv_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/creditos_texto"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_dialogo"
+        android:text="@string/boton_listo"
+        android:textColor="@color/White" />
+
+</LinearLayout>

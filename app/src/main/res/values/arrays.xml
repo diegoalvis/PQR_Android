@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Tipo de Solicitud -->
+    <string-array name="solicitud">
+        <item>@string/seleccione</item>
+    </string-array>
+
+    <string-array name="codigos_solicitudes" translatable="false">
+        <item name="nombre_tipo_solicitud">0</item>
+        <item name="queja">1</item>
+        <item name="sugerencia">2</item>
+        <item name="reclamo">3</item>
+        <item name="denuncia">4</item>
+        <item name="peticion">5</item>
+        <item name="peticion_informacion">6</item>
+        <item name="consulta">7</item>
+        <item name="felicitacion">8</item>
+    </string-array>
+
+    <!-- Tipo de Identificacion -->
+    <string-array name="identificacion">
+        <item>@string/nombre_tipo_documento</item>
+        <item>@string/cedula_ciudadania</item>
+        <item>@string/cedula_extranjeria</item>
+        <item>@string/tarjeta_identidad</item>
+        <item>@string/registro_civil</item>
+        <item>@string/pasaporte</item>
+        <item>@string/nit</item>
+        <item>@string/solicitud_anonima</item>
+    </string-array>
+    <string-array name="codigos_identificacion" translatable="false">
+        <item name="nombre_tipo_documento">0</item>
+        <item name="cedula_ciudadania">1</item>
+        <item name="cedula_extranjeria">2</item>
+        <item name="tarjeta_identidad">3</item>
+        <item name="registro_civil">4</item>
+        <item name="pasaporte">5</item>
+        <item name="nit">6</item>
+        <item name="solicitud_anonima">7</item>
+    </string-array>
+
+    <!-- Paises -->
+    <string-array name="paises">
+        <item>@string/colombia</item>
+    </string-array>
+    <string-array name="codigos_paises" translatable="false">
+        <item name="colombia">1</item>
+    </string-array>
+
+    <!-- Departamentos -->
+    <string-array name="departamentos">
+        <item>-- Departamentos --</item>
+        <item>@string/amazonas</item>
+        <item>@string/antioquia</item>
+        <item>@string/arauca</item>
+        <item>@string/atlantico</item>
+        <item>@string/bogota_dep</item>
+        <item>@string/bolivar</item>
+        <item>@string/boyaca</item>
+        <item>@string/caldas</item>
+        <item>@string/caqueta</item>
+        <item>@string/casanare</item>
+        <item>@string/cauca</item>
+        <item>@string/cesar</item>
+        <item>@string/choco</item>
+        <item>@string/cordoba</item>
+        <item>@string/cundinamarca</item>
+        <item>@string/guainia</item>
+        <item>@string/guajira</item>
+        <item>@string/guaviare</item>
+        <item>@string/huila</item>
+        <item>@string/magdalena</item>
+        <item>@string/meta</item>
+        <item>@string/norte_santander</item>
+        <item>@string/narino</item>
+        <item>@string/putumayo</item>
+        <item>@string/quindio</item>
+        <item>@string/risaralda</item>
+        <item>@string/san_andres</item>
+        <item>@string/santander</item>
+        <item>@string/sucre</item>
+        <item>@string/tolima</item>
+        <item>@string/valle</item>
+        <item>@string/vaupes</item>
+        <item>@string/vichada</item>
+    </string-array>
+    <!-- Codigos Departamentos -->
+    <string-array name="codigos_departamentos" translatable="false">
+        <item name="departamentos">0</item>
+        <item name="amazonas">91</item>
+        <item name="antioquia">5</item>
+        <item name="arauca">81</item>
+        <item name="atlantico">8</item>
+        <item name="bogota">11</item>
+        <item name="bolivar">13</item>
+        <item name="boyaca">15</item>
+        <item name="caldas">17</item>
+        <item name="caqueta">18</item>
+        <item name="casanare">85</item>
+        <item name="cauca">19</item>
+        <item name="cesar">20</item>
+        <item name="choco">27</item>
+        <item name="cordoba">23</item>
+        <item name="cundinamarca">25</item>
+        <item name="guainia">94</item>
+        <item name="guajira">44</item>
+        <item name="guaviare">95</item>
+        <item name="huila">41</item>
+        <item name="magdalena">47</item>
+        <item name="meta">50</item>
+        <item name="norte_santander">54</item>
+        <item name="narino">52</item>
+        <item name="putumayo">86</item>
+        <item name="quindio">63</item>
+        <item name="risaralda">66</item>
+        <item name="san_andres">88</item>
+        <item name="santander">68</item>
+        <item name="sucre">70</item>
+        <item name="tolima">73</item>
+        <item name="valle">76</item>
+        <item name="vaupes">97</item>
+        <item name="vichada">99</item>
+    </string-array>
+
+    <!-- Municipios -->
+    <string-array name="municipios">
+        <item>-- Municipios --</item>
+    </string-array>
+    <string-array name="codigos_municipios" translatable="false">
+        <item name="municipios">0</item>
+    </string-array>
+
+    <!-- Municipios Antioquia 5 -->
+    <string-array name="municipios_antioquia">
+        <item>@string/medellin</item>
+        <item>@string/abejorral</item>
+        <item>@string/abriaqui</item>
+        <item>@string/alejandria</item>
+        <item>@string/amaga</item>
+        <item>@string/amalfi</item>
+        <item>@string/andes</item>
+        <item>@string/angelopolis</item>
+        <item>@string/angostura</item>
+        <item>@string/anori</item>
+        <item>@string/antioquia_ant</item>
+        <item>@string/anza</item>
+        <item>@string/apartado</item>
+        <item>@string/arboletes</item>
+        <item>@string/argelia_ant</item>
+        <item>@string/armenia_ant</item>
+        <item>@string/barbosa_ant</item>
+        <item>@string/belmira</item>
+        <item>@string/bello</item>
+        <item>@string/betania</item>
+        <item>@string/betulia_ant</item>
+        <item>@string/ciudad_bolivar</item>
+        <item>@string/briceno_ant</item>
+        <item>@string/buritica</item>
+        <item>@string/caceres</item>
+        <item>@string/caicedo</item>
+        <item>@string/caldas_ant</item>
+        <item>@string/campamento</item>
+        <item>@string/canasgordas</item>
+        <item>@string/caracoli</item>
+        <item>@string/caramanta</item>
+        <item>@string/carepa</item>
+        <item>@string/carmen_viboral</item>
+        <item>@string/carolina</item>
+        <item>@string/caucasia</item>
+        <item>@string/chigorodo</item>
+        <item>@string/cisneros</item>
+        <item>@string/cocorna</item>
+        <item>@string/concepcion_ant</item>
+        <item>@string/concordia_ant</item>
+        <item>@string/copacabana</item>
+        <item>@string/dabeiba</item>
+        <item>@string/don_matias</item>
+        <item>@string/ebejico</item>
+        <item>@string/el_bagre</item>
+        <item>@string/entrerrios</item>
+        <item>@string/envigado</item>
+        <item>@string/fredonia</item>
+        <item>@string/frontino</item>
+        <item>@string/giraldo</item>
+        <item>@string/girardota</item>
+        <item>@string/gomez_plata</item>
+        <item>@string/granada_ant</item>
+        <item>@string/guadalupe_ant</item>
+        <item>@string/guarne</item>
+        <item>@string/guatape</item>
+        <item>@string/heliconia</item>
+        <item>@string/hispania</item>
+        <item>@string/itagui</item>
+        <item>@string/ituango</item>
+        <item>@string/jardin</item>
+        <item>@string/jerico_ant</item>
+        <item>@string/la_ceja</item>
+        <item>@string/la_estrella</item>
+        <item>@string/la_pintada</item>
+        <item>@string/la_union_ant</item>
+        <item>@string/liborina</item>
+        <item>@string/maceo</item>
+        <item>@string/marinilla</item>
+        <item>@string/montebello</item>
+        <item>@string/murindo</item>
+        <item>@string/mutata</item>
+        <item>@string/narino_ant</item>
+        <item>@string/necocli</item>
+        <item>@string/nechi</item>
+        <item>@string/olaya</item>
+        <item>@string/penol</item>
+        <item>@string/peque</item>
+        <item>@string/pueblorrico</item>
+        <item>@string/puerto_berrio</item>
+        <item>@string/puerto_nare</item>
+        <item>@string/puerto_triunfo</item>
+        <item>@string/remedios</item>
+        <item>@string/retiro</item>
+        <item>@string/rionegro_ant</item>
+        <item>@string/sabanalarga_ant</item>
+        <item>@string/sabaneta</item>
+        <item>@string/salgar</item>
+        <item>@string/san_andres_ant</item>
+        <item>@string/san_carlos_ant</item>
+        <item>@string/san_francisco_ant</item>
+        <item>@string/san_jeronimo</item>
+        <item>@string/san_jose_montana</item>
+        <item>@string/san_juan_uraba</item>
+        <item>@string/san_luis_ant</item>
+        <item>@string/san_pedro_ant</item>
+        <item>@string/san_pedro_uraba</item>
+        <item>@string/san_rafael</item>
+        <item>@string/san_roque</item>
+        <item>@string/san_vicente</item>
+        <item>@string/santa_barbara_ant</item>
+        <item>@string/santa_rosa_osos</item>
+        <item>@string/santo_domingo</item>
+        <item>@string/santuario_ant</item>
+        <item>@string/segovia</item>
+        <item>@string/sonson</item>
+        <item>@string/sopetran</item>
+        <item>@string/tamesis</item>
+        <item>@string/taraza</item>
+        <item>@string/tarso</item>
+        <item>@string/titiribi</item>
+        <item>@string/toledo_ant</item>
+        <item>@string/turbo</item>
+        <item>@string/uramita</item>
+        <item>@string/urrao</item>
+        <item>@string/valdivia</item>
+        <item>@string/valparaiso_ant</item>
+        <item>@string/vegachi</item>
+        <item>@string/venecia</item>
+        <item>@string/vigia_fuerte</item>
+        <item>@string/yali</item>
+        <item>@string/yarumal</item>
+        <item>@string/yolombo</item>
+        <item>@string/yondo</item>
+        <item>@string/zaragoza</item>
+    </string-array>
+    <string-array name="codigos_municipios_antioquia" translatable="false">
+        <item name="medellin">5001</item>
+        <item name="abejorral">5002</item>
+        <item name="abriaqui">5004</item>
+        <item name="alejandria">5021</item>
+        <item name="amaga">5030</item>
+        <item name="amalfi">5031</item>
+        <item name="andes">5034</item>
+        <item name="angelopolis">5036</item>
+        <item name="angostura">5038</item>
+        <item name="anori">5040</item>
+        <item name="antioquia_ant">5042</item>
+        <item name="anza">5044</item>
+        <item name="apartado">5045</item>
+        <item name="arboletes">5051</item>
+        <item name="argelia_ant">5055</item>
+        <item name="armenia_ant">5059</item>
+        <item name="barbosa_ant">5079</item>
+        <item name="belmira">5086</item>
+        <item name="bello">5088</item>
+        <item name="betania">5091</item>
+        <item name="betulia_ant">5093</item>
+        <item name="ciudad_bolivar">5101</item>
+        <item name="briceno">5107</item>
+        <item name="buritica">5113</item>
+        <item name="caceres">5120</item>
+        <item name="caicedo">5125</item>
+        <item name="caldas_ant">5129</item>
+        <item name="campamento">5134</item>
+        <item name="canasgordas">5138</item>
+        <item name="caracoli">5142</item>
+        <item name="caramanta">5145</item>
+        <item name="carepa">5147</item>
+        <item name="carmen_viboral">5148</item>
+        <item name="carolina">5150</item>
+        <item name="caucasia">5154</item>
+        <item name="chigorodo">5172</item>
+        <item name="cisneros">5190</item>
+        <item name="cocorna">5197</item>
+        <item name="concepcion_ant">5206</item>
+        <item name="concordia_ant">5209</item>
+        <item name="copacabana">5212</item>
+        <item name="dabeiba">5234</item>
+        <item name="don_matias">5237</item>
+        <item name="ebejico">5240</item>
+        <item name="el_bagre">5250</item>
+        <item name="entrerrios">5264</item>
+        <item name="envigado">5266</item>
+        <item name="fredonia">5282</item>
+        <item name="frontino">5284</item>
+        <item name="giraldo">5306</item>
+        <item name="girardota">5308</item>
+        <item name="gomez_plata">5310</item>
+        <item name="granada_ant">5313</item>
+        <item name="guadalupe_ant">5315</item>
+        <item name="guarne">5318</item>
+        <item name="guatape">5321</item>
+        <item name="heliconia">5347</item>
+        <item name="hispania">5353</item>
+        <item name="itagui">5360</item>
+        <item name="ituango">5361</item>
+        <item name="jardin">5364</item>
+        <item name="jerico_ant">5368</item>
+        <item name="la_ceja">5376</item>
+        <item name="la_estrella">5380</item>
+        <item name="la_pintada">5390</item>
+        <item name="la_union_ant">5400</item>
+        <item name="liborina">5411</item>
+        <item name="maceo">5425</item>
+        <item name="marinilla">5440</item>
+        <item name="montebello">5467</item>
+        <item name="murindo">5475</item>
+        <item name="mutata">5480</item>
+        <item name="narino_ant">5483</item>
+        <item name="necocli">5490</item>
+        <item name="nechi">5495</item>
+        <item name="olaya">5501</item>
+        <item name="penol">5541</item>
+        <item name="peque">5543</item>
+        <item name="pueblorrico">5576</item>
+        <item name="puerto_berrio">5579</item>
+        <item name="puerto_nare">5585</item>
+        <item name="puerto_triunfo">5591</item>
+        <item name="remedios">5604</item>
+        <item name="retiro">5607</item>
+        <item name="rionegro_ant">5615</item>
+        <item name="sabanalarga_ant">5628</item>
+        <item name="sabaneta">5631</item>
+        <item name="salgar">5642</item>
+        <item name="san_andres_ant">5647</item>
+        <item name="san_carlos_ant">5649</item>
+        <item name="san_francisco_ant">5652</item>
+        <item name="san_jeronimo">5656</item>
+        <item name="san_jose_montana">5658</item>
+        <item name="san_juan_uraba">5659</item>
+        <item name="san_luis_ant">5660</item>
+        <item name="san_pedro_ant">5664</item>
+        <item name="san_pedro_uraba">5665</item>
+        <item name="san_rafael">5667</item>
+        <item name="san_roque">5670</item>
+        <item name="san_vicente">5674</item>
+        <item name="santa_barbara_ant">5679</item>
+        <item name="santa_rosa_osos">5686</item>
+        <item name="santo_domingo">5690</item>
+        <item name="santuario_ant">5697</item>
+        <item name="segovia">5736</item>
+        <item name="sonson">5756</item>
+        <item name="sopetran">5761</item>
+        <item name="tamesis">5789</item>
+        <item name="taraza">5790</item>
+        <item name="tarso">5792</item>
+        <item name="titiribi">5809</item>
+        <item name="toledo_ant">5819</item>
+        <item name="turbo">5837</item>
+        <item name="uramita">5842</item>
+        <item name="urrao">5847</item>
+        <item name="valdivia">5854</item>
+        <item name="valparaiso_ant">5856</item>
+        <item name="vegachi">5858</item>
+        <item name="venecia">5861</item>
+        <item name="vigia_fuerte">5873</item>
+        <item name="yali">5885</item>
+        <item name="yarumal">5887</item>
+        <item name="yolombo">5890</item>
+        <item name="yondo">5893</item>
+        <item name="zaragoza">5895</item>
+    </string-array>
+
+    <!-- Municipios Atlantico 8 -->
+    <string-array name="municipios_atlantico">
+        <item>@string/barranquilla</item>
+        <item>@string/baranoa</item>
+        <item>@string/campo_cruz</item>
+        <item>@string/candelaria_atl</item>
+        <item>@string/galapa</item>
+        <item>@string/juan_acosta</item>
+        <item>@string/luruaco</item>
+        <item>@string/malambo</item>
+        <item>@string/manati</item>
+        <item>@string/palmar_varela</item>
+        <item>@string/piojo</item>
+        <item>@string/polo_nuevo</item>
+        <item>@string/ponedera</item>
+        <item>@string/puerto_colombia</item>
+        <item>@string/repelon</item>
+        <item>@string/sabanagrande</item>
+        <item>@string/sabanalarga_atl</item>
+        <item>@string/santa_lucia</item>
+        <item>@string/santo_tomas</item>
+        <item>@string/soledad</item>
+        <item>@string/suan</item>
+        <item>@string/tubara</item>
+        <item>@string/usiacuri</item>
+    </string-array>
+    <string-array name="codigos_municipios_atlantico" translatable="false">
+        <item name="barranquilla">8001</item>
+        <item name="baranoa">8078</item>
+        <item name="campo_cruz">8137</item>
+        <item name="candelaria_atl">8141</item>
+        <item name="galapa">8296</item>
+        <item name="juan_acosta">8372</item>
+        <item name="luruaco">8421</item>
+        <item name="malambo">8433</item>
+        <item name="manati">8436</item>
+        <item name="palmar_varela">8520</item>
+        <item name="piojo">8549</item>
+        <item name="polo_nuevo">8558</item>
+        <item name="ponedera">8560</item>
+        <item name="puerto_colombia">8573</item>
+        <item name="repelon">8606</item>
+        <item name="sabanagrande">8634</item>
+        <item name="sabanalarga_atl">8638</item>
+        <item name="santa_lucia">8675</item>
+        <item name="santo_tomas">8685</item>
+        <item name="soledad">8758</item>
+        <item name="suan">8770</item>
+        <item name="tubara">8832</item>
+        <item name="usiacuri">8849</item>
+    </string-array>
+
+    <!-- Municipios Bogota 11 -->
+    <string-array name="municipios_bogota" translatable="false">
+        <item>@string/bogota_mun</item>
+    </string-array>
+    <string-array name="codigos_municipios_bogota">
+        <item name="bogota_mun">11001</item>
+    </string-array>
+
+    <!-- Municipios Bolivar 13 -->
+    <string-array name="municipios_bolivar">
+        <item>@string/cartagena</item>
+        <item>@string/achi</item>
+        <item>@string/altos_rosario</item>
+        <item>@string/arenal</item>
+        <item>@string/arjona</item>
+        <item>@string/arroyohondo</item>
+        <item>@string/barranco_loba</item>
+        <item>@string/calamar_bol</item>
+        <item>@string/cantagallo</item>
+        <item>@string/cicuco</item>
+        <item>@string/cordoba_bol</item>
+        <item>@string/clemencia</item>
+        <item>@string/carmen_bolivar</item>
+        <item>@string/guamo_bol</item>
+        <item>@string/penon</item>
+        <item>@string/hatillo_loba</item>
+        <item>@string/magangue</item>
+        <item>@string/mahates</item>
+        <item>@string/margarita</item>
+        <item>@string/maria_baja</item>
+        <item>@string/montecristo</item>
+        <item>@string/mompos</item>
+        <item>@string/morales_bol</item>
+        <item>@string/pinillos</item>
+        <item>@string/regidor</item>
+        <item>@string/rio_viejo</item>
+        <item>@string/san_cristobal</item>
+        <item>@string/san_estanislao</item>
+        <item>@string/san_fernando</item>
+        <item>@string/san_jacinto</item>
+        <item>@string/san_jacinto_cauca</item>
+        <item>@string/san_juan_nepomuceno</item>
+        <item>@string/san_martin_loba</item>
+        <item>@string/san_pablo_bol</item>
+        <item>@string/santa_catalina</item>
+        <item>@string/santa_rosa</item>
+        <item>@string/santa_rosa_sur</item>
+        <item>@string/simiti</item>
+        <item>@string/soplaviento</item>
+        <item>@string/talaigua</item>
+        <item>@string/tiquisio</item>
+        <item>@string/turbaco</item>
+        <item>@string/turbana</item>
+        <item>@string/villanueva_bol</item>
+        <item translatable="false">@string/zambrano</item>
+    </string-array>
+    <string-array name="codigos_municipios_bolivar">
+        <item name="cartagena">13001</item>
+        <item name="achi">13006</item>
+        <item name="altos_rosario">13030</item>
+        <item name="arenal">13042</item>
+        <item name="arjona">13052</item>
+        <item name="arroyohondo">13062</item>
+        <item name="barranco_loba">13074</item>
+        <item name="calamar_bol">13140</item>
+        <item name="cantagallo">13160</item>
+        <item name="cicuco">13188</item>
+        <item name="cordoba_bol">13212</item>
+        <item name="clemencia">13222</item>
+        <item name="carmen_bolivar">13244</item>
+        <item name="guamo_bol">13248</item>
+        <item name="penon">13268</item>
+        <item name="hatillo_loba">13300</item>
+        <item name="magangue">13430</item>
+        <item name="mahates">13433</item>
+        <item name="margarita">13440</item>
+        <item name="maria_baja">13442</item>
+        <item name="montecristo">13458</item>
+        <item name="mompos">13468</item>
+        <item name="morales_bol">13473</item>
+        <item name="pinillos">13549</item>
+        <item name="regidor">13580</item>
+        <item name="rio_viejo">13600</item>
+        <item name="san_cristobal">13620</item>
+        <item name="san_estanislao">13647</item>
+        <item name="san_fernando">13650</item>
+        <item name="san_jacinto">13654</item>
+        <item name="san_jacinto_cauca">13655</item>
+        <item name="san_juan_nepomuceno">13657</item>
+        <item name="san_martin_loba">13667</item>
+        <item name="san_pablo_bol">13670</item>
+        <item name="santa_catalina">13673</item>
+        <item name="santa_rosa">13683</item>
+        <item name="santa_rosa_sur">13688</item>
+        <item name="simiti">13744</item>
+        <item name="soplaviento">13760</item>
+        <item name="talaigua">13780</item>
+        <item name="tiquisio">13810</item>
+        <item name="turbaco">13836</item>
+        <item name="turbana">13838</item>
+        <item name="villanueva_bol">13873</item>
+        <item name="zambrano">13894</item>
+    </string-array>
+
+    <!-- Municipios Boyaca 15 -->
+    <string-array name="municipios_boyaca">
+        <item>@string/tunja</item>
+        <item>@string/almeida</item>
+        <item>@string/aquitania</item>
+        <item>@string/arcabuco</item>
+        <item>@string/belen_boy</item>
+        <item>@string/berbeo</item>
+        <item>@string/beteitiva</item>
+        <item>@string/boavita</item>
+        <item>@string/boyaca_boy</item>
+        <item>@string/briceno_boy</item>
+        <item>@string/buenavista_boy</item>
+        <item>@string/busbanza</item>
+        <item>@string/caldas_boy</item>
+        <item>@string/campohermoso</item>
+        <item>@string/cerinza</item>
+        <item>@string/chinavita</item>
+        <item>@string/chiquinquira</item>
+        <item>@string/chiscas</item>
+        <item>@string/chita</item>
+        <item>@string/chitaraque</item>
+        <item>@string/chivata</item>
+        <item>@string/cienega</item>
+        <item>@string/combita</item>
+        <item>@string/coper</item>
+        <item>@string/corrales</item>
+        <item>@string/covarachia</item>
+        <item>@string/cubara</item>
+        <item>@string/cucaita</item>
+        <item>@string/cuitiva</item>
+        <item>@string/chiquiza</item>
+        <item>@string/chivor</item>
+        <item>@string/duitama</item>
+        <item>@string/el_cocuy</item>
+        <item>@string/el_espino</item>
+        <item>@string/firavitoba</item>
+        <item>@string/floresta</item>
+        <item>@string/gachantiva</item>
+        <item>@string/gameza</item>
+        <item>@string/garagoa</item>
+        <item>@string/guacamayas</item>
+        <item>@string/guateque</item>
+        <item>@string/guayata</item>
+        <item>@string/guican</item>
+        <item>@string/iza</item>
+        <item>@string/jenesano</item>
+        <item>@string/jerico_boy</item>
+        <item>@string/labranzagrande</item>
+        <item>@string/la_capilla</item>
+        <item>@string/la_victoria_boy</item>
+        <item>@string/la_uvita</item>
+        <item>@string/leiva_boy</item>
+        <item>@string/macanal</item>
+        <item>@string/maripi</item>
+        <item>@string/miraflores_boy</item>
+        <item>@string/mongua</item>
+        <item>@string/mongui</item>
+        <item>@string/moniquira</item>
+        <item>@string/motavita</item>
+        <item>@string/muzo</item>
+        <item>@string/nobsa</item>
+        <item>@string/nuevo_colon</item>
+        <item>@string/oicata</item>
+        <item>@string/otanche</item>
+        <item>@string/pachavita</item>
+        <item>@string/paez_boy</item>
+        <item>@string/paipa</item>
+        <item>@string/pajarito</item>
+        <item>@string/panqueba</item>
+        <item>@string/pauna</item>
+        <item>@string/paya</item>
+        <item>@string/paz_rio</item>
+        <item>@string/pesca</item>
+        <item>@string/pisba</item>
+        <item>@string/puerto_boyaca</item>
+        <item>@string/quipama</item>
+        <item>@string/ramiriqui</item>
+        <item>@string/raquira</item>
+        <item>@string/rondon</item>
+        <item>@string/saboya</item>
+        <item>@string/sachica</item>
+        <item>@string/samaca</item>
+        <item>@string/san_eduardo</item>
+        <item>@string/san_jose_pare</item>
+        <item>@string/san_luis_gaceno</item>
+        <item>@string/san_mateo</item>
+        <item>@string/san_miguel_sema</item>
+        <item>@string/san_pablo_borbur</item>
+        <item>@string/santana</item>
+        <item>@string/santa_maria_boy</item>
+        <item>@string/santa_rosa_viterbo</item>
+        <item>@string/santa_sofia</item>
+        <item>@string/sativanorte</item>
+        <item>@string/sativasur</item>
+        <item>@string/siachoque</item>
+        <item>@string/soata</item>
+        <item>@string/socota</item>
+        <item>@string/socha</item>
+        <item>@string/sogamoso</item>
+        <item>@string/somondoco</item>
+        <item>@string/sora</item>
+        <item>@string/sotaquira</item>
+        <item>@string/soraca</item>
+        <item>@string/susacon</item>
+        <item>@string/sutamarchan</item>
+        <item>@string/sutatenza</item>
+        <item>@string/tasco</item>
+        <item>@string/tenza</item>
+        <item>@string/tibana</item>
+        <item>@string/tibasosa</item>
+        <item>@string/tinjaca</item>
+        <item>@string/tipacoque</item>
+        <item>@string/toca</item>
+        <item>@string/togui</item>
+        <item>@string/topaga</item>
+        <item>@string/tota</item>
+        <item>@string/tunungua</item>
+        <item>@string/turmeque</item>
+        <item>@string/tuta</item>
+        <item>@string/tutasa</item>
+        <item>@string/umbita</item>
+        <item>@string/ventaquemada</item>
+        <item>@string/viracacha</item>
+        <item>@string/zetaquira</item>
+    </string-array>
+    <string-array name="codigos_municipios_boyaca">
+        <item name="tunja">15001</item>
+        <item name="almeida">15022</item>
+        <item name="aquitania">15047</item>
+        <item name="arcabuco">15051</item>
+        <item name="belen_boy">15087</item>
+        <item name="berbeo">15090</item>
+        <item name="beteitiva">15092</item>
+        <item name="boavita">15097</item>
+        <item name="boyaca_boy">15104</item>
+        <item name="briceño">15106</item>
+        <item name="buenavista_boy">15109</item>
+        <item name="busbanza">15114</item>
+        <item name="caldas_boy">15131</item>
+        <item name="campohermoso">15135</item>
+        <item name="cerinza">15162</item>
+        <item name="chinavita">15172</item>
+        <item name="chiquinquira">15176</item>
+        <item name="chiscas">15180</item>
+        <item name="chita">15183</item>
+        <item name="chitaraque">15185</item>
+        <item name="chivata">15187</item>
+        <item name="cienega">15189</item>
+        <item name="combita">15204</item>
+        <item name="coper">15212</item>
+        <item name="corrales">15215</item>
+        <item name="covarachia">15218</item>
+        <item name="cubara">15223</item>
+        <item name="cucaita">15224</item>
+        <item name="cuitiva">15226</item>
+        <item name="chiquiza">15232</item>
+        <item name="chivor">15236</item>
+        <item name="duitama">15238</item>
+        <item name="el_cocuy">15244</item>
+        <item name="el_espino">15248</item>
+        <item name="firavitoba">15272</item>
+        <item name="floresta">15276</item>
+        <item name="gachantiva">15293</item>
+        <item name="gameza">15296</item>
+        <item name="garagoa">15299</item>
+        <item name="guacamayas">15317</item>
+        <item name="guateque">15322</item>
+        <item name="guayata">15325</item>
+        <item name="guican">15332</item>
+        <item name="iza">15362</item>
+        <item name="jenesano">15367</item>
+        <item name="jerico_boy">15368</item>
+        <item name="labranzagrande">15377</item>
+        <item name="la_capilla">15380</item>
+        <item name="la_victoria_boy">15401</item>
+        <item name="la_uvita">15403</item>
+        <item name="leiva_boy">15407</item>
+        <item name="macanal">15425</item>
+        <item name="maripi">15442</item>
+        <item name="miraflores_boy">15455</item>
+        <item name="mongua">15464</item>
+        <item name="mongui">15466</item>
+        <item name="moniquira">15469</item>
+        <item name="motavita">15476</item>
+        <item name="muzo">15480</item>
+        <item name="nobsa">15491</item>
+        <item name="nuevo_colon">15494</item>
+        <item name="oicata">15500</item>
+        <item name="otanche">15507</item>
+        <item name="pachavita">15511</item>
+        <item name="paez_boy">15514</item>
+        <item name="paipa">15516</item>
+        <item name="pajarito">15518</item>
+        <item name="panqueba">15522</item>
+        <item name="pauna">15531</item>
+        <item name="paya">15533</item>
+        <item name="paz_rio">15537</item>
+        <item name="pesca">15542</item>
+        <item name="pisba">15550</item>
+        <item name="puerto_boyaca">15572</item>
+        <item name="quipama">15580</item>
+        <item name="ramiriqui">15599</item>
+        <item name="raquira">15600</item>
+        <item name="rondon">15621</item>
+        <item name="saboya">15632</item>
+        <item name="sachica">15638</item>
+        <item name="samaca">15646</item>
+        <item name="san_eduardo">15660</item>
+        <item name="san_jose_pare">15664</item>
+        <item name="san_luis_gaceno">15667</item>
+        <item name="san_mateo">15673</item>
+        <item name="san_miguel_sema">15676</item>
+        <item name="san_pablo_borbur">15681</item>
+        <item name="santana">15686</item>
+        <item name="santa_maria_boy">15690</item>
+        <item name="santa_rosa_viterbo">15693</item>
+        <item name="santa_sofia">15696</item>
+        <item name="sativanorte">15720</item>
+        <item name="sativasur">15723</item>
+        <item name="siachoque">15740</item>
+        <item name="soata">15753</item>
+        <item name="socota">15755</item>
+        <item name="socha">15757</item>
+        <item name="sogamoso">15759</item>
+        <item name="somondoco">15761</item>
+        <item name="sora">15762</item>
+        <item name="sotaquira">15763</item>
+        <item name="soraca">15764</item>
+        <item name="susacon">15774</item>
+        <item name="sutamarchan">15776</item>
+        <item name="sutatenza">15778</item>
+        <item name="tasco">15790</item>
+        <item name="tenza">15798</item>
+        <item name="tibana">15804</item>
+        <item name="tibasosa">15806</item>
+        <item name="tinjaca">15808</item>
+        <item name="tipacoque">15810</item>
+        <item name="toca">15814</item>
+        <item name="togui">15816</item>
+        <item name="topaga">15820</item>
+        <item name="tota">15822</item>
+        <item name="tunungua">15832</item>
+        <item name="turmeque">15835</item>
+        <item name="tuta">15837</item>
+        <item name="tutasa">15839</item>
+        <item name="umbita">15842</item>
+        <item name="ventaquemada">15861</item>
+        <item name="viracacha">15879</item>
+        <item name="zetaquira">15897</item>
+    </string-array>
+
+    <!-- Municipios Caldas 17 -->
+    <string-array name="municipios_caldas">
+        <item>@string/manizales</item>
+        <item>@string/aguadas</item>
+        <item>@string/anserma</item>
+        <item>@string/aranzazu</item>
+        <item>@string/belalcazar</item>
+        <item>@string/chinchina</item>
+        <item>@string/filadelfia</item>
+        <item>@string/la_dorada</item>
+        <item>@string/la_merced</item>
+        <item>@string/manzanares</item>
+        <item>@string/marmato</item>
+        <item>@string/marquetalia</item>
+        <item>@string/marulanda</item>
+        <item>@string/neira</item>
+        <item>@string/norcasia</item>
+        <item>@string/pacora</item>
+        <item>@string/palestina_cal</item>
+        <item>@string/pensilvania</item>
+        <item>@string/riosucio_cal</item>
+        <item>@string/risaralda_cal</item>
+        <item>@string/salamina_cal</item>
+        <item>@string/samana</item>
+        <item>@string/san_jose</item>
+        <item>@string/supia</item>
+        <item>@string/victoria</item>
+        <item>@string/villamaria</item>
+        <item translatable="false">@string/viterbo</item>
+    </string-array>
+    <string-array name="codigos_municipios_caldas">
+        <item name="manizales">17001</item>
+        <item name="aguadas">17013</item>
+        <item name="anserma">17042</item>
+        <item name="aranzazu">17050</item>
+        <item name="belalcazar">17088</item>
+        <item name="chinchina">17174</item>
+        <item name="filadelfia">17272</item>
+        <item name="la_dorada">17380</item>
+        <item name="la_merced">17388</item>
+        <item name="manzanares">17433</item>
+        <item name="marmato">17442</item>
+        <item name="marquetalia">17444</item>
+        <item name="marulanda">17446</item>
+        <item name="neira">17486</item>
+        <item name="norcasia">17495</item>
+        <item name="pacora">17513</item>
+        <item name="palestina_cal">17524</item>
+        <item name="pensilvania">17541</item>
+        <item name="riosucio_cal">17614</item>
+        <item name="risaralda_cal">17616</item>
+        <item name="salamina_cal">17653</item>
+        <item name="samana">17662</item>
+        <item name="san_jose">17665</item>
+        <item name="supia">17777</item>
+        <item name="victoria">17867</item>
+        <item name="villamaria">17873</item>
+        <item name="viterbo">17877</item>
+    </string-array>
+
+    <!-- Municipios Caqueta 18 -->
+    <string-array name="municipios_caqueta">
+        <item>@string/florencia_caq</item>
+        <item>@string/albania_caq</item>
+        <item>@string/belen_andaquies</item>
+        <item>@string/cartagena_chaira</item>
+        <item>@string/curillo</item>
+        <item>@string/el_doncello</item>
+        <item>@string/el_paujil</item>
+        <item>@string/la_montanita</item>
+        <item>@string/milan</item>
+        <item>@string/morelia</item>
+        <item>@string/puerto_rico_caq</item>
+        <item>@string/san_jose_fragua</item>
+        <item>@string/san_vicente_caguan</item>
+        <item>@string/solano</item>
+        <item translatable="false">@string/solita</item>
+        <item>@string/valparaiso_caq</item>
+    </string-array>
+    <string-array name="codigos_municipios_caqueta">
+        <item name="florencia_caq">18001</item>
+        <item name="albania_caq">18029</item>
+        <item name="belen_andaquies">18094</item>
+        <item name="cartagena_chaira">18150</item>
+        <item name="curillo">18205</item>
+        <item name="el_doncello">18247</item>
+        <item name="el_paujil">18256</item>
+        <item name="la_montanita">18410</item>
+        <item name="milan">18460</item>
+        <item name="morelia">18479</item>
+        <item name="puerto_rico_caq">18592</item>
+        <item name="san_jose_fragua">18610</item>
+        <item name="san_vicente_caguan">18753</item>
+        <item name="solano">18756</item>
+        <item name="solita">18785</item>
+        <item name="valparaiso_caq">18860</item>
+    </string-array>
+
+    <!-- Municipios Cauca 19 -->
+    <string-array name="municipios_cauca">
+        <item>@string/popayan</item>
+        <item>@string/almaguer</item>
+        <item>@string/argelia_cau</item>
+        <item>@string/balboa_cau</item>
+        <item>@string/bolivar_cau</item>
+        <item>@string/buenos_aires</item>
+        <item>@string/cajibio</item>
+        <item>@string/caldono</item>
+        <item>@string/caloto</item>
+        <item>@string/corinto</item>
+        <item>@string/el_tambo_cau</item>
+        <item>@string/florencia_cau</item>
+        <item>@string/guapi</item>
+        <item>@string/inza</item>
+        <item>@string/jambalo</item>
+        <item>@string/la_sierra</item>
+        <item>@string/la_vega_cau</item>
+        <item>@string/lopez</item>
+        <item>@string/mercaderes</item>
+        <item>@string/miranda</item>
+        <item>@string/morales_cau</item>
+        <item>@string/padilla</item>
+        <item>@string/paez_cau</item>
+        <item>@string/patia_el_bordo</item>
+        <item>@string/piamonte</item>
+        <item>@string/piendamo</item>
+        <item>@string/puerto_tejada</item>
+        <item>@string/purace</item>
+        <item>@string/rosas</item>
+        <item>@string/san_sebastian</item>
+        <item>@string/santander_quilichao</item>
+        <item>@string/sta_rosa</item>
+        <item>@string/silvia</item>
+        <item>@string/sotara</item>
+        <item>@string/suarez_cau</item>
+        <item>@string/sucre_cau</item>
+        <item>@string/timbio</item>
+        <item>@string/timbiqui</item>
+        <item>@string/toribio</item>
+        <item translatable="false">@string/totoro</item>
+        <item>@string/villa_rica</item>
+    </string-array>
+    <string-array name="codigos_municipios_cauca">
+        <item name="popayan">19001</item>
+        <item name="almaguer">19022</item>
+        <item name="argelia_cau">19050</item>
+        <item name="balboa_cau">19075</item>
+        <item name="bolivar_cau">19100</item>
+        <item name="buenos_aires">19110</item>
+        <item name="cajibio">19130</item>
+        <item name="caldono">19137</item>
+        <item name="caloto">19142</item>
+        <item name="corinto">19212</item>
+        <item name="el_tambo_cau">19256</item>
+        <item name="florencia_cau">19290</item>
+        <item name="guapi">19318</item>
+        <item name="inza">19355</item>
+        <item name="jambalo">19364</item>
+        <item name="la_sierra">19392</item>
+        <item name="la_vega_cau">19397</item>
+        <item name="lopez">19418</item>
+        <item name="mercaderes">19450</item>
+        <item name="miranda">19455</item>
+        <item name="morales_cau">19473</item>
+        <item name="padilla">19513</item>
+        <item name="paez_cau">19517</item>
+        <item name="patia_el_bordo">19532</item>
+        <item name="piamonte">19533</item>
+        <item name="piendamo">19548</item>
+        <item name="puerto_tejada">19573</item>
+        <item name="purace">19585</item>
+        <item name="rosas">19622</item>
+        <item name="san_sebastian">19693</item>
+        <item name="santander_quilichao">19698</item>
+        <item name="sta_rosa">19701</item>
+        <item name="silvia">19743</item>
+        <item name="sotara">19760</item>
+        <item name="suarez_cau">19780</item>
+        <item name="sucre_cau">19785</item>
+        <item name="timbio">19807</item>
+        <item name="timbiqui">19809</item>
+        <item name="toribio">19821</item>
+        <item name="totoro">19824</item>
+        <item name="villa_rica">19845</item>
+    </string-array>
+
+    <!-- Municipios Cesar 20 -->
+    <string-array name="municipios_cesar">
+        <item>@string/valledupar</item>
+        <item>@string/aguachica</item>
+        <item>@string/agustin_codazzi</item>
+        <item>@string/astrea</item>
+        <item>@string/becerril</item>
+        <item>@string/bosconia</item>
+        <item>@string/chimichagua</item>
+        <item>@string/chiriguana</item>
+        <item>@string/curumani</item>
+        <item>@string/el_copey</item>
+        <item>@string/el_paso</item>
+        <item>@string/gamarra</item>
+        <item>@string/gonzalez</item>
+        <item>@string/la_gloria</item>
+        <item>@string/la_jagua_ibirico</item>
+        <item>@string/manaure_balcon_cesar</item>
+        <item>@string/pailitas</item>
+        <item>@string/pelaya</item>
+        <item>@string/pueblo_bello</item>
+        <item>@string/rio_oro</item>
+        <item>@string/robles_la_paz</item>
+        <item>@string/san_alberto</item>
+        <item translatable="false">@string/san_diego</item>
+        <item>@string/san_martin_ces</item>
+        <item>@string/tamalameque</item>
+    </string-array>
+    <string-array name="codigos_municipios_cesar">
+        <item name="valledupar">20001</item>
+        <item name="aguachica">20011</item>
+        <item name="agustin_codazzi">20013</item>
+        <item name="astrea">20032</item>
+        <item name="becerril">20045</item>
+        <item name="bosconia">20060</item>
+        <item name="chimichagua">20175</item>
+        <item name="chiriguana">20178</item>
+        <item name="curumani">20228</item>
+        <item name="el_copey">20238</item>
+        <item name="el_paso">20250</item>
+        <item name="gamarra">20295</item>
+        <item name="gonzalez">20310</item>
+        <item name="la_gloria">20383</item>
+        <item name="la_jagua_ibirico">20400</item>
+        <item name="manaure_balcon_cesar">20443</item>
+        <item name="pailitas">20517</item>
+        <item name="pelaya">20550</item>
+        <item name="pueblo_bello">20570</item>
+        <item name="rio_oro">20614</item>
+        <item name="robles_la_paz">20621</item>
+        <item name="san_alberto">20710</item>
+        <item name="san_diego">20750</item>
+        <item name="san_martin_ces">20770</item>
+        <item name="tamalameque">20787</item>
+    </string-array>
+
+    <!-- Municipios Cordoba 23 -->
+    <string-array name="municipios_cordoba">
+        <item>@string/monteria</item>
+        <item>@string/ayapel</item>
+        <item>@string/buenavista_cor</item>
+        <item>@string/canalete</item>
+        <item>@string/cerete</item>
+        <item>@string/chima_cor</item>
+        <item>@string/chinu</item>
+        <item>@string/cienaga_oro</item>
+        <item>@string/cotorra</item>
+        <item>@string/la_apartada</item>
+        <item>@string/lorica</item>
+        <item>@string/los_cordobas</item>
+        <item>@string/momil</item>
+        <item>@string/montelibano</item>
+        <item>@string/monitos</item>
+        <item>@string/planeta_rica</item>
+        <item>@string/pueblo_nuevo</item>
+        <item>@string/puerto_escondido</item>
+        <item>@string/puerto_libertador</item>
+        <item>@string/purisima</item>
+        <item>@string/sahagun</item>
+        <item>@string/san_andres_sotavento</item>
+        <item>@string/san_antero</item>
+        <item>@string/san_bernardo_viento</item>
+        <item>@string/san_carlos_cor</item>
+        <item translatable="false">@string/san_pelayo</item>
+        <item>@string/tierralta</item>
+        <item>@string/valencia</item>
+    </string-array>
+    <string-array name="codigos_municipios_cordoba">
+        <item name="monteria">23001</item>
+        <item name="ayapel">23068</item>
+        <item name="buenavista_cor">23079</item>
+        <item name="canalete">23090</item>
+        <item name="cerete">23162</item>
+        <item name="chima_cor">23168</item>
+        <item name="chinu">23182</item>
+        <item name="cienaga_oro">23189</item>
+        <item name="cotorra">23300</item>
+        <item name="la_apartada">23350</item>
+        <item name="lorica">23417</item>
+        <item name="los_cordobas">23419</item>
+        <item name="momil">23464</item>
+        <item name="montelibano">23466</item>
+        <item name="monitos">23500</item>
+        <item name="planeta_rica">23555</item>
+        <item name="pueblo_nuevo">23570</item>
+        <item name="puerto_escondido">23574</item>
+        <item name="puerto_libertador">23580</item>
+        <item name="purisima">23586</item>
+        <item name="sahagun">23660</item>
+        <item name="san_andres_sotavento">23670</item>
+        <item name="san_antero">23672</item>
+        <item name="san_bernardo_viento">23675</item>
+        <item name="san_carlos_cor">23678</item>
+        <item name="san_pelayo">23686</item>
+        <item name="tierralta">23807</item>
+        <item name="valencia">23855</item>
+    </string-array>
+
+    <!-- Municipios Cundinamarca 25 -->
+    <string-array name="municipios_cundinamarca">
+        <item>@string/agua_dios</item>
+        <item>@string/alban_cun</item>
+        <item>@string/anapoima</item>
+        <item>@string/anolaima</item>
+        <item>@string/arbelaez</item>
+        <item>@string/beltran</item>
+        <item>@string/bituima</item>
+        <item>@string/bojaca</item>
+        <item>@string/cabrera_cun</item>
+        <item>@string/cachipay</item>
+        <item>@string/cajica</item>
+        <item>@string/caparrapi</item>
+        <item>@string/caqueza</item>
+        <item>@string/carmen_carupa</item>
+        <item>@string/chaguani</item>
+        <item>@string/chia</item>
+        <item>@string/chipaque</item>
+        <item>@string/choachi</item>
+        <item>@string/choconta</item>
+        <item>@string/cogua</item>
+        <item>@string/cota</item>
+        <item>@string/cucunuba</item>
+        <item>@string/el_colegio</item>
+        <item>@string/el_penon_cun</item>
+        <item>@string/el_rosal</item>
+        <item>@string/facatativa</item>
+        <item>@string/fomeque</item>
+        <item>@string/fosca</item>
+        <item>@string/funza</item>
+        <item>@string/fuquene</item>
+        <item>@string/fusagasuga</item>
+        <item>@string/gachala</item>
+        <item>@string/gachancipa</item>
+        <item>@string/gacheta</item>
+        <item>@string/gama</item>
+        <item>@string/girardot</item>
+        <item>@string/granada_cun</item>
+        <item>@string/guacheta</item>
+        <item>@string/guaduas</item>
+        <item>@string/guasca</item>
+        <item>@string/guataqui</item>
+        <item>@string/guatavita</item>
+        <item>@string/guayabal_siquima</item>
+        <item>@string/guayabetal</item>
+        <item>@string/gutierrez</item>
+        <item>@string/jerusalen</item>
+        <item>@string/junin</item>
+        <item>@string/la_calera</item>
+        <item>@string/la_mesa</item>
+        <item>@string/la_palma</item>
+        <item>@string/la_pena</item>
+        <item>@string/la_vega_cun</item>
+        <item>@string/lenguazaque</item>
+        <item>@string/macheta</item>
+        <item>@string/madrid</item>
+        <item>@string/manta</item>
+        <item>@string/medina</item>
+        <item>@string/mosquera_cun</item>
+        <item>@string/narino_cun</item>
+        <item>@string/nemocon</item>
+        <item>@string/nilo</item>
+        <item>@string/nimaima</item>
+        <item>@string/nocaima</item>
+        <item>@string/venecia_ospina_perez</item>
+        <item>@string/pacho</item>
+        <item>@string/paime</item>
+        <item>@string/pandi</item>
+        <item>@string/paratebueno</item>
+        <item>@string/pasca</item>
+        <item>@string/puerto_salgar</item>
+        <item>@string/puli</item>
+        <item>@string/quebradanegra</item>
+        <item>@string/quetame</item>
+        <item>@string/quipile</item>
+        <item>@string/rafael_reyes</item>
+        <item>@string/ricaurte_cun</item>
+        <item>@string/san_antonio_tequendama</item>
+        <item>@string/san_bernardo_cun</item>
+        <item>@string/san_cayetano_cun</item>
+        <item>@string/san_francisco_cun</item>
+        <item>@string/san_juan_rioseco</item>
+        <item>@string/sasaima</item>
+        <item>@string/sesquile</item>
+        <item>@string/sibate</item>
+        <item>@string/silvania</item>
+        <item>@string/simijaca</item>
+        <item>@string/soacha</item>
+        <item>@string/sopo</item>
+        <item>@string/subachoque</item>
+        <item>@string/suesca</item>
+        <item>@string/supata</item>
+        <item>@string/susa</item>
+        <item>@string/sutatausa</item>
+        <item>@string/tabio</item>
+        <item>@string/tausa</item>
+        <item>@string/tena</item>
+        <item>@string/tenjo</item>
+        <item>@string/tibacuy</item>
+        <item>@string/tibirita</item>
+        <item>@string/tocaima</item>
+        <item>@string/tocancipa</item>
+        <item>@string/topaipi</item>
+        <item>@string/ubala</item>
+        <item>@string/ubaque</item>
+        <item>@string/ubate</item>
+        <item>@string/une</item>
+        <item>@string/utica</item>
+        <item>@string/vergara</item>
+        <item>@string/viani</item>
+        <item>@string/villagomez</item>
+        <item>@string/villapinzon</item>
+        <item>@string/villeta</item>
+        <item>@string/viota</item>
+        <item>@string/yacopi</item>
+        <item>@string/zipacon</item>
+        <item>@string/zipaquira</item>
+    </string-array>
+    <string-array name="codigos_municipios_cundinamarca">
+        <item name="agua_dios">25001</item>
+        <item name="alban_cun">25019</item>
+        <item name="anapoima">25035</item>
+        <item name="anolaima">25040</item>
+        <item name="arbelaez">25053</item>
+        <item name="beltran">25086</item>
+        <item name="bituima">25095</item>
+        <item name="bojaca">25099</item>
+        <item name="cabrera_cun">25120</item>
+        <item name="cachipay">25123</item>
+        <item name="cajica">25126</item>
+        <item name="caparrapi">25148</item>
+        <item name="caqueza">25151</item>
+        <item name="carmen_carupa">25154</item>
+        <item name="chaguani">25168</item>
+        <item name="chia">25175</item>
+        <item name="chipaque">25178</item>
+        <item name="choachi">25181</item>
+        <item name="choconta">25183</item>
+        <item name="cogua">25200</item>
+        <item name="cota">25214</item>
+        <item name="cucunuba">25224</item>
+        <item name="el_colegio">25245</item>
+        <item name="el_penon_cun">25258</item>
+        <item name="el_rosal">25260</item>
+        <item name="facatativa">25269</item>
+        <item name="fomeque">25279</item>
+        <item name="fosca">25281</item>
+        <item name="funza">25286</item>
+        <item name="fuquene">25288</item>
+        <item name="fusagasuga">25290</item>
+        <item name="gachala">25293</item>
+        <item name="gachancipa">25295</item>
+        <item name="gacheta">25297</item>
+        <item name="gama">25299</item>
+        <item name="girardot">25307</item>
+        <item name="granada_cun">25312</item>
+        <item name="guacheta">25317</item>
+        <item name="guaduas">25320</item>
+        <item name="guasca">25322</item>
+        <item name="guataqui">25324</item>
+        <item name="guatavita">25326</item>
+        <item name="guayabal_siquima">25328</item>
+        <item name="guayabetal">25335</item>
+        <item name="gutierrez">25339</item>
+        <item name="jerusalen">25368</item>
+        <item name="junin">25372</item>
+        <item name="la_calera">25377</item>
+        <item name="la_mesa">25386</item>
+        <item name="la_palma">25394</item>
+        <item name="la_pena">25398</item>
+        <item name="la_vega_cun">25402</item>
+        <item name="lenguazaque">25407</item>
+        <item name="macheta">25426</item>
+        <item name="madrid">25430</item>
+        <item name="manta">25436</item>
+        <item name="medina">25438</item>
+        <item name="mosquera_cun">25473</item>
+        <item name="narino_cun">25483</item>
+        <item name="nemocon">25486</item>
+        <item name="nilo">25488</item>
+        <item name="nimaima">25489</item>
+        <item name="nocaima">25491</item>
+        <item name="venecia_ospina_perez">25506</item>
+        <item name="pacho">25513</item>
+        <item name="paime">25518</item>
+        <item name="pandi">25524</item>
+        <item name="paratebueno">25530</item>
+        <item name="pasca">25535</item>
+        <item name="puerto_salgar">25572</item>
+        <item name="puli">25580</item>
+        <item name="quebradanegra">25592</item>
+        <item name="quetame">25594</item>
+        <item name="quipile">25596</item>
+        <item name="rafael_reyes">25599</item>
+        <item name="ricaurte_cun">25612</item>
+        <item name="san_antonio_tequendama">25645</item>
+        <item name="san_bernardo_cun">25649</item>
+        <item name="san_cayetano_cun">25653</item>
+        <item name="san_francisco_cun">25658</item>
+        <item name="san_juan_rioseco">25662</item>
+        <item name="sasaima">25718</item>
+        <item name="sesquile">25736</item>
+        <item name="sibate">25740</item>
+        <item name="silvania">25743</item>
+        <item name="simijaca">25745</item>
+        <item name="soacha">25754</item>
+        <item name="sopo">25758</item>
+        <item name="subachoque">25769</item>
+        <item name="suesca">25772</item>
+        <item name="supata">25777</item>
+        <item name="susa">25779</item>
+        <item name="sutatausa">25781</item>
+        <item name="tabio">25785</item>
+        <item name="tausa">25793</item>
+        <item name="tena">25797</item>
+        <item name="tenjo">25799</item>
+        <item name="tibacuy">25805</item>
+        <item name="tibirita">25807</item>
+        <item name="tocaima">25815</item>
+        <item name="tocancipa">25817</item>
+        <item name="topaipi">25823</item>
+        <item name="ubala">25839</item>
+        <item name="ubaque">25841</item>
+        <item name="ubate">25843</item>
+        <item name="une">25845</item>
+        <item name="utica">25851</item>
+        <item name="vergara">25862</item>
+        <item name="viani">25867</item>
+        <item name="villagomez">25871</item>
+        <item name="villapinzon">25873</item>
+        <item name="villeta">25875</item>
+        <item name="viota">25878</item>
+        <item name="yacopi">25885</item>
+        <item name="zipacon">25898</item>
+        <item name="zipaquira">25899</item>
+    </string-array>
+
+    <!-- Municipios Choco 27 -->
+    <string-array name="municipios_choco">
+        <item>@string/quibdo</item>
+        <item>@string/acandi</item>
+        <item>@string/alto_baudo_pie_pato</item>
+        <item>@string/atrato</item>
+        <item>@string/bagado</item>
+        <item>@string/bahia_solano_mutis</item>
+        <item>@string/bajo_baudo_pizarro</item>
+        <item>@string/bojaya_bellavista</item>
+        <item>@string/canton_san_pablo</item>
+        <item>@string/carmen_darien</item>
+        <item>@string/certegui</item>
+        <item>@string/condoto</item>
+        <item>@string/el_carmen_cho</item>
+        <item>@string/litoral_san_juan</item>
+        <item>@string/istmina</item>
+        <item>@string/jurado</item>
+        <item>@string/lloro</item>
+        <item>@string/medio_atrato</item>
+        <item>@string/medio_baudo_boca_pepe</item>
+        <item>@string/medio_san_juan</item>
+        <item>@string/novita</item>
+        <item>@string/nuqui</item>
+        <item>@string/rio_iro</item>
+        <item>@string/rio_quito</item>
+        <item>@string/riosucio_cho</item>
+        <item>@string/san_jose_palmar</item>
+        <item>@string/sipi</item>
+        <item>@string/tado</item>
+        <item>@string/unguia</item>
+        <item>@string/union_panamericana</item>
+    </string-array>
+    <string-array name="codigos_municipios_choco">
+        <item name="quibdo">27001</item>
+        <item name="acandi">27006</item>
+        <item name="alto_baudo_pie_pato">27025</item>
+        <item name="atrato">27050</item>
+        <item name="bagado">27073</item>
+        <item name="bahia_solano_mutis">27075</item>
+        <item name="bajo_baudo_pizarro">27077</item>
+        <item name="bojaya_bellavista">27099</item>
+        <item name="canton_san_pablo">27135</item>
+        <item name="carmen_darien">27150</item>
+        <item name="certegui">27160</item>
+        <item name="condoto">27205</item>
+        <item name="el_carmen_cho">27245</item>
+        <item name="litoral_san_juan">27250</item>
+        <item name="istmina">27361</item>
+        <item name="jurado">27372</item>
+        <item name="lloro">27413</item>
+        <item name="medio_atrato">27425</item>
+        <item name="medio_baudo_boca_pepe">27430</item>
+        <item name="medio_san_juan">27450</item>
+        <item name="novita">27491</item>
+        <item name="nuqui">27495</item>
+        <item name="rio_iro">27580</item>
+        <item name="rio_quito">27600</item>
+        <item name="riosucio_cho">27615</item>
+        <item name="san_jose_palmar">27660</item>
+        <item name="sipi">27745</item>
+        <item name="tado">27787</item>
+        <item name="unguia">27800</item>
+        <item name="union_panamericana">27810</item>
+    </string-array>
+
+    <!-- Municipios Huila 41 -->
+    <string-array name="municipios_huila">
+        <item>@string/neiva</item>
+        <item>@string/acevedo</item>
+        <item>@string/agrado</item>
+        <item>@string/aipe</item>
+        <item>@string/algeciras</item>
+        <item>@string/altamira</item>
+        <item>@string/baraya</item>
+        <item>@string/campoalegre</item>
+        <item>@string/colombia_hui</item>
+        <item>@string/elias</item>
+        <item>@string/garzon</item>
+        <item>@string/gigante</item>
+        <item>@string/guadalupe_hui</item>
+        <item>@string/hobo</item>
+        <item>@string/iquira</item>
+        <item>@string/isnos</item>
+        <item>@string/la_argentina</item>
+        <item>@string/la_plata</item>
+        <item>@string/nataga</item>
+        <item>@string/oporapa</item>
+        <item>@string/paicol</item>
+        <item>@string/palermo</item>
+        <item>@string/palestina_hui</item>
+        <item>@string/pital</item>
+        <item>@string/pitalito</item>
+        <item>@string/rivera</item>
+        <item>@string/saladoblanco</item>
+        <item>@string/san_agustin</item>
+        <item>@string/santa_maria_hui</item>
+        <item>@string/suaza</item>
+        <item>@string/tarqui</item>
+        <item>@string/tesalia</item>
+        <item>@string/tello</item>
+        <item>@string/teruel</item>
+        <item>@string/timana</item>
+        <item>@string/villavieja</item>
+        <item>@string/yaguara</item>
+    </string-array>
+    <string-array name="codigos_municipios_huila">
+        <item name="neiva">41001</item>
+        <item name="acevedo">41006</item>
+        <item name="agrado">41013</item>
+        <item name="aipe">41016</item>
+        <item name="algeciras">41020</item>
+        <item name="altamira">41026</item>
+        <item name="baraya">41078</item>
+        <item name="campoalegre">41132</item>
+        <item name="colombia_hui">41206</item>
+        <item name="elias">41244</item>
+        <item name="garzon">41298</item>
+        <item name="gigante">41306</item>
+        <item name="guadalupe_hui">41319</item>
+        <item name="hobo">41349</item>
+        <item name="iquira">41357</item>
+        <item name="isnos">41359</item>
+        <item name="la_argentina">41378</item>
+        <item name="la_plata">41396</item>
+        <item name="nataga">41483</item>
+        <item name="oporapa">41503</item>
+        <item name="paicol">41518</item>
+        <item name="palermo">41524</item>
+        <item name="palestina_hui">41530</item>
+        <item name="pital">41548</item>
+        <item name="pitalito">41551</item>
+        <item name="rivera">41615</item>
+        <item name="saladoblanco">41660</item>
+        <item name="san_agustin">41668</item>
+        <item name="santa_maria_hui">41676</item>
+        <item name="suaza">41770</item>
+        <item name="tarqui">41791</item>
+        <item name="tesalia">41797</item>
+        <item name="tello">41799</item>
+        <item name="teruel">41801</item>
+        <item name="timana">41807</item>
+        <item name="villavieja">41872</item>
+        <item name="yaguara">41885</item>
+    </string-array>
+
+    <!-- Municipios Guajira 44 -->
+    <string-array name="municipios_guajira">
+        <item>@string/riohacha</item>
+        <item>@string/albania_guaj</item>
+        <item>@string/barrancas</item>
+        <item>@string/dibulla</item>
+        <item>@string/distraccion</item>
+        <item>@string/el_molino</item>
+        <item>@string/fonseca</item>
+        <item>@string/hatonuevo</item>
+        <item>@string/la_jagua_pilar</item>
+        <item>@string/maicao</item>
+        <item>@string/manaure</item>
+        <item>@string/san_juan_cesar</item>
+        <item>@string/uribia</item>
+        <item>@string/urumita</item>
+        <item>@string/villanueva_guaj</item>
+    </string-array>
+    <string-array name="codigos_municipios_guajira">
+        <item name="riohacha">44001</item>
+        <item name="albania_guaj">44035</item>
+        <item name="barrancas">44078</item>
+        <item name="dibulla">44090</item>
+        <item name="distraccion">44098</item>
+        <item name="el_molino">44110</item>
+        <item name="fonseca">44279</item>
+        <item name="hatonuevo">44378</item>
+        <item name="la_jagua_pilar">44420</item>
+        <item name="maicao">44430</item>
+        <item name="manaure">44560</item>
+        <item name="san_juan_cesar">44650</item>
+        <item name="uribia">44847</item>
+        <item name="urumita">44855</item>
+        <item name="villanueva_guaj">44874</item>
+    </string-array>
+
+    <!-- Municipios Magdalena 47 -->
+    <string-array name="municipios_magdalena">
+        <item>@string/santa_marta</item>
+        <item>@string/algarrobo</item>
+        <item>@string/aracataca</item>
+        <item>@string/ariguani</item>
+        <item>@string/cerro_san_antonio</item>
+        <item>@string/chivolo</item>
+        <item>@string/cienaga</item>
+        <item>@string/concordia_mag</item>
+        <item>@string/el_banco</item>
+        <item>@string/el_pinon</item>
+        <item>@string/el_reten</item>
+        <item>@string/fundacion</item>
+        <item>@string/guamal_mag</item>
+        <item>@string/nueva_granada</item>
+        <item>@string/pedraza</item>
+        <item>@string/pijino_carmen</item>
+        <item>@string/pivijay</item>
+        <item>@string/plato</item>
+        <item>@string/puebloviejo</item>
+        <item>@string/remolino</item>
+        <item>@string/sabanas_san_angel</item>
+        <item>@string/salamina_mag</item>
+        <item>@string/san_sebastian_buenavista</item>
+        <item>@string/san_zenon</item>
+        <item>@string/santa_ana</item>
+        <item>@string/santa_barbara_pinto</item>
+        <item>@string/sitionuevo</item>
+        <item>@string/tenerife</item>
+        <item>@string/zapayan</item>
+        <item>@string/zona_bananera</item>
+    </string-array>
+    <string-array name="codigos_municipios_magdalena">
+        <item name="santa_marta">47001</item>
+        <item name="algarrobo">47030</item>
+        <item name="aracataca">47053</item>
+        <item name="ariguani">47058</item>
+        <item name="cerro_san_antonio">47161</item>
+        <item name="chivolo">47170</item>
+        <item name="cienaga">47189</item>
+        <item name="concordia_mag">47205</item>
+        <item name="el_banco">47245</item>
+        <item name="el_pinon">47258</item>
+        <item name="el_reten">47268</item>
+        <item name="fundacion">47288</item>
+        <item name="guamal_mag">47318</item>
+        <item name="nueva_granada">47460</item>
+        <item name="pedraza">47541</item>
+        <item name="pijino_carmen">47545</item>
+        <item name="pivijay">47551</item>
+        <item name="plato">47555</item>
+        <item name="puebloviejo">47570</item>
+        <item name="remolino">47605</item>
+        <item name="sabanas_san_angel">47660</item>
+        <item name="salamina_mag">47675</item>
+        <item name="san_sebastian_buenavista">47692</item>
+        <item name="san_zenon">47703</item>
+        <item name="santa_ana">47707</item>
+        <item name="santa_barbara_pinto">47720</item>
+        <item name="sitionuevo">47745</item>
+        <item name="tenerife">47798</item>
+        <item name="zapayan">47960</item>
+        <item name="zona_bananera">47980</item>
+    </string-array>
+
+    <!-- Municipios Meta 50 -->
+    <string-array name="municipios_meta">
+        <item>@string/villavicencio</item>
+        <item>@string/acacias</item>
+        <item>@string/barranca_upia</item>
+        <item>@string/cabuyaro</item>
+        <item>@string/castilla_la_nueva</item>
+        <item>@string/cubarral</item>
+        <item>@string/cumaral</item>
+        <item>@string/el_calvario</item>
+        <item>@string/el_castillo</item>
+        <item>@string/el_dorado</item>
+        <item>@string/fuente_oro</item>
+        <item>@string/granada_met</item>
+        <item>@string/guamal_met</item>
+        <item>@string/mapiripan</item>
+        <item>@string/mesetas</item>
+        <item>@string/la_macarena</item>
+        <item>@string/la_uribe</item>
+        <item>@string/lejanias</item>
+        <item>@string/puerto_concordia</item>
+        <item>@string/puerto_gaitan</item>
+        <item>@string/puerto_lopez</item>
+        <item>@string/puerto_lleras</item>
+        <item>@string/puerto_rico_met</item>
+        <item>@string/restrepo_met</item>
+        <item>@string/san_carlos_guaroa</item>
+        <item translatable="false">@string/san_juan_arama</item>
+        <item>@string/san_juanito</item>
+        <item>@string/san_martin_met</item>
+        <item>@string/vista_hermosa</item>
+    </string-array>
+    <string-array name="codigos_municipios_meta">
+        <item name="villavicencio">50001</item>
+        <item name="acacias">50006</item>
+        <item name="barranca_upia">50110</item>
+        <item name="cabuyaro">50124</item>
+        <item name="castilla_la_nueva">50150</item>
+        <item name="cubarral">50223</item>
+        <item name="cumaral">50226</item>
+        <item name="el_calvario">50245</item>
+        <item name="el_castillo">50251</item>
+        <item name="el_dorado">50270</item>
+        <item name="fuente_oro">50287</item>
+        <item name="granada_met">50313</item>
+        <item name="guamal_met">50318</item>
+        <item name="mapiripan">50325</item>
+        <item name="mesetas">50330</item>
+        <item name="la_macarena">50350</item>
+        <item name="la_uribe">50370</item>
+        <item name="lejanias">50400</item>
+        <item name="puerto_concordia">50450</item>
+        <item name="puerto_gaitan">50568</item>
+        <item name="puerto_lopez">50573</item>
+        <item name="puerto_lleras">50577</item>
+        <item name="puerto_rico_met">50590</item>
+        <item name="restrepo_met">50606</item>
+        <item name="san_carlos_guaroa">50680</item>
+        <item name="san_juan_arama">50683</item>
+        <item name="san_juanito">50686</item>
+        <item name="san_martin_met">50689</item>
+        <item name="vista_hermosa">50711</item>
+    </string-array>
+
+    <!-- Municipios Nariño 52 -->
+    <string-array name="municipios_narino">
+        <item>@string/pasto</item>
+        <item>@string/alban_nar</item>
+        <item>@string/aldana</item>
+        <item>@string/ancuya</item>
+        <item>@string/arboleda</item>
+        <item>@string/barbacoas</item>
+        <item>@string/belen_nar</item>
+        <item>@string/buesaco</item>
+        <item>@string/colon_genova</item>
+        <item>@string/consaca</item>
+        <item>@string/contadero</item>
+        <item>@string/cordoba_nar</item>
+        <item>@string/cuaspud</item>
+        <item>@string/cumbal</item>
+        <item>@string/cumbitara</item>
+        <item>@string/chachagui</item>
+        <item>@string/el_charco</item>
+        <item>@string/el_penol</item>
+        <item>@string/el_rosario</item>
+        <item>@string/el_tablon</item>
+        <item>@string/el_tambo_nar</item>
+        <item>@string/funes</item>
+        <item>@string/guachucal</item>
+        <item>@string/guaitarilla</item>
+        <item>@string/gualmatan</item>
+        <item>@string/iles</item>
+        <item>@string/imues</item>
+        <item>@string/ipiales</item>
+        <item>@string/la_cruz</item>
+        <item>@string/la_florida</item>
+        <item>@string/la_llanada</item>
+        <item>@string/la_tola</item>
+        <item>@string/la_union_nar</item>
+        <item>@string/leiva_nar</item>
+        <item>@string/linares</item>
+        <item>@string/los_andes</item>
+        <item>@string/magui</item>
+        <item>@string/mallama</item>
+        <item>@string/mosquera_nar</item>
+        <item>@string/narino_nar</item>
+        <item>@string/olaya_herrera</item>
+        <item>@string/ospina</item>
+        <item>@string/pizarro</item>
+        <item>@string/policarpa</item>
+        <item>@string/potosi</item>
+        <item>@string/providencia_nar</item>
+        <item>@string/puerres</item>
+        <item>@string/pupiales</item>
+        <item>@string/ricaurte_nar</item>
+        <item>@string/roberto_payan</item>
+        <item>@string/samaniego</item>
+        <item>@string/sandona</item>
+        <item>@string/san_bernardo_nar</item>
+        <item>@string/san_lorenzo</item>
+        <item>@string/san_pablo_nar</item>
+        <item>@string/san_pedro_cartago</item>
+        <item>@string/santa_barbara_nar</item>
+        <item>@string/santacruz</item>
+        <item>@string/sapuyes</item>
+        <item>@string/taminango</item>
+        <item>@string/tangua</item>
+        <item>@string/tumaco</item>
+        <item>@string/tuquerres</item>
+        <item>@string/yacuanquer</item>
+    </string-array>
+    <string-array name="codigos_municipios_narino">
+        <item name="pasto">52001</item>
+        <item name="alban_nar">52019</item>
+        <item name="aldana">52022</item>
+        <item name="ancuya">52036</item>
+        <item name="arboleda">52051</item>
+        <item name="barbacoas">52079</item>
+        <item name="belen_nar">52083</item>
+        <item name="buesaco">52110</item>
+        <item name="colon_genova">52203</item>
+        <item name="consaca">52207</item>
+        <item name="contadero">52210</item>
+        <item name="cordoba_nar">52215</item>
+        <item name="cuaspud">52224</item>
+        <item name="cumbal">52227</item>
+        <item name="cumbitara">52233</item>
+        <item name="chachagui">52240</item>
+        <item name="el_charco">52250</item>
+        <item name="el_penol">52254</item>
+        <item name="el_rosario">52256</item>
+        <item name="el_tablon">52258</item>
+        <item name="el_tambo_nar">52260</item>
+        <item name="funes">52287</item>
+        <item name="guachucal">52317</item>
+        <item name="guaitarilla">52320</item>
+        <item name="gualmatan">52323</item>
+        <item name="iles">52352</item>
+        <item name="imues">52354</item>
+        <item name="ipiales">52356</item>
+        <item name="la_cruz">52378</item>
+        <item name="la_florida">52381</item>
+        <item name="la_llanada">52385</item>
+        <item name="la_tola">52390</item>
+        <item name="la_union_nar">52399</item>
+        <item name="leiva_nar">52405</item>
+        <item name="linares">52411</item>
+        <item name="los_andes">52418</item>
+        <item name="magui">52427</item>
+        <item name="mallama">52435</item>
+        <item name="mosquera_nar">52473</item>
+        <item name="narino_nar">52480</item>
+        <item name="olaya_herrera">52490</item>
+        <item name="ospina">52506</item>
+        <item name="pizarro">52520</item>
+        <item name="policarpa">52540</item>
+        <item name="potosi">52560</item>
+        <item name="providencia_nar">52565</item>
+        <item name="puerres">52573</item>
+        <item name="pupiales">52585</item>
+        <item name="ricaurte_nar">52612</item>
+        <item name="roberto_payan">52621</item>
+        <item name="samaniego">52678</item>
+        <item name="sandona">52683</item>
+        <item name="san_bernardo_nar">52685</item>
+        <item name="san_lorenzo">52687</item>
+        <item name="san_pablo_nar">52693</item>
+        <item name="san_pedro_cartago">52694</item>
+        <item name="santa_barbara_nar">52696</item>
+        <item name="santacruz">52699</item>
+        <item name="sapuyes">52720</item>
+        <item name="taminango">52786</item>
+        <item name="tangua">52788</item>
+        <item name="tumaco">52835</item>
+        <item name="tuquerres">52838</item>
+        <item name="yacuanquer">52885</item>
+    </string-array>
+
+    <!-- Municipios Norte de Santander 54 -->
+    <string-array name="municipios_norte_santander">
+        <item>@string/cucuta</item>
+        <item>@string/abrego</item>
+        <item>@string/arboledas</item>
+        <item>@string/bochalema</item>
+        <item>@string/bucarasica</item>
+        <item>@string/cacota</item>
+        <item>@string/cachira</item>
+        <item>@string/chinacota</item>
+        <item>@string/chitaga</item>
+        <item>@string/convencion</item>
+        <item>@string/cucutilla</item>
+        <item>@string/durania</item>
+        <item>@string/el_carmen_nor_san</item>
+        <item>@string/el_tarra</item>
+        <item>@string/el_zulia</item>
+        <item>@string/gramalote</item>
+        <item>@string/hacari</item>
+        <item>@string/herran</item>
+        <item>@string/labateca</item>
+        <item>@string/la_esperanza</item>
+        <item>@string/la_playa</item>
+        <item>@string/los_patios</item>
+        <item>@string/lourdes</item>
+        <item>@string/mutiscua</item>
+        <item>@string/ocana</item>
+        <item>@string/pamplona</item>
+        <item>@string/pamplonita</item>
+        <item>@string/puerto_santander</item>
+        <item>@string/ragonvalia</item>
+        <item>@string/salazar</item>
+        <item>@string/san_calixto</item>
+        <item>@string/san_cayetano_nor_san</item>
+        <item>@string/santiago_nor_san</item>
+        <item>@string/sardinata</item>
+        <item>@string/silos</item>
+        <item>@string/teorama</item>
+        <item translatable="false">@string/tibu</item>
+        <item>@string/toledo_nor_san</item>
+        <item>@string/villacaro</item>
+        <item>@string/villa_rosario</item>
+    </string-array>
+    <string-array name="codigos_municipios_norte_santander">
+        <item name="cucuta">54001</item>
+        <item name="abrego">54003</item>
+        <item name="arboledas">54051</item>
+        <item name="bochalema">54099</item>
+        <item name="bucarasica">54109</item>
+        <item name="cacota">54125</item>
+        <item name="cachira">54128</item>
+        <item name="chinacota">54172</item>
+        <item name="chitaga">54174</item>
+        <item name="convencion">54206</item>
+        <item name="cucutilla">54223</item>
+        <item name="durania">54239</item>
+        <item name="el_carmen_nor_san">54245</item>
+        <item name="el_tarra">54250</item>
+        <item name="el_zulia">54261</item>
+        <item name="gramalote">54313</item>
+        <item name="hacari">54344</item>
+        <item name="herran">54347</item>
+        <item name="labateca">54377</item>
+        <item name="la_esperanza">54385</item>
+        <item name="la_playa">54398</item>
+        <item name="los_patios">54405</item>
+        <item name="lourdes">54418</item>
+        <item name="mutiscua">54480</item>
+        <item name="ocana">54498</item>
+        <item name="pamplona">54518</item>
+        <item name="pamplonita">54520</item>
+        <item name="puerto_santander">54553</item>
+        <item name="ragonvalia">54599</item>
+        <item name="salazar">54660</item>
+        <item name="san_calixto">54670</item>
+        <item name="san_cayetano_nor_san">54673</item>
+        <item name="santiago_nor_san">54680</item>
+        <item name="sardinata">54720</item>
+        <item name="silos">54743</item>
+        <item name="teorama">54800</item>
+        <item name="tibu">54810</item>
+        <item name="toledo_nor_san">54820</item>
+        <item name="villacaro">54871</item>
+        <item name="villa_rosario">54874</item>
+    </string-array>
+
+    <!-- Municipios Quindio 63 -->
+    <string-array name="municipios_quindio">
+        <item>@string/armenia_quin</item>
+        <item>@string/buenavista_quin</item>
+        <item>@string/calarca</item>
+        <item>@string/circasia</item>
+        <item>@string/cordoba_quin</item>
+        <item>@string/filandia</item>
+        <item>@string/genova</item>
+        <item>@string/la_tebaida</item>
+        <item>@string/montenegro</item>
+        <item>@string/pijao</item>
+        <item>@string/quimbaya</item>
+        <item>@string/salento</item>
+    </string-array>
+    <string-array name="codigos_municipios_quindio">
+        <item name="armenia_quin">63001</item>
+        <item name="buenavista_quin">63111</item>
+        <item name="calarca">63130</item>
+        <item name="circasia">63190</item>
+        <item name="cordoba_quin">63212</item>
+        <item name="filandia">63272</item>
+        <item name="genova">63302</item>
+        <item name="la_tebaida">63401</item>
+        <item name="montenegro">63470</item>
+        <item name="pijao">63548</item>
+        <item name="quimbaya">63594</item>
+        <item name="salento">63690</item>
+    </string-array>
+
+    <!-- Municipios Risaralda 66 -->
+    <string-array name="municipios_risaralda">
+        <item>@string/pereira</item>
+        <item>@string/apia</item>
+        <item>@string/balboa_ris</item>
+        <item>@string/belen_umbria</item>
+        <item>@string/dos_quebradas</item>
+        <item>@string/guatica</item>
+        <item>@string/la_celia</item>
+        <item>@string/la_virginia</item>
+        <item>@string/marsella</item>
+        <item translatable="false">@string/mistrato</item>
+        <item>@string/pueblo_rico</item>
+        <item>@string/quinchia</item>
+        <item>@string/santa_rosa_cabal</item>
+        <item>@string/santuario_ris</item>
+    </string-array>
+    <string-array name="codigos_municipios_risaralda">
+        <item name="pereira">66001</item>
+        <item name="apia">66045</item>
+        <item name="balboa_ris">66075</item>
+        <item name="belen_umbria">66088</item>
+        <item name="dos_quebradas">66170</item>
+        <item name="guatica">66318</item>
+        <item name="la_celia">66383</item>
+        <item name="la_virginia">66400</item>
+        <item name="marsella">66440</item>
+        <item name="mistrato">66456</item>
+        <item name="pueblo_rico">66572</item>
+        <item name="quinchia">66594</item>
+        <item name="santa_rosa_cabal">66682</item>
+        <item name="santuario_ris">66687</item>
+    </string-array>
+
+    <!-- Municipios Santander 68 -->
+    <string-array name="municipios_santander">
+        <item>@string/bucaramanga</item>
+        <item>@string/aguada</item>
+        <item>@string/albania_san</item>
+        <item>@string/aratoca</item>
+        <item>@string/barbosa_san</item>
+        <item>@string/barichara</item>
+        <item>@string/barrancabermeja</item>
+        <item>@string/betulia_san</item>
+        <item>@string/bolivar_san</item>
+        <item>@string/cabrera_san</item>
+        <item>@string/california</item>
+        <item>@string/capitanejo</item>
+        <item>@string/carcasi</item>
+        <item>@string/cepita</item>
+        <item>@string/cerrito</item>
+        <item>@string/charala</item>
+        <item>@string/charta</item>
+        <item>@string/chima_san</item>
+        <item>@string/chipata</item>
+        <item>@string/cimitarra</item>
+        <item>@string/concepcion_san</item>
+        <item>@string/confines</item>
+        <item>@string/contratacion</item>
+        <item>@string/coromoro</item>
+        <item>@string/curiti</item>
+        <item>@string/el_carmen_san</item>
+        <item>@string/el_guacamayo</item>
+        <item>@string/el_penon_san</item>
+        <item>@string/el_playon</item>
+        <item>@string/encino</item>
+        <item>@string/enciso</item>
+        <item>@string/florian</item>
+        <item>@string/floridablanca</item>
+        <item>@string/galan</item>
+        <item>@string/gambita</item>
+        <item>@string/giron</item>
+        <item>@string/guaca</item>
+        <item>@string/guadalupe_san</item>
+        <item>@string/guapota</item>
+        <item>@string/guavata</item>
+        <item>@string/guepsa</item>
+        <item>@string/hato</item>
+        <item>@string/jesus_maria</item>
+        <item>@string/jordan</item>
+        <item>@string/la_belleza</item>
+        <item>@string/landazuri</item>
+        <item>@string/la_paz</item>
+        <item>@string/lebrija</item>
+        <item>@string/los_santos</item>
+        <item>@string/macaravita</item>
+        <item>@string/malaga</item>
+        <item>@string/matanza</item>
+        <item>@string/mogotes</item>
+        <item>@string/molagavita</item>
+        <item>@string/ocamonte</item>
+        <item>@string/oiba</item>
+        <item>@string/onzaga</item>
+        <item>@string/palmar</item>
+        <item>@string/palmas_socorro</item>
+        <item>@string/paramo</item>
+        <item>@string/piedecuesta</item>
+        <item>@string/pinchote</item>
+        <item>@string/puente_nacional</item>
+        <item>@string/puerto_parra</item>
+        <item>@string/puerto_wilches</item>
+        <item>@string/rionegro_san</item>
+        <item>@string/sabana_torres</item>
+        <item>@string/san_andres_san</item>
+        <item>@string/san_benito</item>
+        <item>@string/san_gil</item>
+        <item>@string/san_joaquin</item>
+        <item>@string/san_jose_miranda</item>
+        <item>@string/san_miguel_san</item>
+        <item>@string/san_vicente_chucuri</item>
+        <item>@string/santa_barbara_san</item>
+        <item>@string/santa_helena</item>
+        <item>@string/simacota</item>
+        <item>@string/socorro</item>
+        <item>@string/suaita</item>
+        <item>@string/sucre_san</item>
+        <item>@string/surata</item>
+        <item>@string/tona</item>
+        <item>@string/valle_san_jose</item>
+        <item>@string/velez</item>
+        <item>@string/vetas</item>
+        <item>@string/villanueva_san</item>
+        <item>@string/zapatoca</item>
+    </string-array>
+    <string-array name="codigos_municipios_santander">
+        <item name="bucaramanga">68001</item>
+        <item name="aguada">68013</item>
+        <item name="albania_san">68020</item>
+        <item name="aratoca">68051</item>
+        <item name="barbosa_san">68077</item>
+        <item name="barichara">68079</item>
+        <item name="barrancabermeja">68081</item>
+        <item name="betulia_san">68092</item>
+        <item name="bolivar_san">68101</item>
+        <item name="cabrera_san">68121</item>
+        <item name="california">68132</item>
+        <item name="capitanejo">68147</item>
+        <item name="carcasi">68152</item>
+        <item name="cepita">68160</item>
+        <item name="cerrito">68162</item>
+        <item name="charala">68167</item>
+        <item name="charta">68169</item>
+        <item name="chima_san">68176</item>
+        <item name="chipata">68179</item>
+        <item name="cimitarra">68190</item>
+        <item name="concepcion_san">68207</item>
+        <item name="confines">68209</item>
+        <item name="contratacion">68211</item>
+        <item name="coromoro">68217</item>
+        <item name="curiti">68229</item>
+        <item name="el_carmen_san">68235</item>
+        <item name="el_guacamayo">68245</item>
+        <item name="el_penon_san">68250</item>
+        <item name="el_playon">68255</item>
+        <item name="encino">68264</item>
+        <item name="enciso">68266</item>
+        <item name="florian">68271</item>
+        <item name="floridablanca">68276</item>
+        <item name="galan">68296</item>
+        <item name="gambita">68298</item>
+        <item name="giron">68307</item>
+        <item name="guaca">68318</item>
+        <item name="guadalupe_san">68320</item>
+        <item name="guapota">68322</item>
+        <item name="guavata">68324</item>
+        <item name="guepsa">68327</item>
+        <item name="hato">68344</item>
+        <item name="jesus_maria">68368</item>
+        <item name="jordan">68370</item>
+        <item name="la_belleza">68377</item>
+        <item name="landazuri">68385</item>
+        <item name="la_paz">68397</item>
+        <item name="lebrija">68406</item>
+        <item name="los_santos">68418</item>
+        <item name="macaravita">68425</item>
+        <item name="malaga">68432</item>
+        <item name="matanza">68444</item>
+        <item name="mogotes">68464</item>
+        <item name="molagavita">68468</item>
+        <item name="ocamonte">68498</item>
+        <item name="oiba">68500</item>
+        <item name="onzaga">68502</item>
+        <item name="palmar">68522</item>
+        <item name="palmas_socorro">68524</item>
+        <item name="paramo">68533</item>
+        <item name="piedecuesta">68547</item>
+        <item name="pinchote">68549</item>
+        <item name="puente_nacional">68572</item>
+        <item name="puerto_parra">68573</item>
+        <item name="puerto_wilches">68575</item>
+        <item name="rionegro_san">68615</item>
+        <item name="sabana_torres">68655</item>
+        <item name="san_andres_san">68669</item>
+        <item name="san_benito">68673</item>
+        <item name="san_gil">68679</item>
+        <item name="san_joaquin">68682</item>
+        <item name="san_jose_miranda">68684</item>
+        <item name="san_miguel_san">68686</item>
+        <item name="san_vicente_chucuri">68689</item>
+        <item name="santa_barbara_san">68705</item>
+        <item name="santa_helena">68720</item>
+        <item name="simacota">68745</item>
+        <item name="socorro">68755</item>
+        <item name="suaita">68770</item>
+        <item name="sucre_san">68773</item>
+        <item name="surata">68780</item>
+        <item name="tona">68820</item>
+        <item name="valle_san_jose">68855</item>
+        <item name="velez">68861</item>
+        <item name="vetas">68867</item>
+        <item name="villanueva_san">68872</item>
+        <item name="zapatoca">68895</item>
+    </string-array>
+
+    <!-- Municipios Sucre 70 -->
+    <string-array name="municipios_sucre">
+        <item>@string/sincelejo</item>
+        <item>@string/buenavista_suc</item>
+        <item>@string/caimito</item>
+        <item>@string/coloso</item>
+        <item>@string/corozal</item>
+        <item>@string/covenas</item>
+        <item>@string/chalan</item>
+        <item>@string/el_roble</item>
+        <item>@string/galeras</item>
+        <item>@string/guaranda</item>
+        <item>@string/la_union_suc</item>
+        <item>@string/los_palmitos</item>
+        <item>@string/majagual</item>
+        <item>@string/morroa</item>
+        <item>@string/ovejas</item>
+        <item>@string/palmito</item>
+        <item>@string/sampues</item>
+        <item>@string/san_benito_abad</item>
+        <item>@string/san_juan_betulia</item>
+        <item>@string/san_marcos</item>
+        <item translatable="false">@string/san_onofre</item>
+        <item>@string/san_pedro_suc</item>
+        <item>@string/since</item>
+        <item>@string/sucre_suc</item>
+        <item>@string/tolu</item>
+        <item>@string/toluviejo</item>
+    </string-array>
+    <string-array name="codigos_municipios_sucre">
+        <item name="sincelejo">70001</item>
+        <item name="buenavista_suc">70110</item>
+        <item name="caimito">70124</item>
+        <item name="coloso">70204</item>
+        <item name="corozal">70215</item>
+        <item name="covenas">70221</item>
+        <item name="chalan">70230</item>
+        <item name="el_roble">70233</item>
+        <item name="galeras">70235</item>
+        <item name="guaranda">70265</item>
+        <item name="la_union_suc">70400</item>
+        <item name="los_palmitos">70418</item>
+        <item name="majagual">70429</item>
+        <item name="morroa">70473</item>
+        <item name="ovejas">70508</item>
+        <item name="palmito">70523</item>
+        <item name="sampues">70670</item>
+        <item name="san_benito_abad">70678</item>
+        <item name="san_juan_betulia">70702</item>
+        <item name="san_marcos">70708</item>
+        <item name="san_onofre">70713</item>
+        <item name="san_pedro_suc">70717</item>
+        <item name="since">70742</item>
+        <item name="sucre_suc">70771</item>
+        <item name="tolu">70820</item>
+        <item name="toluviejo">70823</item>
+    </string-array>
+
+    <!-- Municipios Tolima 73 -->
+    <string-array name="municipios_tolima">
+        <item>@string/ibague</item>
+        <item>@string/alpujarra</item>
+        <item>@string/alvarado</item>
+        <item>@string/ambalema</item>
+        <item>@string/anzoategui</item>
+        <item>@string/armero_guayabal</item>
+        <item>@string/ataco</item>
+        <item>@string/cajamarca</item>
+        <item>@string/carmen_apicala</item>
+        <item>@string/casabianca</item>
+        <item>@string/chaparral</item>
+        <item>@string/chicoral</item>
+        <item>@string/coello</item>
+        <item>@string/coyaima</item>
+        <item>@string/cunday</item>
+        <item>@string/dolores</item>
+        <item>@string/espinal</item>
+        <item>@string/falan</item>
+        <item>@string/flandes</item>
+        <item>@string/fresno</item>
+        <item>@string/guamo_tol</item>
+        <item>@string/herveo</item>
+        <item>@string/honda</item>
+        <item>@string/icononzo</item>
+        <item>@string/lerida</item>
+        <item>@string/libano</item>
+        <item>@string/mariquita</item>
+        <item>@string/melgar</item>
+        <item>@string/murillo</item>
+        <item>@string/natagaima</item>
+        <item>@string/ortega</item>
+        <item>@string/palocabildo</item>
+        <item>@string/piedras</item>
+        <item>@string/planadas</item>
+        <item>@string/prado</item>
+        <item>@string/purificacion</item>
+        <item>@string/rioblanco</item>
+        <item>@string/roncesvalles</item>
+        <item>@string/rovira</item>
+        <item>@string/saldana</item>
+        <item>@string/san_antonio</item>
+        <item>@string/san_luis_tol</item>
+        <item>@string/santa_isabel</item>
+        <item>@string/suarez_tol</item>
+        <item>@string/valle_s_juan</item>
+        <item>@string/venadillo</item>
+        <item>@string/villahermosa</item>
+        <item>@string/villarrica</item>
+    </string-array>
+    <string-array name="codigos_municipios_tolima">
+        <item name="ibague">73001</item>
+        <item name="alpujarra">73024</item>
+        <item name="alvarado">73026</item>
+        <item name="ambalema">73030</item>
+        <item name="anzoategui">73043</item>
+        <item name="armero_guayabal">73055</item>
+        <item name="ataco">73067</item>
+        <item name="cajamarca">73124</item>
+        <item name="carmen_apicala">73148</item>
+        <item name="casabianca">73152</item>
+        <item name="chaparral">73168</item>
+        <item name="chicoral">73268</item>
+        <item name="coello">73200</item>
+        <item name="coyaima">73217</item>
+        <item name="cunday">73226</item>
+        <item name="dolores">73236</item>
+        <item name="espinal">73268</item>
+        <item name="falan">73270</item>
+        <item name="flandes">73275</item>
+        <item name="fresno">73283</item>
+        <item name="guamo_tol">73319</item>
+        <item name="herveo">73347</item>
+        <item name="honda">73349</item>
+        <item name="icononzo">73352</item>
+        <item name="lerida">73408</item>
+        <item name="libano">73411</item>
+        <item name="mariquita">73443</item>
+        <item name="melgar">73449</item>
+        <item name="murillo">73461</item>
+        <item name="natagaima">73483</item>
+        <item name="ortega">73504</item>
+        <item name="palocabildo">73520</item>
+        <item name="piedras">73547</item>
+        <item name="planadas">73555</item>
+        <item name="prado">73563</item>
+        <item name="purificacion">73585</item>
+        <item name="rioblanco">73616</item>
+        <item name="roncesvalles">73622</item>
+        <item name="rovira">73624</item>
+        <item name="saldana">73671</item>
+        <item name="san_antonio">73675</item>
+        <item name="san_luis_tol">73678</item>
+        <item name="santa_isabel">73686</item>
+        <item name="suarez_tol">73770</item>
+        <item name="valle_s_juan">73854</item>
+        <item name="venadillo">73861</item>
+        <item name="villahermosa">73870</item>
+        <item name="villarrica">73873</item>
+    </string-array>
+
+    <!-- Municipios Valle del Cauca 76 -->
+    <string-array name="municipios_valle_cauca">
+        <item>@string/cali</item>
+        <item>@string/alcala</item>
+        <item>@string/andalucia</item>
+        <item>@string/ansermanuevo</item>
+        <item>@string/argelia_val</item>
+        <item>@string/bolivar_val</item>
+        <item>@string/buenaventura</item>
+        <item>@string/buga</item>
+        <item>@string/bugalagrande</item>
+        <item>@string/caicedonia</item>
+        <item>@string/calima</item>
+        <item>@string/candelaria_val</item>
+        <item>@string/cartago</item>
+        <item>@string/dagua</item>
+        <item>@string/el_aguila</item>
+        <item>@string/el_cairo</item>
+        <item>@string/el_cerrito</item>
+        <item>@string/el_dovio</item>
+        <item>@string/florida</item>
+        <item>@string/ginebra</item>
+        <item>@string/guacari</item>
+        <item>@string/jamundi</item>
+        <item>@string/la_cumbre</item>
+        <item>@string/la_union_val</item>
+        <item>@string/la_victoria_val</item>
+        <item>@string/obando</item>
+        <item>@string/palmira</item>
+        <item>@string/pradera</item>
+        <item>@string/restrepo_val</item>
+        <item>@string/riofrio</item>
+        <item>@string/roldanillo</item>
+        <item>@string/san_pedro_val</item>
+        <item>@string/sevilla</item>
+        <item>@string/toro</item>
+        <item>@string/trujillo</item>
+        <item>@string/tulua</item>
+        <item>@string/ulloa</item>
+        <item>@string/versalles</item>
+        <item>@string/vijes</item>
+        <item>@string/yotoco</item>
+        <item>@string/yumbo</item>
+        <item>@string/zarzal</item>
+    </string-array>
+    <string-array name="codigos_municipios_valle_cauca">
+        <item name="cali">76001</item>
+        <item name="alcala">76020</item>
+        <item name="andalucia">76036</item>
+        <item name="ansermanuevo">76041</item>
+        <item name="argelia_val">76054</item>
+        <item name="bolivar_val">76100</item>
+        <item name="buenaventura">76109</item>
+        <item name="buga">76111</item>
+        <item name="bugalagrande">76113</item>
+        <item name="caicedonia">76122</item>
+        <item name="calima">76126</item>
+        <item name="candelaria_val">76130</item>
+        <item name="cartago">76147</item>
+        <item name="dagua">76233</item>
+        <item name="el_aguila">76243</item>
+        <item name="el_cairo">76246</item>
+        <item name="el_cerrito">76248</item>
+        <item name="el_dovio">76250</item>
+        <item name="florida">76275</item>
+        <item name="ginebra">76306</item>
+        <item name="guacari">76318</item>
+        <item name="jamundi">76364</item>
+        <item name="la_cumbre">76377</item>
+        <item name="la_union_val">76400</item>
+        <item name="la_victoria_val">76403</item>
+        <item name="obando">76497</item>
+        <item name="palmira">76520</item>
+        <item name="pradera">76563</item>
+        <item name="restrepo_val">76606</item>
+        <item name="riofrio">76616</item>
+        <item name="roldanillo">76622</item>
+        <item name="san_pedro_val">76670</item>
+        <item name="sevilla">76736</item>
+        <item name="toro">76823</item>
+        <item name="trujillo">76828</item>
+        <item name="tulua">76834</item>
+        <item name="ulloa">76845</item>
+        <item name="versalles">76863</item>
+        <item name="vijes">76869</item>
+        <item name="yotoco">76890</item>
+        <item name="yumbo">76892</item>
+        <item name="zarzal">76895</item>
+    </string-array>
+
+    <!-- Municipios Arauca 81 -->
+    <string-array name="municipios_arauca">
+        <item>@string/arauca_arau</item>
+        <item>@string/arauquita</item>
+        <item>@string/cravo_norte</item>
+        <item>@string/fortul</item>
+        <item>@string/puerto_rondon</item>
+        <item>@string/saravena</item>
+        <item>@string/tame</item>
+    </string-array>
+    <string-array name="codigos_municipios_arauca">
+        <item name="arauca_arau">81001</item>
+        <item name="arauquita">81065</item>
+        <item name="cravo_norte">81220</item>
+        <item name="fortul">81300</item>
+        <item name="puerto_rondon">81591</item>
+        <item name="saravena">81736</item>
+        <item name="tame">81794</item>
+    </string-array>
+
+    <!-- Municipios Casanare 85 -->
+    <string-array name="municipios_casanare">
+        <item>@string/yopal</item>
+        <item>@string/aguazul</item>
+        <item>@string/chameza</item>
+        <item>@string/hato_corozal</item>
+        <item>@string/la_salina</item>
+        <item>@string/mani</item>
+        <item>@string/monterrey</item>
+        <item>@string/nunchia</item>
+        <item>@string/orocue</item>
+        <item>@string/paz_de_ariporo</item>
+        <item>@string/pore</item>
+        <item>@string/recetor</item>
+        <item>@string/sabanalarga_cas</item>
+        <item translatable="false">@string/sacama</item>
+        <item>@string/san_luis_de_palenque</item>
+        <item>@string/tamara</item>
+        <item>@string/tauramena</item>
+        <item>@string/trinidad</item>
+        <item>@string/villanueva_cas</item>
+    </string-array>
+    <string-array name="codigos_municipios_casanare">
+        <item name="yopal">85001</item>
+        <item name="aguazul">85010</item>
+        <item name="chameza">85015</item>
+        <item name="hato_corozal">85125</item>
+        <item name="la_salina">85136</item>
+        <item name="mani">85139</item>
+        <item name="monterrey">85162</item>
+        <item name="nunchia">85225</item>
+        <item name="orocue">85230</item>
+        <item name="paz_de_ariporo">85250</item>
+        <item name="pore">85263</item>
+        <item name="recetor">85279</item>
+        <item name="sabanalarga_cas">85300</item>
+        <item name="sacama">85315</item>
+        <item name="san_luis_de_palenque">85325</item>
+        <item name="tamara">85400</item>
+        <item name="tauramena">85410</item>
+        <item name="trinidad">85430</item>
+        <item name="villanueva_cas">85440</item>
+    </string-array>
+
+    <!-- Municipios Putumayo 86 -->
+    <string-array name="municipios_putumayo">
+        <item>@string/mocoa</item>
+        <item>@string/colon</item>
+        <item>@string/orito</item>
+        <item>@string/puerto_asis</item>
+        <item>@string/puerto_caycedo</item>
+        <item>@string/puerto_guzman</item>
+        <item>@string/puerto_leguizamo</item>
+        <item>@string/sibundoy</item>
+        <item>@string/san_francisco_put</item>
+        <item>@string/san_miguel_put</item>
+        <item>@string/santiago_put</item>
+        <item>@string/valle_guamuez</item>
+        <item>@string/villagarzon</item>
+    </string-array>
+    <string-array name="codigos_municipios_putumayo">
+        <item name="mocoa">86001</item>
+        <item name="colon">86219</item>
+        <item name="orito">86320</item>
+        <item name="puerto_asis">86568</item>
+        <item name="puerto_caycedo">86569</item>
+        <item name="puerto_guzman">86571</item>
+        <item name="puerto_leguizamo">86573</item>
+        <item name="sibundoy">86749</item>
+        <item name="san_francisco_put">86755</item>
+        <item name="san_miguel_put">86757</item>
+        <item name="santiago_put">86760</item>
+        <item name="valle_guamuez">86865</item>
+        <item name="villagarzon" translatable="false">86885</item>
+    </string-array>
+
+    <!-- Municipios San Andres 88 -->
+    <string-array name="municipios_san_andres">
+        <item>@string/san_andres_san_and</item>
+        <item>@string/providencia_san_and</item>
+    </string-array>
+    <string-array name="codigos_municipios_san_andres">
+        <item name="san_andres_san_and" translatable="false">88001</item>
+        <item name="providencia_san_and">88564</item>
+    </string-array>
+
+    <!-- Municipios Amazonas 91 -->
+    <string-array name="municipios_amazonas">
+        <item>@string/leticia</item>
+        <item>@string/puerto_narino</item>
+    </string-array>
+    <string-array name="codigos_municipios_amazonas" translatable="false">
+        <item name="leticia">91001</item>
+        <item name="puerto_narino">91540</item>
+    </string-array>
+
+    <!-- Municipios Guainia 94 -->
+    <string-array name="municipios_guainia">
+        <item>@string/puerto_inirida</item>
+    </string-array>
+    <string-array name="codigos_municipios_guainia">
+        <item name="puerto_inirida" translatable="false">94001</item>
+    </string-array>
+
+    <!-- Municipios Guaviare 95 -->
+    <string-array name="municipios_guaviare">
+        <item>@string/san_jose_guaviare</item>
+        <item>@string/calamar_guav</item>
+        <item>@string/el_retorno</item>
+        <item>@string/miraflores_guav</item>
+    </string-array>
+    <string-array name="codigos_municipios_guaviare">
+        <item name="san_jose_guaviare">95001</item>
+        <item name="calamar_guav">95015</item>
+        <item name="el_retorno">95025</item>
+        <item name="miraflores_guav">95200</item>
+    </string-array>
+
+    <!-- Municipios Vaupes 97 -->
+    <string-array name="municipios_vaupes">
+        <item>@string/mitu</item>
+        <item>@string/caruru</item>
+        <item>@string/taraira</item>
+    </string-array>
+    <string-array name="codigos_municipios_vaupes">
+        <item name="mitu">97001</item>
+        <item name="caruru">97161</item>
+        <item name="taraira">97666</item>
+    </string-array>
+
+    <!-- Municipios Vichada 99 -->
+    <string-array name="municipios_vichada">
+        <item>@string/puerto_carreno</item>
+        <item>@string/la_primavera</item>
+        <item>@string/santa_rosalia</item>
+        <item>@string/cumaribo</item>
+    </string-array>
+    <string-array name="codigos_municipios_vichada" translatable="false">
+        <item name="puerto_carreno">99001</item>
+        <item name="la_primavera">99524</item>
+        <item name="santa_rosalia">99624</item>
+        <item name="cumaribo">99773</item>
+    </string-array>
+
+    <!-- Lista de opciones en la solicitud -->
+    <string-array name="solicitudes_list">
+        <item>@string/enviar</item>
+        <item>@string/eliminar_solicitud</item>
+    </string-array>
+
+</resources>
