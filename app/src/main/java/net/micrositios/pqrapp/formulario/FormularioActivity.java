@@ -18,6 +18,7 @@ import org.json.JSONObject;
 
 import com.google.android.gcm.GCMRegistrar;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -50,6 +51,9 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.telephony.TelephonyManager;
 import android.text.Editable;
 import android.text.InputFilter;
@@ -97,6 +101,9 @@ import net.micrositios.pqrapp.Seccion;
 import net.micrositios.pqrapp.SeleccionarEntidad;
 import net.micrositios.pqrapp.SolicitudesListActivity;
 
+import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.RuntimePermissions;
+
 /**
  pendientes:
  */
@@ -105,8 +112,11 @@ import net.micrositios.pqrapp.SolicitudesListActivity;
 /** guardar y borrado de formulario*/
 
 /** obtener id GCM */
+
+@RuntimePermissions
 @SuppressLint({ "NewApi", "SimpleDateFormat", "InflateParams", "DefaultLocale" })
 public class FormularioActivity extends Activity {
+	private static final int REQUEST_CODE_CAMERA = 101;
 	Context con;
 	Button envia;
 
@@ -1704,14 +1714,14 @@ public class FormularioActivity extends Activity {
 		// error.setFocusableInTouchMode(true);
 
 		/*
-		 * 
+		 *
 		 * <Spinner android:id="@+id/spnMySpinner" android:layout_width="400dp"
 		 * android:layout_height="wrap_content"
 		 * android:layout_alignParentTop="true"
 		 * android:dropDownSelector="@drawable/selector_listview"
 		 * android:background="@android:drawable/btn_dropdown"
 		 * android:paddingBottom="0dp" android:layout_marginBottom="0dp" />
-		 * 
+		 *
 		 * <!-- Fake TextView to use to set in an error state to allow an error
 		 * to be shown for the TextView --> <android.widget.TextView
 		 * android:id="@+id/tvInvisibleError" android:layout_width="0dp"
@@ -1982,13 +1992,7 @@ public class FormularioActivity extends Activity {
 			openDialogConfirmGPS();
 		}
 
-		try {
-			mLocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-			MyLocationListener mLocListener = new MyLocationListener(mLocManager, txtlongitud, txtlatitud);
-			mLocManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, mLocListener);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		setLocationListener(txtlongitud, txtlatitud);
 
 		Seleccioncheckbox listener = new Seleccioncheckbox(txtlongitud, txtlatitud);
 
@@ -1996,6 +2000,17 @@ public class FormularioActivity extends Activity {
 
 		return layout;
 
+	}
+
+	@NeedsPermission(Manifest.permission.ACCESS_FINE_LOCATION)
+	public void setLocationListener(TextView txtlongitud, TextView txtlatitud) {
+		try {
+			mLocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+			MyLocationListener mLocListener = new MyLocationListener(mLocManager, txtlongitud, txtlatitud);
+			mLocManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, mLocListener);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	class Seleccioncheckbox implements OnClickListener {
@@ -2716,7 +2731,6 @@ public class FormularioActivity extends Activity {
 	}
 
 	/* captura de imagenes y video */
-
 	protected void tomar_foto() {
 		if (checkCamera()) {
 			Toast.makeText(this, getString(R.string.archivo_muy_grande) + " " + STRTAMANOMAXIMO, Toast.LENGTH_SHORT)
@@ -2737,13 +2751,31 @@ public class FormularioActivity extends Activity {
 				e.printStackTrace();
 			}
 			path_foto = Uri.fromFile(newfile);
-			Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-			cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, path_foto);
-			startActivityForResult(cameraIntent, CAPTURE_IMAGE);
+			launchCamera();
 		} else {
 			Toast.makeText(this, getString(R.string.revisar_si_tiene_camara), Toast.LENGTH_SHORT).show();
 		}
 
+	}
+
+	@NeedsPermission(Manifest.permission.CAMERA)
+	public void launchCamera() {
+		if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED) {
+			ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, REQUEST_CODE_CAMERA);
+		} else {
+			Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+			cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, path_foto);
+			startActivityForResult(cameraIntent, CAPTURE_IMAGE);
+		}
+	}
+
+	@SuppressLint("NeedOnRequestPermissionsResult")
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		if (requestCode == REQUEST_CODE_CAMERA) {
+			launchCamera();
+		}
 	}
 
 	private boolean checkCamera() {

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
 MERGED from [com.google.android.gms:play-services:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-11.4.2.aar/18dd905a55efdc5669a90fa050e07791/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-ads:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.4.2.aar/a14d77c13b0e78d080949c6c11be2ce3/AndroidManifest.xml:16:1-18:12
 MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:16:1-27:12
@@ -59,6 +59,7 @@ MERGED from [com.google.android.gms:play-services-basement:11.4.2] /Users/diegoa
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/4f0cd30816386286c7562659b49c2d45/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/5bd3406c14954a9b5bea04913b967dd8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-v4:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/e993ee91119a40f02a6b0edb8a8f49a7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/permissionsdispatcher-3.0.1.aar/1599e19ac91032674a7d6542b4be0ad8/AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9cd3c35282778299e94c618717e91b7d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c6f70440574375f991c606bc024234fd/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-fragment:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/429ba27905677894791acb66f21b2ae4/AndroidManifest.xml:17:1-31:12
@@ -118,9 +119,9 @@ MERGED from [com.google.android.gms:play-services-vision-common-license:11.4.2] 
 MERGED from [com.google.android.gms:play-services-vision-license:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.4.2.aar/53e3481b2c9527361d9116430e058e63/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.4.2.aar/6506ab6cfe210507c5a0aa71f9162c63/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.4.2.aar/a7b7cd2b5148f9740fabeae42e173b7a/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-152:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
+INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:2:1-155:12
 	package
 		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml
@@ -137,40 +138,8 @@ INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/Andr
 		INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml
 	android:installLocation
 		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:4:5-35
-uses-permission#android.permission.INTERNET
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/40fc359cbe31fe52335d7db134f43f59/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/40fc359cbe31fe52335d7db134f43f59/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.2.aar/9e491e02f75d6c2bc4b04608a604c373/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.2.aar/9e491e02f75d6c2bc4b04608a604c373/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.2.aar/462b82a719f286ab6d01bc5a7b2c5763/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.2.aar/462b82a719f286ab6d01bc5a7b2c5763/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/a6d95bbbd1deba2662ede45148407411/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/a6d95bbbd1deba2662ede45148407411/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.2.aar/c545f145b1567ce09f311b4a53f6c20c/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.2.aar/c545f145b1567ce09f311b4a53f6c20c/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:8:22-64
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:9:5-75
-	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:9:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:21:5-78
@@ -190,36 +159,82 @@ MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalv
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:10:22-76
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:11:5-81
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/40fc359cbe31fe52335d7db134f43f59/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.4.2.aar/40fc359cbe31fe52335d7db134f43f59/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.2.aar/9e491e02f75d6c2bc4b04608a604c373/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.2.aar/9e491e02f75d6c2bc4b04608a604c373/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.2.aar/462b82a719f286ab6d01bc5a7b2c5763/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.4.2.aar/462b82a719f286ab6d01bc5a7b2c5763/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/a6d95bbbd1deba2662ede45148407411/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.4.2.aar/a6d95bbbd1deba2662ede45148407411/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.2.aar/c545f145b1567ce09f311b4a53f6c20c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.4.2.aar/c545f145b1567ce09f311b4a53f6c20c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:11:22-78
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:12:5-80
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:11:5-68
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:12:22-77
-uses-permission#android.permission.CAMERA
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:13:5-64
-	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:13:22-62
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:14:5-79
 	android:name
 		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:14:22-76
-uses-feature#android.hardware.camera
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:15:1-94
-	android:required
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:15:54-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:15:5-64
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:15:15-53
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:15:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:18:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:20:5-98
+	android:required
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:20:58-82
+	android:name
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:20:19-57
 uses-permission#net.micrositios.pqrapp.permission.C2D_MESSAGE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:22:5-85
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:27:5-85
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:22:22-82
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:27:22-82
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:23:2-79
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:28:5-82
 MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:20:5-81
 MERGED from [com.google.android.gms:play-services-gcm:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.4.2.aar/43c508f16cb6dd66d13755ba412c50a2/AndroidManifest.xml:20:5-81
 MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.4.2.aar/9e491e02f75d6c2bc4b04608a604c373/AndroidManifest.xml:20:5-81
@@ -227,23 +242,9 @@ MERGED from [com.google.android.gms:play-services-iid:11.4.2] /Users/diegoalvis/
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:22:5-81
 MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:23:19-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:25:2-65
-MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.4.2.aar/38f38dc7ee4a74cd64760727f5a38851/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.4.2.aar/7a4d91cee3304c08b9e36c9692788b41/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.4.2.aar/23549b522718789083d3d5ce0b223fd6/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.4.2.aar/0fb3cc363a38d9f0f70e52c6d43911b7/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.4.2.aar/336d4e784ce4b615174c747310c57fba/AndroidManifest.xml:21:5-67
-	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:25:19-62
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:28:22-79
 application
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:27:5-148:19
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:30:5-151:19
 MERGED from [com.google.android.gms:play-services:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-11.4.2.aar/18dd905a55efdc5669a90fa050e07791/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-11.4.2.aar/18dd905a55efdc5669a90fa050e07791/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.4.2.aar/bd5d3821832fc4b163a29998291c95ae/AndroidManifest.xml:23:5-26:19
@@ -451,153 +452,153 @@ MERGED from [com.google.android.gms:play-services-wallet-license:11.4.2] /Users/
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.4.2.aar/a7b7cd2b5148f9740fabeae42e173b7a/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.4.2.aar/a7b7cd2b5148f9740fabeae42e173b7a/AndroidManifest.xml:5:5-20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:32:9-51
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:35:9-51
 	android:label
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:31:9-41
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:34:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:34:9-61
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:37:9-61
 	android:icon
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:30:9-45
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:33:9-45
 	android:allowBackup
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:29:9-35
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:32:9-35
 	android:theme
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:33:9-39
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:36:9-39
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:28:9-39
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:31:9-39
 activity#net.micrositios.pqrapp.SplashEntidades
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:46:9-59:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:49:9-62:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:49:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:52:13-55
 	android:label
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:48:13-45
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:51:13-45
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:51:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:54:13-65
 	android:theme
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:50:13-71
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:53:13-71
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:47:13-66
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:50:13-66
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:52:13-56:29
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:53:17-69
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:53:25-66
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:55:17-77
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:55:27-74
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:58:27-74
 activity#net.micrositios.pqrapp.SeleccionarEntidad
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:60:9-65:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:63:9-68:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:62:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:65:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:63:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:66:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:61:13-69
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:64:13-69
 activity#net.micrositios.pqrapp.MainActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:66:9-70:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:69:9-73:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:68:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:71:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:69:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:72:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:67:13-63
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:70:13-63
 activity#net.micrositios.pqrapp.SolicitudesListActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:71:9-75:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:74:9-78:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:73:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:76:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:74:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:77:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:72:13-74
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:75:13-74
 activity#net.micrositios.pqrapp.ConsultarSolicitudActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:76:9-80:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:79:9-83:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:78:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:81:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:79:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:82:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:77:13-77
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:80:13-77
 activity#net.micrositios.pqrapp.EstadoSolicitudActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:81:9-85:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:84:9-88:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:83:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:86:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:84:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:87:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:82:13-74
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:85:13-74
 activity#net.micrositios.pqrapp.FilePickerActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:86:9-90:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:89:9-93:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:88:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:91:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:89:13-65
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:92:13-65
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:87:13-69
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:90:13-69
 activity#net.micrositios.pqrapp.FormularioCreacionActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:91:9-97:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:94:9-100:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:94:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:97:13-55
 	android:launchMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:93:13-43
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:96:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:95:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:98:13-55
 	android:configChanges
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:96:13-74
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:99:13-74
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:92:13-77
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:95:13-77
 activity#net.micrositios.pqrapp.formulario.FormularioActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:99:11-106:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:102:11-109:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:103:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:106:13-55
 	android:launchMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:102:13-43
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:105:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:101:13-54
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:104:13-54
 	android:configChanges
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:104:13-74
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:107:13-74
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:100:13-80
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:103:13-80
 activity#net.micrositios.pqrapp.GCMActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:109:9-113:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:112:9-116:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:111:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:114:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:112:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:115:13-55
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:110:13-62
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:113:13-62
 activity#net.micrositios.pqrapp.ConsultaDesdeNotificacionActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:115:9-119:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:118:9-122:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:117:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:120:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:118:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:121:13-55
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:116:13-84
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:119:13-84
 activity#net.micrositios.pqrapp.encuesta.EncuestaActivity
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:121:9-125:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:124:9-128:20
 	android:screenOrientation
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:123:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:126:13-55
 	android:windowSoftInputMode
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:124:13-55
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:127:13-55
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:122:13-76
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:125:13-76
 receiver#net.micrositios.pqrapp.NetworkChangeReceiver
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:128:10-135:20
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:131:10-138:20
 	android:label
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:130:13-50
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:133:13-50
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:129:13-72
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:132:13-72
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:131:13-134:29
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:134:13-137:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:132:17-79
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:135:17-79
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:132:25-76
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:135:25-76
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:133:17-78
+ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:136:17-78
 	android:name
-		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:133:25-75
+		ADDED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml:136:25-75
 uses-sdk
 INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/diegoalvis/code/Android/android_pqrd_app1/app/src/main/AndroidManifest.xml
@@ -712,6 +713,8 @@ MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/diegoalvis/.gradle/
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/5bd3406c14954a9b5bea04913b967dd8/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/e993ee91119a40f02a6b0edb8a8f49a7/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:25.4.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/e993ee91119a40f02a6b0edb8a8f49a7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/permissionsdispatcher-3.0.1.aar/1599e19ac91032674a7d6542b4be0ad8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:3.0.1] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/permissionsdispatcher-3.0.1.aar/1599e19ac91032674a7d6542b4be0ad8/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:multidex:1.0.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9cd3c35282778299e94c618717e91b7d/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/9cd3c35282778299e94c618717e91b7d/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/diegoalvis/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c6f70440574375f991c606bc024234fd/AndroidManifest.xml:20:5-43

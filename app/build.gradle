@@ -30,12 +30,23 @@ android {
 }
 
 dependencies {
+
+    // annotation for permissions
+    annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.0.1"
+
     compile 'com.android.support:support-v4:25.4.0'
     compile 'com.android.support:appcompat-v7:25.4.0'
     compile 'com.google.android.gms:play-services:+'
     compile 'com.google.android.gms:play-services:4.2.42'
     compile 'org.apache.commons:commons-lang3:3.2.+'
     compile 'com.squareup.picasso:picasso:2.5.2'
+
+    // support for request permissions
+    compile("com.github.hotchemi:permissionsdispatcher:3.0.1") {
+        exclude module: "support-v13"
+    }
+
+    // local libraries
     compile files('libs/gcm.jar')
     compile files('libs/apache-mime4j-0.6.jar')
     compile files('libs/httpclient-4.0.3.jar')

@@ -1,3 +1,3 @@
-# Referenced at /Users/diegoalvis/code/Android/android_pqrd_app1/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:41
+# Referenced at /Users/diegoalvis/code/Android/android_pqrd_app1/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:43
 -keep class net.micrositios.pqrapp.MyApplication { <init>(...); }
 
